@@ -50,7 +50,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           TODAY=$(date +%Y-%m-%d)
-          git add "data/reuters_${TODAY}.json" "data/reuters_robots.txt" || true
+          git add "data/reuters_${TODAY}.json" "data/reuters_robots.txt" "data/reuters_debug_${TODAY}.txt" || true
           if git diff --cached --quiet; then
             echo "无变化，跳过提交"
           else
