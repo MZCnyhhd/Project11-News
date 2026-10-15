@@ -1,0 +1,59 @@
+name: Reuters Daily Sitemap
+
+on:
+  schedule:
+    # 每日 UTC 06:00 与 18:00 各跑一次（约北京时间 14:00 / 次日 02:00），覆盖 Reuters 当日更新
+    - cron: '0 6,18 * * *'
+  workflow_dispatch:        # 允许在 Actions 页面手动触发
+    inputs:
+      date:
+        description: '抓取指定日期 YYYY-MM-DD（留空=今日北京时间）'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reuters-daily
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set timezone (Beijing)
+        run: sudo ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run Reuters sitemap scraper
+        env:
+          MAX_ARTICLES: '300'
+          MAX_SUBMAPS: '3'
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            ARGS="${{ github.event.inputs.date }}"
+          fi
+          python scripts/reuters_sitemap.py $ARGS
+
+      - name: Commit & push data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          TODAY=$(date +%Y-%m-%d)
+          git add "data/reuters_${TODAY}.json" "data/reuters_robots.txt" || true
+          if git diff --cached --quiet; then
+            echo "无变化，跳过提交"
+          else
+            git commit -m "reuters: ${TODAY} daily sitemap"
+            git push
+          fi
