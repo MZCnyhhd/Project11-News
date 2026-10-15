@@ -192,8 +192,13 @@ def main():
 
     # 3) 抓取文章
     articles = []
+    status_counts = {}
+    debug_samples = []
     for i, url in enumerate(article_urls, 1):
         s3, html = fetch(url, timeout=25)
+        status_counts[s3] = status_counts.get(s3, 0) + 1
+        if len(debug_samples) < 4:
+            debug_samples.append((url, s3, (html or "")[:1000]))
         if s3 != 200 or is_captcha(html):
             continue
         title, body = extract_article(html)
@@ -213,11 +218,24 @@ def main():
         "blocked": False,
         "index_status": s,
         "article_urls_found": len(article_urls),
+        "article_status_counts": status_counts,
         "articles": articles,
     }
     out_path = os.path.join(OUT_DIR, f"reuters_{date_str}.json")
     json.dump(out, open(out_path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-    log(f"完成：{len(articles)} 篇 -> {out_path}")
+
+    # 诊断文件：子 sitemap 选择、示例 URL、状态码分布、前几篇原始响应
+    dbg = os.path.join(OUT_DIR, f"reuters_debug_{date_str}.txt")
+    with open(dbg, "w", encoding="utf-8") as f:
+        f.write(f"NEWS_INDEX={NEWS_INDEX}\nUA={UA}\n")
+        f.write(f"index_locs={len(index_locs)} chosen_subsitemaps={subs}\n")
+        f.write(f"article_urls_found={len(article_urls)}\n")
+        f.write(f"sample_urls={article_urls[:5]}\n")
+        f.write(f"article_status_counts={status_counts}\n")
+        f.write(f"articles_extracted={len(articles)}\n\n")
+        for u, st, snippet in debug_samples:
+            f.write(f"---- {st} {u}\n{snippet}\n\n")
+    log(f"完成：{len(articles)} 篇 -> {out_path}；状态分布 {status_counts}；调试 {dbg}")
 
 
 if __name__ == "__main__":
