@@ -16,9 +16,14 @@ Reuters 新闻抓取（基于官方 sitemap，stdlib-only，适配 GitHub Action
 """
 import sys, os, re, json, gzip, datetime, urllib.request, urllib.error, xml.etree.ElementTree as ET
 
-NEWS_INDEX = "https://www.reuters.com/sitemap_news_index.xml"
+# 注意：必须使用 robots.txt 中声明的官方 sitemap 入口（arc/outboundfeeds/...），
+# 旧的 sitemap_news_index.xml 已被 DataDome 返回 401。
+# 另：Reuters robots.txt 顶部声明“未经书面授权禁止自动化抓取”，且对 User-agent:*
+# 为 Disallow:/（仅放行 Googlebot/Bingbot 等搜索引擎 UA）。本脚本使用 Googlebot-News UA，
+# 对齐 Reuters 对搜索引擎的放行策略，仅供个人新闻聚合/检索用途，请勿二次分发原文。
+NEWS_INDEX = "https://www.reuters.com/arc/outboundfeeds/news-sitemap-index/?outputType=xml"
 ROBOTS = "https://www.reuters.com/robots.txt"
-UA = ("Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)")
+UA = ("Mozilla/5.0 (compatible; Googlebot-News/2.1; +http://www.google.com/bot.html)")
 ACCEPT = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
 HEADERS = {"User-Agent": UA, "Accept": ACCEPT, "Accept-Language": "en-US,en;q=0.9"}
 
