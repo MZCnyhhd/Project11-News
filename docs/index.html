@@ -29,6 +29,7 @@
   .art h3{margin:0 0 6px;font-size:16px;line-height:1.5}
   .art h3 a{color:var(--ink);text-decoration:none}
   .art h3 a:hover{color:var(--accent)}
+  .art .date{color:var(--sub);font-size:12px;margin:0 0 4px}
   .art .body p{margin:6px 0;color:#374151}
   .muted{color:var(--sub);font-size:13px}
   .notice{border-color:#f0c36d;background:#fffaf0}
@@ -38,39 +39,775 @@
 <body>
 <header>
   <h1>每日新闻摘要 · 2026-10-15</h1>
-  <div class="meta">星期四 ｜ 来源：人民日报（全文）· Reuters（sitemap，待重试）</div>
+  <div class="meta">星期四 ｜ 来源：人民日报（全文）· Reuters（sitemap 已抓）</div>
 </header>
 <div class="wrap">
   <div class="stats">
     <div class="stat"><b>2</b><span>信息源</span></div>
     <div class="stat"><b>106</b><span>人民日报文章</span></div>
     <div class="stat"><b>20</b><span>人民日报版面</span></div>
-    <div class="stat"><b>—</b><span>Reuters（待抓取/受限）</span></div>
+    <div class="stat"><b>150</b><span>Reuters（sitemap 已抓）</span></div>
   </div>
   <div class="toc">
     <h2>版面导航</h2>
     <ul><li><a href="#sec01">01版：要闻</a> <span class="cnt">(9)</span></li><li><a href="#sec02">02版：要闻</a> <span class="cnt">(5)</span></li><li><a href="#sec03">03版：要闻</a> <span class="cnt">(10)</span></li><li><a href="#sec04">04版：要闻</a> <span class="cnt">(7)</span></li><li><a href="#sec05">05版：评论</a> <span class="cnt">(6)</span></li><li><a href="#sec06">06版：要闻</a> <span class="cnt">(6)</span></li><li><a href="#sec07">07版：经济</a> <span class="cnt">(9)</span></li><li><a href="#sec08">08版：视觉</a> <span class="cnt">(1)</span></li><li><a href="#sec09">09版：理论</a> <span class="cnt">(3)</span></li><li><a href="#sec10">10版：各地传真</a> <span class="cnt">(9)</span></li><li><a href="#sec11">11版：政治</a> <span class="cnt">(6)</span></li><li><a href="#sec12">12版：广告</a> <span class="cnt">(1)</span></li><li><a href="#sec13">13版：文化</a> <span class="cnt">(7)</span></li><li><a href="#sec14">14版：社会</a> <span class="cnt">(3)</span></li><li><a href="#sec15">15版：体育</a> <span class="cnt">(5)</span></li><li><a href="#sec16">16版：广告</a> <span class="cnt">(1)</span></li><li><a href="#sec17">17版：国际</a> <span class="cnt">(5)</span></li><li><a href="#sec18">18版：民主政治</a> <span class="cnt">(4)</span></li><li><a href="#sec19">19版：法治</a> <span class="cnt">(4)</span></li><li><a href="#sec20">20版：副刊</a> <span class="cnt">(5)</span></li></ul>
   </div>
   
-    <section class="sec notice">
-      <h2>Reuters（路透社）— 本环境未能抓取（已穷尽重试）</h2>
-      <p>本环境<strong>无法</strong>通过 sitemap 抓取 Reuters 今日新闻，经多轮重试确认存在<strong>双重封锁</strong>：</p>
-      <ol>
-        <li><strong>网络出口防火墙</strong>直接阻断 <code>reuters.com</code>（直连返回 502 / 连接超时；Google、Google News 同样被拦）。</li>
-        <li><strong>Reuters 反爬验证</strong>：即便经可达的代抓代理（allorigins）连到 reuters，对方也只回 <code>401</code> 的
-        “启用 JS、关闭广告拦截”验证码页（<code>captcha-delivery.com</code>），不返回 sitemap XML。代理本身也多被防火墙拦截（codetabs、cors.sh、thingproxy、r.jina.ai 均不可达）。</li>
-      </ol>
-      <p>因此在本环境内无法取得 Reuters sitemap，已改由 <strong>GitHub Actions</strong> 在可直连外网的 runner 上定时抓取
-      （仓库 <code>MZCnyhhd/Project11-News</code> 的 <code>reuters-daily</code> workflow），跑出的 <code>data/reuters_2026-10-15.json</code>
-      由本地页面直接消费。以下 sitemap 入口供参考：</p>
-      <ul>
-        <li>新闻索引：<code>https://www.reuters.com/sitemap_news_index.xml</code></li>
-        <li>总索引：<code>https://www.reuters.com/sitemap_index.xml</code></li>
-        <li>视频索引：<code>https://www.reuters.com/sitemap_video_index.xml</code></li>
-        <li>市场索引：<code>https://www.reuters.com/sitemap_market_index.xml</code></li>
-      </ul>
-      <p class="muted">可用流程：从 <code>sitemap_news_index.xml</code> 进入按日期/分类的子 sitemap → 筛选 <code>2026-10-15</code> 当日条目 → 抓取文章正文。
-      需要我改用 Bing/Baidu 检索方式做 Reuters 头条降级来源时，告诉我即可。</p>
+    <section class="sec">
+      <h2>Reuters（路透社）— sitemap 抓取 · 2026-10-15</h2>
+      <p class="muted">Reuters 官方 news sitemap（GitHub Actions 定时抓取，Googlebot-News UA）· 本次 150 条头条 / 采集 150 个条目。
+      标题/日期/链接来自 sitemap；文章正文页被 Reuters 反爬（DataDome 401）拦截，需授权后方可抓取。</p>
+      
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/india/indias-reliance-industries-jumps-after-unit-jio-platforms-sets-price-band-ipo-2026-10-15/" target="_blank" rel="noopener">India&#x27;s Reliance, Airtel rally as Jio Platforms IPO recasts valuations</a></h3>
+          <div class="date">2026-10-15 05:48:47</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/asia-pacific/container-ship-sinks-near-hormuz-after-being-hit-by-projectile-sources-say-2026-10-14/" target="_blank" rel="noopener">Two ships sink near Hormuz after being hit by projectiles amid surge in attacks</a></h3>
+          <div class="date">2026-10-14 12:49:40</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/columns/breaking-view/chinas-eu-car-cuts-roar-confidence-not-climbdown-2026-10-12/" target="_blank" rel="noopener">RPT BREAKINGVIEWS China’s EU car cuts roar confidence, not climbdown</a></h3>
+          <div class="date">2026-10-12 03:48:29</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/" target="_blank" rel="noopener">ASML&#x27;s strong orders ease fears AI spending boom is running out of steam</a></h3>
+          <div class="date">2026-10-14 05:07:27</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/asia-pacific/japan-economy-minister-says-nation-no-longer-deflation-seeks-investor-rethink-2026-10-15/" target="_blank" rel="noopener">Japan economy minister stresses BOJ independence, rejects reflationist label</a></h3>
+          <div class="date">2026-10-15 09:00:40</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/italy-raise-044-gdp-financial-sector-through-2029-fund-budget-2026-10-15/" target="_blank" rel="noopener">Italy to raise almost €11 billion from financial sector in next three years</a></h3>
+          <div class="date">2026-10-15 05:41:25</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-10-15/" target="_blank" rel="noopener">Morning Bid: CoreWeave unravels</a></h3>
+          <div class="date">2026-10-15 10:39:56</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/asia-pacific/seventeen-students-one-teacher-killed-school-roof-collapse-pakistan-2026-10-15/" target="_blank" rel="noopener">Pakistan school roof collapse kills at least 32 children and a teacher</a></h3>
+          <div class="date">2026-10-15 06:10:04</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/environment/indonesia-blames-peatland-degradation-raging-fires-vows-restoration-2026-10-15/" target="_blank" rel="noopener">Indonesia&#x27;s new disaster mitigation chief plans to assess foreign aid to tackle wildfires</a></h3>
+          <div class="date">2026-10-15 05:51:48</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/sports/tennis/atp-eyes-350-million-player-compensation-welfare-boost-by-2028-2026-10-15/" target="_blank" rel="noopener">ATP eyes $350 million player compensation, welfare boost by 2028</a></h3>
+          <div class="date">2026-10-15 11:03:43</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/pt/mundo/YCJYMMHHCNK2HM74S75KEPIOKY-2026-10-15/" target="_blank" rel="noopener">Desabamento do teto de escola no Paquistão mata ao menos 32 crianças e uma professora</a></h3>
+          <div class="date">2026-10-15 11:03:07</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/energy/senegals-state-owned-pipeline-operater-rgs-seeks-investors-530-million-euro-2026-10-15/" target="_blank" rel="noopener">Senegal&#x27;s state-owned pipeline operater RGS seeks investors for 530 million Euro expansion</a></h3>
+          <div class="date">2026-10-15 11:02:37</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/legal/litigation/banks-need-bare-metal-recovery-face-ai-risks-says-boes-breeden-2026-10-15/" target="_blank" rel="noopener">Banks need &#x27;bare metal&#x27; recovery in face of AI risks, says BoE&#x27;s Breeden</a></h3>
+          <div class="date">2026-10-15 09:54:37</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/aerospace-defense/ukraine-says-it-damaged-six-russian-military-jets-missile-strike-airfield-2026-10-15/" target="_blank" rel="noopener">Ukraine says it damaged six Russian military jets in missile strike on airfield</a></h3>
+          <div class="date">2026-10-15 09:45:40</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/europe/swedish-parliament-votes-against-social-democrats-leader-pm-expected-2026-10-15/" target="_blank" rel="noopener">Swedish parliament votes against Social Democrats leader as PM, as expected</a></h3>
+          <div class="date">2026-10-15 10:50:44</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/what-amodei-altman-musk-have-said-about-ai-risks-stoking-doom-fears-2026-10-14/" target="_blank" rel="noopener">Tech leaders, Wall Street CEOs, governments split over &#x27;AI doom&#x27; fears</a></h3>
+          <div class="date">2026-09-14 15:58:53</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/legal/litigation/india-insurance-regulator-oversee-smooth-transition-new-commission-rules-2026-10-15/" target="_blank" rel="noopener">India insurance regulator to oversee smooth transition to new commission rules, chairman says</a></h3>
+          <div class="date">2026-10-15 10:58:51</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/energy/kremlin-says-russia-restarts-diesel-exports-after-deal-with-trump-2026-10-15/" target="_blank" rel="noopener">Kremlin says Russia restarts diesel exports after deal with Trump</a></h3>
+          <div class="date">2026-10-15 10:59:11</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/europe/uk-comedian-russell-brands-accuser-told-police-she-blamed-herself-alleged-rape-2026-10-15/" target="_blank" rel="noopener">UK comedian Russell Brand&#x27;s accuser told police she blamed herself for alleged rape</a></h3>
+          <div class="date">2026-10-15 10:43:05</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/fr/affaires/le-toit-dune-cole-seffondre-au-pakistan-au-moins-28-morts-2026-10-15/" target="_blank" rel="noopener">Le toit d&#x27;une école s&#x27;effondre au Pakistan, 32 enfants tués</a></h3>
+          <div class="date">2026-10-15 10:19:00</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/uk/pound-rises-against-weaker-dollar-uk-gdp-unexpectedly-rises-2026-10-15/" target="_blank" rel="noopener">Pound rises against weaker dollar, UK GDP unexpectedly rises</a></h3>
+          <div class="date">2026-10-15 10:56:10</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/latam/mundo/RAP7ABPH3RKA5G5TKQSCT2BPAM-2026-10-15/" target="_blank" rel="noopener">Alemania advierte contra la reincorporación de Rusia al G20</a></h3>
+          <div class="date">2026-10-15 10:57:15</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/latam/mundo/MVLESOB27ZMIZJGSY4J6PIP2RM-2026-10-15/" target="_blank" rel="noopener">Rusia detiene a un ciudadano sueco al que acusa de planear &quot;actos terroristas&quot; para Ucrania</a></h3>
+          <div class="date">2026-10-15 10:56:05</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/india/indian-bank-deposits-hit-record-3-trillion-september-boosted-by-dollar-deposits-2026-10-15/" target="_blank" rel="noopener">Indian bank deposits hit record $3 trillion in September, boosted by dollar deposits scheme</a></h3>
+          <div class="date">2026-10-15 10:55:21</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/finance/russian-ministers-join-board-key-trade-payments-firm-a7-2026-10-15/" target="_blank" rel="noopener">Russian ministers join board of key trade payments firm A7</a></h3>
+          <div class="date">2026-10-15 10:55:30</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/media-telecom/chinas-bytedance-sets-up-ai-safety-team-launches-global-hiring-drive-2026-10-15/" target="_blank" rel="noopener">China&#x27;s ByteDance sets up AI safety team, launches global hiring drive</a></h3>
+          <div class="date">2026-10-15 10:52:46</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/sports/formula1/malaysia-considering-bringing-f1-race-back-minister-says-2026-10-15/" target="_blank" rel="noopener">Malaysia considering bringing F1 race back, minister says</a></h3>
+          <div class="date">2026-10-15 08:26:57</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/africa/belgian-police-search-homes-relatives-congos-tshisekedi-2026-10-15/" target="_blank" rel="noopener">Belgian police search homes of relatives of Congo&#x27;s Tshisekedi</a></h3>
+          <div class="date">2026-10-15 10:42:49</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/de/welt/diw-tankrabatt-wird-nur-zu-zwei-dritteln-weitergegeben-2026-10-15/" target="_blank" rel="noopener">DIW: Tankrabatt wird nur zu zwei Dritteln weitergegeben</a></h3>
+          <div class="date">2026-10-15 10:49:40</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/uk/prince-harry-wife-meghan-make-first-joint-appearance-since-uk-return-2026-10-15/" target="_blank" rel="noopener">Prince Harry and wife Meghan make first joint appearance since UK return</a></h3>
+          <div class="date">2026-10-15 10:37:09</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/china/eu-leaders-tackle-china-exports-energy-prices-budget-summit-2026-10-15/" target="_blank" rel="noopener">EU leaders kick off summit with wrangles over high energy prices and spending</a></h3>
+          <div class="date">2026-10-15 04:04:10</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/india/ambanis-jio-set-listing-pop-after-record-ipo-analysts-say-2026-10-15/" target="_blank" rel="noopener">Ambani&#x27;s Jio set for listing pop, analysts say ahead of record IPO</a></h3>
+          <div class="date">2026-10-15 09:54:09</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/zelenskiy-says-ukraine-will-resume-strikes-russian-refineries-ft-reports-2026-10-15/" target="_blank" rel="noopener">Ukraine resumes strikes on Russian refineries as Zelenskiy says &#x27;we&#x27;re done&#x27;</a></h3>
+          <div class="date">2026-10-15 06:03:18</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/legal/litigation/hyundai-recall-over-94600-us-vehicles-over-fire-risk-overheating-nhtsa-says-2026-10-15/" target="_blank" rel="noopener">Hyundai to recall over 94,600 US vehicles over fire risk from overheating, NHTSA says</a></h3>
+          <div class="date">2026-10-15 07:38:00</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/india/indian-rupee-hedging-turmoil-exposes-strain-indias-fx-market-2026-10-15/" target="_blank" rel="noopener">Rupee hedging turmoil exposes strain in India&#x27;s FX market</a></h3>
+          <div class="date">2026-10-15 07:23:26</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/middle-east/eu-gulf-states-postpone-summit-due-saudi-arabia-2026-10-15/" target="_blank" rel="noopener">EU and Gulf states postpone summit due in Saudi Arabia</a></h3>
+          <div class="date">2026-10-15 10:35:52</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/fire-breaks-out-albanias-education-ministry-during-student-protest-2026-10-14/" target="_blank" rel="noopener">Banks, buildings burn as Albania&#x27;s capital Tirana erupts into student violence</a></h3>
+          <div class="date">2026-10-14 14:04:45</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/energy/kremlin-accuses-ukraine-flouting-spirit-us-peace-efforts-with-strikes-russian-2026-10-15/" target="_blank" rel="noopener">Kremlin accuses Ukraine of flouting spirit of US peace efforts with strikes on Russian oil refineries</a></h3>
+          <div class="date">2026-10-15 10:43:32</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/uk/northern-irelands-donaldson-jailed-15-years-child-sex-offences-2026-10-15/" target="_blank" rel="noopener">Northern Ireland&#x27;s Donaldson jailed for 15 years for child sex offences</a></h3>
+          <div class="date">2026-10-15 10:37:44</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/latam/negocio/K33YUPORJBPADPWJSTG3WQBX3Q-2026-10-15/" target="_blank" rel="noopener">Las interrupciones del tráfico en Ormuz están empezando a afectar a las cosechas, según la ONU</a></h3>
+          <div class="date">2026-10-15 10:40:24</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/pt/mundo/JHE7LCEOAJLRPJ3SIDXXYEA7OE-2026-10-15/" target="_blank" rel="noopener">UE e países do Golfo adiam cúpula que estava prevista para Arábia Saudita</a></h3>
+          <div class="date">2026-10-15 10:41:29</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/legal/government/just-over-half-candidates-key-us-senate-races-say-they-will-accept-results-2026-10-15/" target="_blank" rel="noopener">Just over half of candidates in key US Senate races say they will accept results, others hedge</a></h3>
+          <div class="date">2026-10-15 10:28:29</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/india/indias-wipro-beats-second-quarter-revenue-expectations-2026-10-15/" target="_blank" rel="noopener">India&#x27;s Wipro beats second-quarter revenue expectations, deal bookings drop</a></h3>
+          <div class="date">2026-10-15 10:26:42</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/india/indias-hdfc-life-posts-quarterly-profit-rise-higher-premium-income-2026-10-15/" target="_blank" rel="noopener">India&#x27;s HDFC Life posts quarterly profit rise as premium income rises</a></h3>
+          <div class="date">2026-10-15 10:30:44</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/podcasts/reuters-morning-bid/tech-stocks-sink-2026-10-15/" target="_blank" rel="noopener">Tech stocks sink</a></h3>
+          <div class="date">2026-10-15 09:58:31</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/fr/affaires/ofrbs-summary-2026-01-29/" target="_blank" rel="noopener">OFRBS Summary</a></h3>
+          <div class="date">2026-01-01 11:01:01</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/fr/affaires/le-fonds-souverain-norvgien-devrait-investir-dans-les-gants-de-la-dfense-2026-10-15/" target="_blank" rel="noopener">Le fonds souverain norvégien devrait investir dans les géants de la défense - commission</a></h3>
+          <div class="date">2026-10-15 10:35:50</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/commentary/reuters-open-interest/ai-investment-boom-may-be-papering-over-us-economic-cracks-mike-dolan-2026-10-15/" target="_blank" rel="noopener">AI investment boom may be papering over US economic cracks: Mike Dolan</a></h3>
+          <div class="date">2026-10-15 06:00:22</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/latam/domestico/G7FQD7H3VBJLTK2XORZ4XC3VCY-2026-10-15/" target="_blank" rel="noopener">Maduro comparecerá ante tribunal por una nueva acusación de tortura formulada por EEUU</a></h3>
+          <div class="date">2026-10-15 10:35:11</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/nasdaq-futures-dive-1-ai-rout-deepens-debt-concerns-2026-10-15/" target="_blank" rel="noopener">Nasdaq futures fall 1% as AI rout deepens on debt concerns</a></h3>
+          <div class="date">2026-10-15 08:22:58</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/retail-consumer/uks-ftse-100-hits-near-one-month-high-after-healey-backs-fiscal-discipline-2026-10-15/" target="_blank" rel="noopener">UK&#x27;s FTSE 100 hits near one-month high after Healey backs fiscal discipline</a></h3>
+          <div class="date">2026-10-15 10:08:31</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/lifestyle/whalefall-film-dives-deep-into-father-son-bonds-within-whale-tale-2026-10-15/" target="_blank" rel="noopener">‘Whalefall’ film dives deep into father-son bonds within a whale tale</a></h3>
+          <div class="date">2026-10-15 10:02:17</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/de/welt/bundesbank-europische-bankenregulierung-gezielt-vereinfachen-2026-10-15/" target="_blank" rel="noopener">Bundesbank: Europäische Bankenregulierung gezielt vereinfachen</a></h3>
+          <div class="date">2026-10-15 10:07:04</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/india/fairfax-plans-fold-indian-financial-holdings-into-idbi-bank-2026-10-15/" target="_blank" rel="noopener">Fairfax plans to fold Indian financial holdings into IDBI Bank</a></h3>
+          <div class="date">2026-10-15 08:01:49</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/india/india-says-first-phase-us-trade-deal-finalised-2026-10-15/" target="_blank" rel="noopener">India says first phase of US trade deal finalised</a></h3>
+          <div class="date">2026-10-15 09:57:58</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/fact-check/french-protest-footage-2023-miscaptioned-october-2026-paris-unrest-2026-10-15/" target="_blank" rel="noopener">French protest footage from 2023 miscaptioned as October 2026 Paris unrest</a></h3>
+          <div class="date">2026-10-15 09:29:47</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/commentary/reuters-open-interest/oils-long-view-darkens-iran-war-refuses-end-2026-10-15/" target="_blank" rel="noopener">Oil&#x27;s long view darkens as Iran war refuses to end</a></h3>
+          <div class="date">2026-10-15 06:00:29</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/markets/europe/global-markets-technicals-graphic-2026-10-15/" target="_blank" rel="noopener">Mapping the Market: Micron shares appear set for further losses</a></h3>
+          <div class="date">2026-10-15 10:02:33</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/media-telecom/global-markets-cds-ai-urgent-2026-10-15/" target="_blank" rel="noopener">AI credit jitters drive US tech default insurance to record highs</a></h3>
+          <div class="date">2026-10-15 05:18:36</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/de/firma/durststrecke-china-party-indien-pernod-ricard-berrascht-positiv-2026-10-15/" target="_blank" rel="noopener">Durststrecke in China, Party in Indien: Pernod Ricard überrascht positiv</a></h3>
+          <div class="date">2026-10-15 10:01:39</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/retail-consumer/tim-cook-says-apple-intelligence-approved-china-paper-reports-2026-10-15/" target="_blank" rel="noopener">Tim Cook says Apple Intelligence approved in China, The Paper reports</a></h3>
+          <div class="date">2026-10-15 09:14:45</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/africa/africas-economic-resilience-masks-rising-inflation-threat-fragile-buffers-imf-2026-10-15/" target="_blank" rel="noopener">Africa&#x27;s economic resilience masks rising inflation threat and fragile buffers, IMF warns</a></h3>
+          <div class="date">2026-10-15 09:32:22</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/de/hauslich/cdu-wirtschaftsrat-eu-gipfel-soll-kurswechsel-bei-auto-regulierung-bringen-2026-10-15/" target="_blank" rel="noopener">CDU-Wirtschaftsrat: EU-Gipfel soll Kurswechsel bei Auto-Regulierung bringen</a></h3>
+          <div class="date">2026-10-15 09:58:51</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/columns/breaking-view/portuguese-airline-deal-straps-fomo-premium-2026-10-15/" target="_blank" rel="noopener">Portuguese airline deal straps in FOMO premium</a></h3>
+          <div class="date">2026-10-15 09:57:11</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/autos-transportation/chinese-automakers-road-survival-runs-through-europe-2026-10-15/" target="_blank" rel="noopener">For Chinese automakers, the road to survival runs through Europe</a></h3>
+          <div class="date">2026-10-15 09:44:50</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/pt/negocio/U777LW7RDNICHIPZRF3DPKR7QA-2026-10-15/" target="_blank" rel="noopener">Controlada da Orizon emite R$500 mi em debêntures</a></h3>
+          <div class="date">2026-10-15 09:58:33</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/legal/government/police-say-chicago-suburb-suspect-alleged-mass-shooting-plot-had-white-supremacy-2026-10-15/" target="_blank" rel="noopener">Police say Chicago suburb suspect in alleged mass shooting plot had white supremacy manifesto</a></h3>
+          <div class="date">2026-10-15 04:14:44</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/finance/asked-bank-tax-uks-healey-stresses-sectors-broader-contribution-2026-10-15/" target="_blank" rel="noopener">Asked on bank tax, UK&#x27;s Healey stresses sector&#x27;s broader contribution</a></h3>
+          <div class="date">2026-10-15 09:51:47</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/media-telecom/ukraine-struggles-with-starlink-us-satellite-data-europe-has-no-quick-fix-2026-10-14/" target="_blank" rel="noopener">Can Europe step in as Ukraine struggles with Starlink and US satellite data?</a></h3>
+          <div class="date">2026-10-14 18:58:54</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/ukraine-russia-war/russia-builds-major-new-drone-attack-base-six-weeks-satellite-images-show-2026-10-15/" target="_blank" rel="noopener">Russia builds major new drone attack base in six weeks, satellite images show</a></h3>
+          <div class="date">2026-10-15 08:46:44</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/de/firma/lufthansa-setzt-auf-synergien-mit-einstieg-bei-tap-2026-10-15/" target="_blank" rel="noopener">Lufthansa setzt auf Synergien mit Einstieg bei TAP</a></h3>
+          <div class="date">2026-10-15 09:49:57</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/environment/why-is-haze-so-bad-southeast-asia-this-year-2026-10-15/" target="_blank" rel="noopener">Why is the haze so bad in Southeast Asia this year?</a></h3>
+          <div class="date">2026-10-15 09:25:51</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/asia-pacific/germanys-klingbeil-says-support-ukraine-comes-with-reform-expectations-2026-10-15/" target="_blank" rel="noopener">Germany warns against bringing Russia back into G20 fold</a></h3>
+          <div class="date">2026-10-15 05:53:42</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/de/firma/eugh-generalanwalt-tiktok-einstufung-als-torwchter-ist-rechtens-2026-10-15/" target="_blank" rel="noopener">EuGH-Generalanwalt: TikTok-Einstufung als &quot;Torwächter&quot; ist rechtens</a></h3>
+          <div class="date">2026-10-15 09:45:17</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/legal/transactional/cohere-moves-buy-ai-cybersecurity-startup-aisle-2026-10-15/" target="_blank" rel="noopener">Cohere moves to buy AI cybersecurity startup AISLE</a></h3>
+          <div class="date">2026-10-15 09:02:13</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/us-ftc-subpoenas-openai-anthropic-over-consumer-harms-axios-reports-2026-10-15/" target="_blank" rel="noopener">US FTC subpoenas OpenAI and Anthropic over consumer harms, Axios reports</a></h3>
+          <div class="date">2026-10-15 09:18:33</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/de/welt/reisebranche-blickt-auf-verhaltenen-winter-sommer-2027-stimmt-positiv-2026-10-15/" target="_blank" rel="noopener">Reisebranche blickt auf verhaltenen Winter - Sommer 2027 stimmt positiv</a></h3>
+          <div class="date">2026-10-15 09:42:24</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/de/welt/merz-an-usa-eingefrorene-russische-vermgen-mssen-europa-bleiben-2026-10-15/" target="_blank" rel="noopener">Merz an USA: Eingefrorene russische Vermögen müssen in Europa bleiben</a></h3>
+          <div class="date">2026-10-15 09:43:26</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/energy/angola-aims-faster-oil-gas-concessions-part-new-regulatory-revamp-2026-10-15/" target="_blank" rel="noopener">Angola aims for faster oil and gas concessions as part of new regulatory revamp</a></h3>
+          <div class="date">2026-10-15 09:41:09</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/india/nestle-indias-quarterly-profit-rises-demand-packaged-foods-stays-firm-2026-10-15/" target="_blank" rel="noopener">Nestle India flags food, commodity inflation after profit surges 36%</a></h3>
+          <div class="date">2026-10-15 07:00:05</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/de/firma/uniper-verlngert-vertrag-von-vorstandschef-lewis-2026-10-15/" target="_blank" rel="noopener">Uniper verlängert Vertrag von Vorstandschef Lewis</a></h3>
+          <div class="date">2026-10-15 09:39:22</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/india/india-supreme-court-rules-yes-banks-at1-bond-write-off-illegal-2026-10-15/" target="_blank" rel="noopener">India Supreme Court rules Yes Bank&#x27;s $884-million AT1 bond write-off illegal, lawyer says</a></h3>
+          <div class="date">2026-10-15 09:04:15</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/de/firma/tsmc-trotz-rekordgewinn-mit-verhaltenem-ausblick-2026-10-15/" target="_blank" rel="noopener">TSMC trotz Rekordgewinn mit verhaltenem Ausblick</a></h3>
+          <div class="date">2026-10-15 09:36:24</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/pt/negocio/BJVWP6LIQ5PN3C75SSVK7XDR74-2026-10-15/" target="_blank" rel="noopener">Ações chinesas fecham na menor cotação em 14 meses; inflação nos EUA alimenta temores em relação ao Fed</a></h3>
+          <div class="date">2026-10-15 09:34:31</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/two-ships-ablaze-romanian-black-sea-waters-8-sailors-missing-2026-10-15/" target="_blank" rel="noopener">Two ships ablaze in Romanian Black Sea waters, 7 sailors missing</a></h3>
+          <div class="date">2026-10-15 08:02:45</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/media-telecom/bollywood-actor-imran-khan-asked-leave-india-after-participating-protest-media-2026-10-15/" target="_blank" rel="noopener">Bollywood actor Imran Khan asked to leave India after participating in protest, media says</a></h3>
+          <div class="date">2026-10-15 08:04:17</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/india/indias-september-merchandise-trade-deficit-3021-billion-2026-10-15/" target="_blank" rel="noopener">India&#x27;s September merchandise trade deficit widens to $30.21 billion</a></h3>
+          <div class="date">2026-10-15 08:53:22</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/pope-leo-had-good-night-hospital-vatican-says-2026-10-15/" target="_blank" rel="noopener">Pope Leo had a good night in hospital as he recovers from lung cancer surgery</a></h3>
+          <div class="date">2026-10-15 06:45:59</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/uk/boe-raise-rates-4-november-economists-narrowly-expect-hold-there-2026-10-15/" target="_blank" rel="noopener">BoE to raise rates to 4% in November, but economists narrowly expect hold from there: Reuters poll</a></h3>
+          <div class="date">2026-10-15 09:30:18</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/china/china-q3-growth-set-pick-up-stimulus-keeping-2026-goal-within-reach-2026-10-15/" target="_blank" rel="noopener">China Q3 growth set to pick up on stimulus, keeping 2026 goal within reach</a></h3>
+          <div class="date">2026-10-15 09:25:28</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/environment/sri-lanka-human-elephant-conflict-takes-deadly-toll-2026-10-14/" target="_blank" rel="noopener">In Sri Lanka, human-elephant conflict takes deadly toll</a></h3>
+          <div class="date">2026-10-14 23:05:46</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/india/gold-rebounds-one-week-low-dollar-slips-2026-10-15/" target="_blank" rel="noopener">Gold climbs over 1% on softer dollar, yields ahead of US inflation data</a></h3>
+          <div class="date">2026-10-15 03:18:04</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/africa/islamist-fighters-kill-10-soldiers-attack-northeast-nigeria-army-base-2026-10-15/" target="_blank" rel="noopener">Islamist fighters kill 10 soldiers in attack on northeast Nigeria army base</a></h3>
+          <div class="date">2026-10-15 09:24:39</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/ubs-extends-fed-tightening-cycle-forecast-with-march-rate-hike-after-inflation-2026-10-15/" target="_blank" rel="noopener">UBS extends Fed tightening cycle forecast with March rate hike after inflation surprise</a></h3>
+          <div class="date">2026-10-15 09:21:39</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/markets/europe/european-shares-fall-global-tech-rout-hits-risk-appetite-2026-10-15/" target="_blank" rel="noopener">European shares slip as tech rout offsets earnings support</a></h3>
+          <div class="date">2026-10-15 07:22:10</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/china/eu-court-adviser-sides-with-eu-regulators-against-tiktok-fight-over-tech-label-2026-10-15/" target="_blank" rel="noopener">Setback for TikTok as EU court adviser backs gatekeeper label</a></h3>
+          <div class="date">2026-10-15 08:30:46</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/wto-chief-sees-lasting-impact-trade-middle-east-war-geopolitics-2026-10-15/" target="_blank" rel="noopener">WTO chief sees lasting impact on trade from Middle East war and geopolitics</a></h3>
+          <div class="date">2026-10-15 09:13:10</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/sports/skateboarding-on-road-again-spains-poncelet-sets-world-speed-record-2026-10-15/" target="_blank" rel="noopener">Skateboarding-On the road again: Spain&#x27;s Poncelet sets world speed record</a></h3>
+          <div class="date">2026-10-15 09:09:46</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/energy/totalenergies-flags-q3-profit-surge-iran-war-continues-drive-energy-prices-2026-10-15/" target="_blank" rel="noopener">TotalEnergies flags quarterly profit surge as Iran war continues to drive energy prices</a></h3>
+          <div class="date">2026-10-15 06:06:35</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/lufthansa-talks-take-remaining-501-stake-tap-future-cfo-says-2026-10-15/" target="_blank" rel="noopener">Lufthansa in talks to take remaining 50.1% stake in TAP in future, CFO says</a></h3>
+          <div class="date">2026-10-15 08:42:54</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/sports/professional-surfer-suspended-by-second-body-over-allegations-abuse-2026-10-15/" target="_blank" rel="noopener">Professional surfer suspended by second body over &#x27;allegations of abuse&#x27;</a></h3>
+          <div class="date">2026-10-15 06:18:31</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/sports/cricket/south-african-calls-up-breetzke-batting-reshuffle-looms-after-defeat-2026-10-15/" target="_blank" rel="noopener">South African calls up Breetzke as batting reshuffle looms after defeat</a></h3>
+          <div class="date">2026-10-15 07:44:28</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/latam/negocio/6J4XOKQTCBMX7IK55LRBCBLTZE-2026-10-15/" target="_blank" rel="noopener">Las bolsas europeas caen ante el desplome global de las tecnológicas y temor a una subida de tasas</a></h3>
+          <div class="date">2026-10-15 07:42:22</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/commentary/reuters-open-interest/europes-battery-boom-has-dirty-secret-martin-vladimirov-2026-10-14/" target="_blank" rel="noopener">Europe&#x27;s battery boom has a dirty secret</a></h3>
+          <div class="date">2026-10-14 07:00:25</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/asia-pacific/taiwan-president-calls-micron-workers-negotiate-sincerely-ahead-possible-strike-2026-10-15/" target="_blank" rel="noopener">Taiwan president calls for Micron, workers to negotiate &#x27;sincerely&#x27; ahead of possible strike</a></h3>
+          <div class="date">2026-10-15 05:11:21</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/europe/sweden-reject-irish-eu-presidency-proposal-2028-2034-budget-plan-2026-10-15/" target="_blank" rel="noopener">Sweden to reject Irish EU presidency proposal on 2028-2034 budget plan</a></h3>
+          <div class="date">2026-10-15 07:40:13</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/sports/baseball/late-game-homers-send-brewers-3-0-nlcs-advantage-over-dodgers--flm-2026-10-15/" target="_blank" rel="noopener">Late-game homers send Brewers to 3-0 NLCS advantage over Dodgers</a></h3>
+          <div class="date">2026-10-15 03:28:53</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/finance/nordeas-third-quarter-operating-profit-lags-market-estimates-2026-10-15/" target="_blank" rel="noopener">Nordea pauses buybacks pending ECB model review, sending shares down</a></h3>
+          <div class="date">2026-10-15 04:43:55</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/lufthansa-jets-told-carry-extra-fuel-into-frankfurt-supplies-tighten-bild-2026-10-15/" target="_blank" rel="noopener">Lufthansa tells jets to carry extra fuel into Frankfurt as supplies tighten</a></h3>
+          <div class="date">2026-10-15 06:29:59</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/asia-pacific/boj-should-not-be-overly-cautious-raising-rates-board-member-koeda-says-2026-10-15/" target="_blank" rel="noopener">BOJ policymaker warns against being overly cautious on rate hikes</a></h3>
+          <div class="date">2026-10-15 01:46:22</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/fr/affaires/tsmc-bnfice-record-pour-le-sixime-trimestre-conscutif-grce-lia-2026-10-15/" target="_blank" rel="noopener">TSMC-Bénéfice record pour le sixième trimestre consécutif grâce à l&#x27;IA</a></h3>
+          <div class="date">2026-10-15 06:28:47</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/packaging-firm-mondi-hikes-prices-again-counter-rising-costs-2026-10-15/" target="_blank" rel="noopener">Packaging firm Mondi hikes prices again to counter rising costs</a></h3>
+          <div class="date">2026-10-15 07:32:51</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/sports/baseball/rare-power-barrage-leaves-brewers-eyeing-nlcs-sweep-dodgers--flm-2026-10-15/" target="_blank" rel="noopener">Rare power barrage leaves Brewers eyeing NLCS sweep of Dodgers</a></h3>
+          <div class="date">2026-10-15 07:30:01</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/americas/entain-gaming-revenue-rises-2-domestic-growth-offsets-hit-brazil-2026-10-15/" target="_blank" rel="noopener">Entain gaming revenue rises 2% as domestic growth offsets hit from Brazil</a></h3>
+          <div class="date">2026-10-15 07:14:43</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/asia-pacific/south-koreas-kospi-triggers-circuit-breaker-tech-led-selloff-2026-10-15/" target="_blank" rel="noopener">South Korea&#x27;s KOSPI closes at 6-month low as chipmakers slump on AI worries</a></h3>
+          <div class="date">2026-10-15 04:54:26</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/sports/nhl/blues-bring-high-powered-attack-into-clash-with-wild--flm-2026-10-15/" target="_blank" rel="noopener">Blues bring high-powered attack into clash with Wild</a></h3>
+          <div class="date">2026-10-15 07:25:39</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/latam/negocio/T5OMZBPSCZO55FGR34YHPYBA7A-2026-10-15/" target="_blank" rel="noopener">La economía de Reino Unido vuelve a superar las previsiones y crece un 0,1% en agosto</a></h3>
+          <div class="date">2026-10-15 07:23:33</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/drone-attack-causes-fire-russias-ryazan-refinery-regional-governor-says-2026-10-15/" target="_blank" rel="noopener">Drone attack causes fire at Russia&#x27;s Ryazan refinery, regional governor says</a></h3>
+          <div class="date">2026-10-15 07:06:31</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/sports/nhl/connor-bedard-looks-spark-blackhawks-help-cool-off-jets--flm-2026-10-15/" target="_blank" rel="noopener">Connor Bedard looks to spark Blackhawks, help cool off Jets</a></h3>
+          <div class="date">2026-10-15 07:07:17</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/aerospace-defense/central-ukrainian-region-hit-by-vast-drone-attack-killing-three-2026-10-15/" target="_blank" rel="noopener">Central Ukrainian region hit by vast drone attack, killing three</a></h3>
+          <div class="date">2026-10-15 06:59:26</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/sports/soccer/auckland-defend-a-league-title-after-management-shake-up-2026-10-15/" target="_blank" rel="noopener">Auckland defend A-League title after management shake-up</a></h3>
+          <div class="date">2026-10-15 07:05:22</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/de/firma/dax-tiefer-erwartet-konjunktur-und-politik-im-blick-2026-10-15/" target="_blank" rel="noopener">Dax tiefer erwartet - Konjunktur und Politik im Blick</a></h3>
+          <div class="date">2026-10-15 07:04:42</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/latam/negocio/HYIXM5MA7FILTC6JPRB2EAKBDM-2026-10-15/" target="_blank" rel="noopener">El IBEX 35 abre en rojo lastrado por el castigo a las tecnológicas tras el IPC estadounidense</a></h3>
+          <div class="date">2026-10-15 07:03:53</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/india/air-india-forms-team-drive-cost-savings-memo-shows-2026-10-15/" target="_blank" rel="noopener">Air India forms team to drive cost savings, memo shows</a></h3>
+          <div class="date">2026-10-15 06:53:21</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/fr/affaires/pernod-ricard-le-ca-recule-moins-que-prvu-au-t1-les-usa-et-la-chine-psent-2026-10-15/" target="_blank" rel="noopener">Pernod Ricard-Le CA recule moins que prévu au T1, les USA et la Chine pèsent toujours</a></h3>
+          <div class="date">2026-10-15 05:38:43</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/retail-consumer/this-chinese-export-boom-really-has-legs-wings-2026-10-15/" target="_blank" rel="noopener">This Chinese export boom really has legs – and wings</a></h3>
+          <div class="date">2026-10-15 05:02:55</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/latam/negocio/RZI7C4U7K5LO5BURFLEQW5I5MA-2026-10-15/" target="_blank" rel="noopener">Una guerra larga y nuevas perturbaciones son el mayor riesgo para Oriente Medio, dice el FMI</a></h3>
+          <div class="date">2026-10-15 06:59:34</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/latam/negocio/4TYKN2C2SZMMHNVQVBED2UMMW4-2026-10-15/" target="_blank" rel="noopener">El presidente de Taiwán pide a Micron y sus trabajadores negociar &quot;con sinceridad&quot; ante posible huelga</a></h3>
+          <div class="date">2026-10-15 06:58:37</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/latam/mundo/NVRCYW6HFJOJ3EXEC3B3SHC6YU-2026-10-15/" target="_blank" rel="noopener">El papa León pasó bien la noche en el hospital, según el Vaticano</a></h3>
+          <div class="date">2026-10-15 06:56:41</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/latam/negocio/5HHCQNZZW5NDXMWIFHUN27HTKY-2026-10-15/" target="_blank" rel="noopener">La producción de cobre de Antofagasta sube un 7% en el trimestre y mantiene su previsión para 2026</a></h3>
+          <div class="date">2026-10-15 06:57:21</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/china/this-chinese-export-boom-really-has-legs-wings-2026-10-15/" target="_blank" rel="noopener">This Chinese export boom really has legs – and wings</a></h3>
+          <div class="date">2026-10-15 05:00:00</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/romanias-nominated-prime-minister-secures-support-ahead-confidence-vote-2026-10-15/" target="_blank" rel="noopener">Romania&#x27;s nominated prime minister secures support ahead of confidence vote</a></h3>
+          <div class="date">2026-10-15 06:52:17</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/africa/south-african-rand-edges-up-next-weeks-medium-term-budget-draws-focus-2026-10-15/" target="_blank" rel="noopener">South African rand edges up as next week&#x27;s medium-term budget draws focus</a></h3>
+          <div class="date">2026-10-15 06:50:56</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/fr/affaires/france-linflation-ipch-acclre-comme-prvu-34-sur-un-an-en-septembre-2026-10-15/" target="_blank" rel="noopener">France-L&#x27;inflation IPCH accélère comme prévu à +3,4% sur un an en septembre</a></h3>
+          <div class="date">2026-10-15 06:51:12</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/legal/government/us-considers-easing-sanctions-shadow-fleet-vessels-cut-freight-rates-official-2026-10-15/" target="_blank" rel="noopener">US considers easing sanctions on shadow fleet vessels to cut freight rates, official says</a></h3>
+          <div class="date">2026-10-15 00:06:36</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/uk/british-land-expects-robust-interim-growth-office-retail-park-demand-2026-10-15/" target="_blank" rel="noopener">British Land expects robust interim growth on office, retail park demand</a></h3>
+          <div class="date">2026-10-15 06:49:54</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/uk/uks-travis-perkins-reports-fall-like-for-like-sales-amid-construction-slump-2026-10-15/" target="_blank" rel="noopener">UK&#x27;s Travis Perkins reports fall in like-for-like sales amid construction slump</a></h3>
+          <div class="date">2026-10-15 06:48:29</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/us/ohios-working-class-voters-rethink-support-trump-republican-party-2026-10-14/" target="_blank" rel="noopener">Ohio&#x27;s working-class voters rethink support for Trump and the Republican Party</a></h3>
+          <div class="date">2026-10-14 10:07:31</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/jupiter-fund-management-reports-higher-third-quarter-inflows-assets-hit-record-2026-10-15/" target="_blank" rel="noopener">Jupiter Fund Management reports higher third-quarter inflows, assets hit record</a></h3>
+          <div class="date">2026-10-15 06:48:37</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/asia-pacific/tsmc-q3-profit-jumps-69-record-beating-expectations-2026-10-15/" target="_blank" rel="noopener">TSMC Q3 profit jumps 69% to record, beating expectations</a></h3>
+          <div class="date">2026-10-15 05:35:18</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/french-inflation-rises-34-september-highest-since-january-2024-2026-10-15/" target="_blank" rel="noopener">French inflation rises to 3.4% in September, highest since January 2024</a></h3>
+          <div class="date">2026-10-15 06:47:09</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/fr/affaires/point-marchs-rechute-en-vue-en-europe-lia-et-linflation-amricaine-inquitent-2026-10-15/" target="_blank" rel="noopener">POINT MARCHÉS Rechute en vue en Europe, l&#x27;IA et l&#x27;inflation américaine inquiètent (actualisé)</a></h3>
+          <div class="date">2026-10-15 06:20:28</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/de/welt/kommunen-erneut-mit-rekordeinnahmen-aus-der-gewerbesteuer-2026-10-15/" target="_blank" rel="noopener">Kommunen erneut mit Rekordeinnahmen aus der Gewerbesteuer</a></h3>
+          <div class="date">2026-10-15 06:43:54</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/retail-consumer/uk-retailer-dunelms-quarterly-sales-rise-demand-curtains-kitchenware-rebounds-2026-10-15/" target="_blank" rel="noopener">UK retailer Dunelm&#x27;s quarterly sales rise as demand for curtains, kitchenware rebounds</a></h3>
+          <div class="date">2026-10-15 06:42:53</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/figma-cfo-says-design-platform-willing-put-margins-line-boost-ai-demand-2026-10-15/" target="_blank" rel="noopener">Figma CFO says design platform willing to put margins on the line to boost AI demand</a></h3>
+          <div class="date">2026-10-15 05:09:00</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/asia-pacific/prolonged-war-renewed-disruptions-pose-biggest-risk-middle-east-region-imf-says-2026-10-15/" target="_blank" rel="noopener">Prolonged war, renewed disruptions pose biggest risk to Middle East region, IMF says</a></h3>
+          <div class="date">2026-10-15 04:37:41</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/latam/negocio/LS3B7VBISFPU5FUUD7H6XQ2DGQ-2026-10-15/" target="_blank" rel="noopener">El Senado de Brasil aprueba la reducción de la semana laboral, en una victoria para Lula</a></h3>
+          <div class="date">2026-10-15 06:34:31</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/world/asia-pacific/lmeweek-copper-squeeze-breathes-new-life-into-old-mines-2026-10-15/" target="_blank" rel="noopener">LMEWEEK Copper squeeze breathes new life into old mines</a></h3>
+          <div class="date">2026-10-15 06:31:55</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/latam/negocio/7RRUNGZ57NLIXGHRNJ5GIE6C5U-2026-10-15/" target="_blank" rel="noopener">El regulador financiero mundial aboga por una mayor supervisión humana de la IA agéntica</a></h3>
+          <div class="date">2026-10-15 06:32:01</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
+        <article class="art">
+          <h3><a href="https://www.reuters.com/business/finance/anthropics-q3-revenue-surges-45-nearly-17-billion-2026-10-14/" target="_blank" rel="noopener">At Anthropic pre-IPO meet: ‘Thinking’ caps, surging revenue, no human extinction</a></h3>
+          <div class="date">2026-10-14 22:27:14</div>
+          <div class="body"><p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p></div>
+        </article>
     </section>
   
     <section class="sec" id="sec01">
@@ -577,7 +1314,7 @@
           <div class="body"><p>赵建新 《人民日报》（2026年10月15日 第 20 版）</p><p>小剧场戏剧在中国已走过四十余载。前不久第三届全国小剧场戏剧优秀剧目展演落幕，不仅留下了剧目，更让我们看到这一特殊的舞台艺术类型的成长轨迹。今天，我们在小剧场，可以看到哪些趋势与变化？</p><p>看到更丰富的舞台艺术形态。当年，《绝对信号》以“实验”之名将话剧从大剧场的镜框式舞台中解放出来，《马前泼水》让戏曲这一古老艺术形式在小剧场中找到新的呈现方式，两部作品开辟的道路一直在延伸。在本届展演的舞台上，剧目早已突破话剧与戏曲的二元格局。音乐剧以青春化表达和灵活的时空转换在小剧场如鱼得水，歌舞剧则借助小剧场的亲密感实现叙事与抒情的深度融合。艺术形态的丰富性，恰恰印证了小剧场戏剧的精神内核：对既有剧场边界的不断突破。</p><p>各艺术门类在小剧场空间中再生长。戏曲进入小剧场，重新思考叙事与歌舞的比例关系，在有限空间中寻找更精准的唱念做打和情感爆发点。音乐剧进入小剧场，不得不放弃宏大乐队和华丽群舞，寻求更依赖演员自身声乐功力和戏剧张力的表达方式。小剧场如同一面筛子，筛去依赖外部条件支撑的浮华，留下戏剧艺术最本真的内核。这正是小剧场戏剧的重要贡献——成为不同艺术门类相互碰撞、相互滋养的熔炉，催生新的舞台语汇。边界需要突破，本体仍要坚守。本届展演中的23出剧目，12出戏曲涵盖京昆、越剧、豫剧、粤剧、楚剧多个剧种；其余11出话剧、歌舞剧、儿童剧也各具形态，类型跨界，既显示了小剧场戏剧的丰富生态，又能恪守戏剧本体和剧种底色。</p><p>看到更广阔的创作题材。一是对个体精神世界的深度开掘。本届展演中多部作品将镜头对准当代人的精神处境，以细腻的笔触描绘个体在时代洪流中的挣扎与和解，如《重返三岔口》中三位老友对历史欲望的袒露，《提给自己的问题》搭建了渴望被看见的年轻博主与锱铢必较的严谨学者在虚幻时空的相遇。在小剧场，一个眼神的游移、一次呼吸的停顿都足以构成戏剧行动，这使得那些关于“内心”的故事获得了被讲述的可能。小剧场戏剧正在成为当代人精神世界的显微镜。二是对历史与经典的重述。本届展演中，粤剧《骷髅叹》、越剧《假如我不是嵇康》、音乐剧《貂蝉，你在想什么》等多部作品以当代视角重访历史人物与经典文本，在历史的缝隙中寻找与当下的对话可能。三是对社会现实的回应。本届展演中不少创作者将目光投向科技伦理、代际关系等当下议题，体现了小剧场戏剧介入现实的自觉。小剧场对现实的回应往往不是宏观的社会分析，而是从个体的切身体验出发。这种以小见大的题材处理方式，恰是优势所在。</p><p>看到更丰富的戏剧风格类型。本届展演中，我们既能看到《方寸间》这类极具实验精神的先锋戏剧，也能看到像《妈妈的味道》那样回归文本的质朴叙述；既有融合多媒体技术的跨媒介剧场，也有近乎黑白水墨的极简主义表达。此外，很多作品打破传统观演界限，将观众纳入戏剧行动之中，这种风格类型的丰富性，正是小剧场活力的最好证明。</p><p>在为小剧场戏剧的繁荣感到欣喜的同时，也要平衡好当下小剧场创演中的几组关系：一是题材的宽与窄。尽管小剧场在题材开拓上功不可没，但纵观近几年来的剧目创作，仍能感受到某种“安全区”的存在。大量作品集中在都市情感、青春成长、经典改编等相对稳妥的领域。小剧场不应放弃其作为社会敏感神经的锐度。二是风格的悲与喜。很多小剧场剧目注重个体心灵在极端情境中的挣扎、撕扯和抉择，而这种创作主题的舞台展现更倾向于悲剧表达，甚至有的为赋新词强说愁。“灵魂叩问”“精神思辨”“生死问答”这些小剧场戏剧的关键词，不仅适用于悲剧，也同样适用于喜剧。三是人才的去与留。小剧场固然是青年戏剧人的摇篮，但摇篮之后的路在何方？无须讳言，小剧场戏剧成本低，但创作者的酬劳也少，不少青年创作者往往在完成一两部令人眼前一亮的小剧场作品后，便会进军大剧场。于是，小剧场成为“跳板”而非“归宿”。我们需要更多愿意将小剧场作为长期创作阵地的戏剧工作者。</p><p>“小”，同样意味着视角的独特、表达的畅快、思考的锋利。期待小剧场继续做戏剧艺术的“神经末梢”，敏锐感知时代的体温与痛感，在拥抱市场的同时不丢失创新的基因，在走向成熟的同时不消磨实验的锐气。</p><p>（作者为中国戏曲学院教授）</p></div>
         </article>
     </section>
-  <p class="muted">数据抓取时间：2026-10-15 ｜ 人民日报原文链接见各文章标题。Reuters 部分因网络限制未抓取，sitemap 入口已附上，具备外网时可重试。</p>
+  <p class="muted">数据抓取时间：2026-10-15 ｜ 人民日报原文链接见各文章标题。Reuters 头条来自官方 news sitemap（GitHub Actions 定时抓取），正文页受 Reuters 反爬（DataDome 401）限制需授权，点击标题查看原文。</p>
 </div>
 </body>
 </html>
