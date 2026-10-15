@@ -4,5 +4,8 @@
   "blocked": false,
   "index_status": 200,
   "article_urls_found": 149,
+  "article_status_counts": {
+    "401": 149
+  },
   "articles": []
 }
