@@ -1,37 +1,54 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import json, re, html, os, sys
-sys.path.insert(0, "E:/ProjectStartingBusiness/Project11-News")
-from _extract import extract
+BASE = os.path.dirname(os.path.abspath(__file__))
+DATA = os.path.join(BASE, "data")
+DOCSDIR = os.path.join(BASE, "docs")
+sys.path.insert(0, BASE)
+try:
+    from _extract import extract
+except Exception:
+    extract = None
 
-DATA = "E:/ProjectStartingBusiness/Project11-News/data"
-ARTDIR = "C:/Users/MZCny/AppData/Local/Temp/rmrb/art"
-DATE = "2026-10-15"
-WEEKDAY = "星期四"
+import datetime, glob as _glob
+DATE = os.environ.get("DIGEST_DATE") or datetime.date.today().isoformat()
+try:
+    WEEKDAY = ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"][datetime.date.fromisoformat(DATE).weekday()]
+except Exception:
+    WEEKDAY = ""
 
-raw = json.load(open(f"{DATA}/rmrb_2026-10-15.json", encoding="utf-8"))
+# 优先读取已含正文的 full.json（跨平台 / GitHub Actions 可用）；
+# 否则回退到标题 json + 本地正文缓存（ARTDIR）。取不到当天则用最新一份人民日报快照。
+_full = os.path.join(DATA, f"rmrb_{DATE}.full.json")
+if not os.path.exists(_full):
+    _cands = sorted(_glob.glob(os.path.join(DATA, "rmrb_*.full.json")))
+    if _cands:
+        _full = _cands[-1]
+_titles = os.path.join(DATA, f"rmrb_{DATE}.json")
+ARTDIR = os.path.join("C:", "Users", "MZCny", "AppData", "Local", "Temp", "rmrb", "art")
 
-total = 0
-for sec in raw:
-    # drop editor-credit false positives (e.g. "本版责编：…")
-    sec["articles"] = [a for a in sec["articles"] if "责编" not in a["title"]]
-    for a in sec["articles"]:
-        cid = a["url"].split("/")[-1]
-        path = os.path.join(ARTDIR, cid)
-        body = []
-        if os.path.exists(path):
-            paras = extract(path)
-            for p in paras:
-                if p == a["title"]:
-                    continue
-                if p.startswith("《人民日报》"):
-                    continue
-                body.append(p)
-        a["body"] = body
-        total += 1
-
-json.dump(raw, open(f"{DATA}/rmrb_2026-10-15.full.json", "w", encoding="utf-8"),
-          ensure_ascii=False, indent=2)
+if os.path.exists(_full):
+    raw = json.load(open(_full, encoding="utf-8"))
+    for sec in raw:
+        sec["articles"] = [a for a in sec["articles"] if "责编" not in a["title"]]
+else:
+    raw = json.load(open(_titles, encoding="utf-8"))
+    for sec in raw:
+        sec["articles"] = [a for a in sec["articles"] if "责编" not in a["title"]]
+        for a in sec["articles"]:
+            cid = a["url"].split("/")[-1]
+            path = os.path.join(ARTDIR, cid)
+            body = []
+            if extract and os.path.exists(path):
+                for p in extract(path):
+                    if p == a["title"]:
+                        continue
+                    if p.startswith("《人民日报》"):
+                        continue
+                    body.append(p)
+            a["body"] = body
+    json.dump(raw, open(_full, "w", encoding="utf-8"),
+              ensure_ascii=False, indent=2)
 
 # ---------- HTML digest ----------
 def esc(s):
@@ -98,16 +115,24 @@ if _os.path.exists(_reuters_json):
             _items = []
             for _a in _rt["articles"]:
                 _paras = [p for p in (_a.get("body") or "").split("\n\n") if p.strip()][:4]
-                _body = "".join(f"<p>{esc(p)}</p>" for p in _paras) or '<p class="muted">（暂无正文）</p>'
+                if _paras:
+                    _body = "".join(f"<p>{esc(p)}</p>" for p in _paras)
+                else:
+                    _body = '<p class="muted">正文需授权（DataDome 拦截），点击标题查看原文。</p>'
+                _pd = (_a.get("pub_date") or "")
+                if _pd:
+                    _pd = _pd.replace("T", " ").replace("Z", "").split(".")[0]
                 _items.append(f'''
         <article class="art">
           <h3><a href="{esc(_a.get('url',''))}" target="_blank" rel="noopener">{esc(_a.get('title',''))}</a></h3>
+          <div class="date">{esc(_pd)}</div>
           <div class="body">{_body}</div>
         </article>''')
             reuters_block = f'''
     <section class="sec">
       <h2>Reuters（路透社）— sitemap 抓取 · {esc(_rt.get('date', DATE))}</h2>
-      <p class="muted">Reuters 官方 sitemap（GitHub Actions 定时抓取）· 本次 {reuters_count} 篇 / 收集 {_rt.get('article_urls_found',0)} 个 URL</p>
+      <p class="muted">Reuters 官方 news sitemap（GitHub Actions 定时抓取，Googlebot-News UA）· 本次 {reuters_count} 条头条 / 采集 {_rt.get('article_urls_found',0)} 个条目。
+      标题/日期/链接来自 sitemap；文章正文页被 Reuters 反爬（DataDome 401）拦截，需授权后方可抓取。</p>
       {''.join(_items)}
     </section>'''
         elif _rt.get("blocked"):
@@ -151,6 +176,7 @@ html_doc = f'''<!DOCTYPE html>
   .art h3{{margin:0 0 6px;font-size:16px;line-height:1.5}}
   .art h3 a{{color:var(--ink);text-decoration:none}}
   .art h3 a:hover{{color:var(--accent)}}
+  .art .date{{color:var(--sub);font-size:12px;margin:0 0 4px}}
   .art .body p{{margin:6px 0;color:#374151}}
   .muted{{color:var(--sub);font-size:13px}}
   .notice{{border-color:#f0c36d;background:#fffaf0}}
@@ -160,7 +186,7 @@ html_doc = f'''<!DOCTYPE html>
 <body>
 <header>
   <h1>每日新闻摘要 · {DATE}</h1>
-  <div class="meta">{WEEKDAY} ｜ 来源：人民日报（全文）· Reuters（sitemap，待重试）</div>
+  <div class="meta">{WEEKDAY} ｜ 来源：人民日报（全文）· Reuters（{'sitemap 已抓' if reuters_count else 'sitemap，本环境受限'}）</div>
 </header>
 <div class="wrap">
   <div class="stats">
@@ -175,13 +201,13 @@ html_doc = f'''<!DOCTYPE html>
   </div>
   {reuters_block}
   {''.join(sections_html)}
-  <p class="muted">数据抓取时间：{DATE} ｜ 人民日报原文链接见各文章标题。Reuters 部分因网络限制未抓取，sitemap 入口已附上，具备外网时可重试。</p>
+  <p class="muted">数据抓取时间：{DATE} ｜ 人民日报原文链接见各文章标题。{'Reuters 头条来自官方 news sitemap（GitHub Actions 定时抓取），正文页受 Reuters 反爬（DataDome 401）限制需授权，点击标题查看原文。' if reuters_count else 'Reuters 部分因网络限制未抓取，sitemap 入口已附上，具备外网时可重试。'}</p>
 </div>
 </body>
 </html>'''
 
-os.makedirs(f"{DATA}/../docs", exist_ok=True)
-open("docs/index.html", "w", encoding="utf-8").write(html_doc)
+os.makedirs(DOCSDIR, exist_ok=True)
+open(os.path.join(DOCSDIR, "index.html"), "w", encoding="utf-8").write(html_doc)
 print("Wrote docs/index.html")
 # 注：按用户要求仅输出 HTML，不生成 Markdown。
 print("Total articles with body:", sum(1 for s in raw for a in s['articles'] if a['body']))
