@@ -81,6 +81,45 @@ def parse_locs(xml_text):
     return locs
 
 
+def parse_url_entries(xml_text):
+    """解析 <url> 项，尽量取 loc + news:title + news:publication_date。"""
+    out = []
+    try:
+        root = ET.fromstring(xml_text)
+    except ET.ParseError as e:
+        log("XML parse error:", e)
+        return out
+    for url_el in root.iter():
+        if url_el.tag in (SITEMAP_NS + "url", "url"):
+            loc = title = date = None
+            for ch in url_el.iter():
+                t = ch.tag
+                if t in (SITEMAP_NS + "loc", "loc"):
+                    loc = (ch.text or "").strip()
+                elif t.endswith("}title") or t == "title":
+                    title = (ch.text or "").strip()
+                elif t.endswith("publication_date"):
+                    date = (ch.text or "").strip()
+            if loc:
+                out.append({"loc": loc, "title": title, "pub_date": date})
+    return out
+
+
+def slug_to_title(url):
+    """从 URL 末段反推标题：去日期、连字符转空格。"""
+    seg = url.rstrip("/").split("/")[-1]
+    seg = re.sub(r"-\d{4}-\d{2}-\d{2}$", "", seg)  # 去掉尾部日期
+    seg = re.sub(r"-\d{8}$", "", seg)
+    words = [w for w in seg.split("-") if w]
+    if not words:
+        return url
+    out = " ".join(words)
+    # 保留常见缩写大小写
+    for ab in ["IPO", "ASML", "EU", "US", "UK", "AI", "GDP", "OPEC", "IMF", "Fed", "CEO", "NASA", "JPMorgan"]:
+        out = re.sub(rf"\b{ab.lower()}\b", ab, out, flags=re.I)
+    return out[:1].upper() + out[1:]
+
+
 def pick_subsitemap(index_locs, today):
     # 优先 URL 含今日日期（两种格式 2026-10-15 / 20261015）
     t1 = today.strftime("%Y-%m-%d")
@@ -170,72 +209,79 @@ def main():
     log(f"索引解析到 {len(index_locs)} 个 loc（含子 sitemap）")
     subs = pick_subsitemap(index_locs, today)
 
-    # 2) 子 sitemap -> 文章 URL
-    article_urls = []
+    # 2) 子 sitemap -> 文章条目（标题/日期直接来自 sitemap）
+    entries = []
+    seen = set()
+    sample_sub_raw = ""
     for sub in subs:
         s2, sxml = fetch(sub, timeout=30)
         if s2 != 200 or is_captcha(sxml):
             log(f"子 sitemap 失败: {sub} status={s2}")
             continue
-        locs = parse_locs(sxml)
-        # 子 sitemap 可能还是索引层
-        if any("/sitemap" in u.lower() for u in locs) and len(article_urls) == 0:
-            subs += [u for u in locs if u not in subs][:MAX_SUBMAPS]
+        if not sample_sub_raw:
+            sample_sub_raw = sxml[:2500]
+        rows = parse_url_entries(sxml)
+        nested = [r["loc"] for r in rows if "/sitemap" in r["loc"].lower()]
+        if nested and not entries:
+            for u in nested:
+                if u not in subs:
+                    subs.append(u)
             continue
-        for u in locs:
-            if u not in article_urls:
-                article_urls.append(u)
-        if len(article_urls) >= MAX_ARTICLES:
+        for r in rows:
+            if r["loc"] not in seen:
+                seen.add(r["loc"])
+                entries.append(r)
+        if len(entries) >= MAX_ARTICLES:
             break
-    article_urls = article_urls[:MAX_ARTICLES]
-    log(f"共收集文章 URL: {len(article_urls)}")
+    entries = entries[:MAX_ARTICLES]
+    log(f"共收集文章条目: {len(entries)}")
 
-    # 3) 抓取文章
+    # 3) 组装文章：默认仅标题+日期+链接（正文页被 DataDome 401 拦截）；
+    #    设 FETCH_BODIES=1 才尝试抓正文（目前多为 401）
     articles = []
     status_counts = {}
-    debug_samples = []
-    for i, url in enumerate(article_urls, 1):
-        s3, html = fetch(url, timeout=25)
-        status_counts[s3] = status_counts.get(s3, 0) + 1
-        if len(debug_samples) < 4:
-            debug_samples.append((url, s3, (html or "")[:1000]))
-        if s3 != 200 or is_captcha(html):
-            continue
-        title, body = extract_article(html)
-        if not body:
-            continue
+    fetch_bodies = os.environ.get("FETCH_BODIES", "0") == "1"
+    for i, e in enumerate(entries, 1):
+        loc = e["loc"]
+        title = e.get("title") or slug_to_title(loc)
+        body = ""
+        if fetch_bodies:
+            s3, html = fetch(loc, timeout=25)
+            status_counts[s3] = status_counts.get(s3, 0) + 1
+            if s3 == 200 and not is_captcha(html):
+                _t, body = extract_article(html)
         articles.append({
             "title": (title or "").strip(),
-            "url": url,
-            "body": body[:6000],
+            "url": loc,
+            "pub_date": e.get("pub_date"),
+            "body": (body or "")[:6000],
         })
-        if i % 25 == 0:
-            log(f"  已处理 {i}/{len(article_urls)}，得到 {len(articles)} 篇")
 
     out = {
         "date": date_str,
         "source": "Reuters (sitemap)",
         "blocked": False,
         "index_status": s,
-        "article_urls_found": len(article_urls),
+        "article_urls_found": len(entries),
+        "bodies_fetched": fetch_bodies,
         "article_status_counts": status_counts,
+        "note": "正文页被 DataDome 拦截(401)；标题/日期/链接来自官方 news sitemap。",
         "articles": articles,
     }
     out_path = os.path.join(OUT_DIR, f"reuters_{date_str}.json")
     json.dump(out, open(out_path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
-    # 诊断文件：子 sitemap 选择、示例 URL、状态码分布、前几篇原始响应
+    # 诊断文件：子 sitemap 选择、示例条目、状态码分布、原始 sitemap 片段
     dbg = os.path.join(OUT_DIR, f"reuters_debug_{date_str}.txt")
     with open(dbg, "w", encoding="utf-8") as f:
         f.write(f"NEWS_INDEX={NEWS_INDEX}\nUA={UA}\n")
         f.write(f"index_locs={len(index_locs)} chosen_subsitemaps={subs}\n")
-        f.write(f"article_urls_found={len(article_urls)}\n")
-        f.write(f"sample_urls={article_urls[:5]}\n")
+        f.write(f"entries={len(entries)} sample={[e['loc'] for e in entries[:3]]}\n")
+        f.write(f"sample_titles={[(e.get('title'), e.get('pub_date')) for e in entries[:5]]}\n")
         f.write(f"article_status_counts={status_counts}\n")
-        f.write(f"articles_extracted={len(articles)}\n\n")
-        for u, st, snippet in debug_samples:
-            f.write(f"---- {st} {u}\n{snippet}\n\n")
-    log(f"完成：{len(articles)} 篇 -> {out_path}；状态分布 {status_counts}；调试 {dbg}")
+        f.write("---- sample sub-sitemap raw (first 2500 chars) ----\n")
+        f.write(sample_sub_raw or "(none)")
+    log(f"完成：{len(articles)} 条（标题级）-> {out_path}；调试 {dbg}")
 
 
 if __name__ == "__main__":
