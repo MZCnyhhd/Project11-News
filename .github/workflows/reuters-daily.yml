@@ -45,15 +45,18 @@ jobs:
           fi
           python scripts/reuters_sitemap.py $ARGS
 
+      - name: Build digest (docs/index.html)
+        run: python _build_digest.py
+
       - name: Commit & push data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           TODAY=$(date +%Y-%m-%d)
-          git add "data/reuters_${TODAY}.json" "data/reuters_robots.txt" "data/reuters_debug_${TODAY}.txt" || true
+          git add "data/reuters_${TODAY}.json" "data/reuters_robots.txt" "data/reuters_debug_${TODAY}.txt" "docs/index.html" || true
           if git diff --cached --quiet; then
             echo "无变化，跳过提交"
           else
-            git commit -m "reuters: ${TODAY} daily sitemap"
+            git commit -m "reuters: ${TODAY} daily sitemap + digest"
             git push
           fi
