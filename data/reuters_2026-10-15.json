@@ -1,6 +1,8 @@
 {
   "date": "2026-10-15",
-  "blocked": true,
-  "status": 401,
+  "source": "Reuters (sitemap)",
+  "blocked": false,
+  "index_status": 200,
+  "article_urls_found": 149,
   "articles": []
 }
