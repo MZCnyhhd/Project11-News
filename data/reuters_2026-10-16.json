@@ -3,261 +3,57 @@
   "source": "Reuters (sitemap)",
   "blocked": false,
   "index_status": 200,
-  "article_urls_found": 150,
+  "article_urls_found": 149,
   "bodies_fetched": false,
   "article_status_counts": {},
   "note": "正文页被 DataDome 拦截(401)；标题/日期/链接来自官方 news sitemap。",
   "articles": [
     {
-      "title": "Yemen's Houthis hit palace in Aden, coalition details attacks on Saudi infrastructure",
-      "url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-says-houthis-attempted-attack-dozens-saudi-facilities-2026-10-15/",
-      "pub_date": "2026-10-15T14:42:15.956Z",
+      "title": "CoreWeave bond rout tests market's math on AI buildout",
+      "url": "https://www.reuters.com/legal/transactional/coreweave-bond-rout-tests-markets-math-ai-buildout-2026-10-16/",
+      "pub_date": "2026-10-16T10:03:01.979Z",
       "body": ""
     },
     {
-      "title": "Choque de micro-ônibus com trem em terminal do Túnel do Canal da Mancha, na França, deixa 19 feridos",
-      "url": "https://www.reuters.com/pt/mundo/JS45UTTULZPLBERW6GEILO3USI-2026-10-15/",
-      "pub_date": "2026-10-15T20:42:44.187Z",
+      "title": "India's Shoppers Stop swings to quarterly profit",
+      "url": "https://www.reuters.com/world/india/indias-shoppers-stop-swings-quarterly-profit-2026-10-16/",
+      "pub_date": "2026-10-16T09:11:49.914Z",
       "body": ""
     },
     {
-      "title": "Peso mexicano recupera terreno tras datos EEUU, bolsa cierra con ganancias",
-      "url": "https://www.reuters.com/latam/negocio/AYOHY47QHVNR3MQVPUYPDJUT2M-2026-10-15/",
-      "pub_date": "2026-10-15T20:40:57.938Z",
+      "title": "Earnings, an election and an MSCI headache",
+      "url": "https://www.reuters.com/business/take-five/global-markets-themes-graphic-2026-10-16/",
+      "pub_date": "2026-10-16T10:22:53.401Z",
       "body": ""
     },
     {
-      "title": "TSX rises, touches three-week high",
-      "url": "https://www.reuters.com/business/metals-rebound-lifts-tsx-futures-despite-global-ai-selloff-2026-10-15/",
-      "pub_date": "2026-10-15T10:28:06.552Z",
+      "title": "UK competition regulator targets Microsoft's business software grip",
+      "url": "https://www.reuters.com/legal/litigation/uk-competition-regulator-targets-microsofts-business-software-grip-2026-10-16/",
+      "pub_date": "2026-10-16T09:07:20.009Z",
       "body": ""
     },
     {
-      "title": "Thoma Bravo's Proofpoint to buy Varonis Systems in $6.3 billion all-cash deal",
-      "url": "https://www.reuters.com/legal/transactional/proofpoint-buy-varonis-systems-63-billion-all-cash-deal-2026-10-15/",
-      "pub_date": "2026-10-15T20:22:54.928Z",
+      "title": "El crudo baja, pero se encamina a registrar una leve alza semanal",
+      "url": "https://www.reuters.com/latam/negocio/GGXPOUMFNROXPG4PXKU64D5CQE-2026-10-16/",
+      "pub_date": "2026-10-16T10:25:10.679Z",
       "body": ""
     },
     {
-      "title": "S&P 500 fecha em alta, com operadores migrando  da IA para setor de saúde",
-      "url": "https://www.reuters.com/pt/negocio/6D5MFIJZSRO3TOVDRNQ53AQSHA-2026-10-15/",
-      "pub_date": "2026-10-15T20:12:42.878Z",
+      "title": "Eli Lilly's weight-loss pill wins EU drug regulator's backing",
+      "url": "https://www.reuters.com/legal/litigation/eli-lillys-weight-loss-pill-wins-backing-europe-2026-10-16/",
+      "pub_date": "2026-10-16T10:08:27.425Z",
       "body": ""
     },
     {
-      "title": "Flávio Bolsonaro não foi ao Senado para sessão sobre 6x1, mas votou à distância",
-      "url": "https://www.reuters.com/fact-check/portugues/RHZCJTVFDRMDZDRFHTBQDL67QY-2026-10-15/",
-      "pub_date": "2026-10-15T20:25:11.334Z",
+      "title": "Canadian steelmakers offset some US tariff pain with domestic demand",
+      "url": "https://www.reuters.com/business/canadian-steelmakers-offset-some-us-tariff-pain-with-domestic-demand-2026-10-16/",
+      "pub_date": "2026-10-16T10:02:36.695Z",
       "body": ""
     },
     {
-      "title": "Nvidia, Apple each gave $25 million for Trump's ballroom, Washington Post reports",
-      "url": "https://www.reuters.com/world/us/nvidia-apple-each-gave-25-million-trumps-ballroom-washington-post-reports-2026-10-15/",
-      "pub_date": "2026-10-15T14:05:00.706Z",
-      "body": ""
-    },
-    {
-      "title": "Diesel's surge is starting to push other prices around. Here's how",
-      "url": "https://www.reuters.com/business/diesels-surge-is-starting-push-other-prices-around-heres-how-2026-10-15/",
-      "pub_date": "2026-10-15T19:09:30.299Z",
-      "body": ""
-    },
-    {
-      "title": "Ukraine taps law firm Holland & Knight in dispute over body armor shipment",
-      "url": "https://www.reuters.com/legal/litigation/ukraine-taps-law-firm-holland-knight-dispute-over-body-armor-shipment-2026-10-15/",
-      "pub_date": "2026-10-15T20:24:01.635Z",
-      "body": ""
-    },
-    {
-      "title": "OpenAI, Meta caution US judiciary about risk of 'deepfake' evidence",
-      "url": "https://www.reuters.com/legal/government/openai-meta-caution-us-judiciary-about-risk-deepfake-evidence-2026-10-15/",
-      "pub_date": "2026-10-15T18:12:44.701Z",
-      "body": ""
-    },
-    {
-      "title": "Monedas cierran mixtas en medio de retroceso del dólar tras  datos EEUU",
-      "url": "https://www.reuters.com/latam/negocio/FCYTKSIBYZIBLCCNSOQ4CJOSZA-2026-10-15/",
-      "pub_date": "2026-10-15T20:21:45.502Z",
-      "body": ""
-    },
-    {
-      "title": "Presidenta justifica drástica reducción área protegida para vaquita marina por bienestar de pescadores",
-      "url": "https://www.reuters.com/latam/domestico/UWYF4BQB2VKDXGYBTE6I2KSD2U-2026-10-15/",
-      "pub_date": "2026-10-15T20:05:46.228Z",
-      "body": ""
-    },
-    {
-      "title": "Masiva marcha universitaria contra Milei concluye con incidentes en Argentina",
-      "url": "https://www.reuters.com/latam/domestico/HCU23JPD3JO4FDQMBSDQR7THBQ-2026-10-15/",
-      "pub_date": "2026-10-15T18:55:43.738Z",
-      "body": ""
-    },
-    {
-      "title": "UK's Streeting says he and Hegseth welcomed Starlink restoration in Ukraine",
-      "url": "https://www.reuters.com/business/media-telecom/uks-streeting-says-he-hegseth-welcomed-starlink-restoration-ukraine-2026-10-15/",
-      "pub_date": "2026-10-15T20:18:07.479Z",
-      "body": ""
-    },
-    {
-      "title": "El S&P 500 cierra en alza; los inversores se pasan de la inteligencia artificial al sector de salud",
-      "url": "https://www.reuters.com/latam/negocio/JJS5GI4P4NPNVNJH2F7YI63BDM-2026-10-15/",
-      "pub_date": "2026-10-15T14:58:42.148Z",
-      "body": ""
-    },
-    {
-      "title": "S&P 500 ends higher as traders shift from AI to healthcare",
-      "url": "https://www.reuters.com/business/nasdaq-futures-dive-1-ai-rout-deepens-debt-concerns-2026-10-15/",
-      "pub_date": "2026-10-15T08:22:58.962Z",
-      "body": ""
-    },
-    {
-      "title": "US considers removing sanctions on some shadow fleet vessels to cut freight rates, official says",
-      "url": "https://www.reuters.com/legal/government/us-considers-easing-sanctions-shadow-fleet-vessels-cut-freight-rates-official-2026-10-15/",
-      "pub_date": "2026-10-15T00:06:36.868Z",
-      "body": ""
-    },
-    {
-      "title": "Cacau se mantém próximo da máxima de um mês conforme demanda dispara",
-      "url": "https://www.reuters.com/pt/agricultura/OJ4YQFCEKJI3RH6XLTGPFND52A-2026-10-15/",
-      "pub_date": "2026-10-15T20:13:40.633Z",
-      "body": ""
-    },
-    {
-      "title": "KFC picks Coca-Cola as US soda supplier, ditches longtime partner PepsiCo",
-      "url": "https://www.reuters.com/business/kfc-sign-coca-cola-beverage-partner-ditching-pepsico-wsj-reports-2026-10-15/",
-      "pub_date": "2026-10-15T19:33:39.084Z",
-      "body": ""
-    },
-    {
-      "title": "El alza del diésel comienza a afectar a otros precios en Estados Unidos",
-      "url": "https://www.reuters.com/latam/negocio/AVBZBXRNTBLMJAPUF753RKUJJI-2026-10-15/",
-      "pub_date": "2026-10-15T20:09:44.838Z",
-      "body": ""
-    },
-    {
-      "title": "Crucial to give Ukraine all means needed to defend population, infrastructure, France's Macron says",
-      "url": "https://www.reuters.com/business/aerospace-defense/crucial-give-ukraine-all-means-needed-defend-population-infrastructure-frances-2026-10-15/",
-      "pub_date": "2026-10-15T20:07:55.747Z",
-      "body": ""
-    },
-    {
-      "title": "Senate Republicans plan post-election blitz to confirm Trump's judicial nominees",
-      "url": "https://www.reuters.com/legal/government/senate-republicans-plan-post-election-blitz-confirm-trumps-judicial-nominees-2026-10-15/",
-      "pub_date": "2026-10-15T20:07:36.865Z",
-      "body": ""
-    },
-    {
-      "title": "Guardians use dominant pitching to edge Rays, take 2-1 series lead",
-      "url": "https://www.reuters.com/sports/baseball/guardians-use-dominant-pitching-edge-rays-take-2-1-series-lead--flm-2026-10-15/",
-      "pub_date": "2026-10-15T20:04:10.632Z",
-      "body": ""
-    },
-    {
-      "title": "Virginia schools can sue US Education Dept over transgender policies, US court rules",
-      "url": "https://www.reuters.com/legal/government/virginia-schools-can-sue-us-education-dept-over-transgender-policies-us-court-2026-10-15/",
-      "pub_date": "2026-10-15T19:57:14.745Z",
-      "body": ""
-    },
-    {
-      "title": "Nineteen hurt after minibus hits train at French channel tunnel terminal",
-      "url": "https://www.reuters.com/world/bus-train-collision-channel-tunnel-leaves-19-injured-french-authorities-2026-10-15/",
-      "pub_date": "2026-10-15T19:24:23.149Z",
-      "body": ""
-    },
-    {
-      "title": "Iraq parliament approves remaining cabinet posts, PM deputies",
-      "url": "https://www.reuters.com/world/middle-east/iraq-parliament-approves-remaining-cabinet-posts-pm-deputies-2026-10-15/",
-      "pub_date": "2026-10-15T20:03:34.675Z",
-      "body": ""
-    },
-    {
-      "title": "Global stocks flat as AI and rate fears hit tech",
-      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-10-15/",
-      "pub_date": "2026-10-15T00:51:34.9Z",
-      "body": ""
-    },
-    {
-      "title": "Factores externos complican andar de mercados financieros de Argentina",
-      "url": "https://www.reuters.com/latam/negocio/OTU6QPOPPNK4ZOYBNB53CBQDPA-2026-10-15/",
-      "pub_date": "2026-10-15T14:54:00.646Z",
-      "body": ""
-    },
-    {
-      "title": "Packers' Josh Jacobs sues to block release of documents, video in case",
-      "url": "https://www.reuters.com/sports/packers-josh-jacobs-sues-block-release-documents-video-case--flm-2026-10-15/",
-      "pub_date": "2026-10-15T20:01:09.72Z",
-      "body": ""
-    },
-    {
-      "title": "Brazil candidates focus fiscal plans on voter-friendly measures before runoff",
-      "url": "https://www.reuters.com/world/americas/brazil-candidates-focus-fiscal-plans-voter-friendly-measures-before-runoff-2026-10-15/",
-      "pub_date": "2026-10-15T19:46:46.39Z",
-      "body": ""
-    },
-    {
-      "title": "BHP sues union at Spence copper mine over 'illegal' stoppages",
-      "url": "https://www.reuters.com/legal/litigation/bhp-sues-union-spence-copper-mine-over-illegal-production-stoppages-lawsuit-2026-10-15/",
-      "pub_date": "2026-10-15T18:46:01.317Z",
-      "body": ""
-    },
-    {
-      "title": "Ukraine hits Russian refinery as Zelenskiy says 'we're done' with Trump's energy truce",
-      "url": "https://www.reuters.com/world/zelenskiy-says-ukraine-will-resume-strikes-russian-refineries-ft-reports-2026-10-15/",
-      "pub_date": "2026-10-15T06:03:18.035Z",
-      "body": ""
-    },
-    {
-      "title": "CoreWeave's slump spotlights growing burden of debt behind AI boom",
-      "url": "https://www.reuters.com/legal/transactional/coreweave-shares-bonds-slide-further-ai-debt-fears-mount-2026-10-15/",
-      "pub_date": "2026-10-15T11:22:25.831Z",
-      "body": ""
-    },
-    {
-      "title": "Albania's leader defies calls to resign as student protesters rampage in capital",
-      "url": "https://www.reuters.com/world/europe/albanias-rama-says-he-will-not-resign-over-protests-2026-10-15/",
-      "pub_date": "2026-10-15T09:46:20.665Z",
-      "body": ""
-    },
-    {
-      "title": "Surto de Ebola no Congo se espalha para uma nova província na fronteira com a República Centro-Africana",
-      "url": "https://www.reuters.com/pt/mundo/B3ZONZQYLNI6NBKZU3QA5SR7JY-2026-10-15/",
-      "pub_date": "2026-10-15T19:52:43.416Z",
-      "body": ""
-    },
-    {
-      "title": "Soja cai para mínima de sete semanas enquanto colheita nos EUA ofusca demanda chinesa",
-      "url": "https://www.reuters.com/pt/agricultura/ZHCBDUPKI5M4RMW4DJAYM475YQ-2026-10-15/",
-      "pub_date": "2026-10-15T19:50:13.319Z",
-      "body": ""
-    },
-    {
-      "title": "Anthropic grants outside evaluator METR employee-level access in AI safety push",
-      "url": "https://www.reuters.com/business/anthropic-grants-ai-evaluator-metr-employee-level-access-its-models-2026-10-15/",
-      "pub_date": "2026-10-15T17:35:31.481Z",
-      "body": ""
-    },
-    {
-      "title": "Pesquisa que mostra Lula à frente de Flávio com 48,1% no 2º turno é de junho",
-      "url": "https://www.reuters.com/fact-check/portugues/OHSTZEPXYFIRRH5KRGJBNQ7CDE-2026-10-15/",
-      "pub_date": "2026-10-15T19:47:43.302Z",
-      "body": ""
-    },
-    {
-      "title": "Yémen-Explosions près du palais présidentiel à Aden, attaqué par les Houthis",
-      "url": "https://www.reuters.com/fr/affaires/ymen-explosions-prs-du-palais-prsidentiel-aden-attaqu-par-les-houthis-2026-10-15/",
-      "pub_date": "2026-10-15T16:54:45.616Z",
-      "body": ""
-    },
-    {
-      "title": "Brent fecha praticamente estável enquanto EUA consideram aliviar sanções à frota-sombra",
-      "url": "https://www.reuters.com/pt/negocio/Z74VLCXDZRIBRK4RA4C7T54JJ4-2026-10-15/",
-      "pub_date": "2026-10-15T19:39:19.85Z",
-      "body": ""
-    },
-    {
-      "title": "US Justice Dept sues California to block votes from alleged noncitizens",
-      "url": "https://www.reuters.com/world/doj-sues-california-to-block-votes-alleged-non-citizens-2026-10-15/",
-      "pub_date": "2026-10-15T17:12:45.554Z",
+      "title": "Sharks pull out win over Predators in shootout",
+      "url": "https://www.reuters.com/sports/nhl/sharks-pull-out-win-over-predators-shootout--flm-2026-10-16/",
+      "pub_date": "2026-10-16T03:35:42.807Z",
       "body": ""
     },
     {
@@ -267,147 +63,537 @@
       "body": ""
     },
     {
-      "title": "France, Germany near deal on car emissions, Britain 'Made in EU' status",
+      "title": "On the campaign trail, JB Pritzker courts farmers like he's running for president",
+      "url": "https://www.reuters.com/world/us/campaign-trail-jb-pritzker-courts-farmers-like-hes-running-president-2026-10-16/",
+      "pub_date": "2026-10-16T10:03:14.172Z",
+      "body": ""
+    },
+    {
+      "title": "3M to argue Australia's $1.4 billion 'forever chemicals' lawsuit legally flawed, court hears",
+      "url": "https://www.reuters.com/business/environment/3m-argue-australias-14-billion-forever-chemicals-lawsuit-legally-flawed-court-2026-10-16/",
+      "pub_date": "2026-10-16T03:04:01.416Z",
+      "body": ""
+    },
+    {
+      "title": "Europe must boost growth or borrow less to keep debt sustainable, IMF says",
+      "url": "https://www.reuters.com/business/europe-must-boost-growth-or-borrow-less-keep-debt-sustainable-imf-says-2026-10-16/",
+      "pub_date": "2026-10-16T10:05:25.535Z",
+      "body": ""
+    },
+    {
+      "title": "US appeals court invalidates federal $9 billion telecom subsidy fund",
+      "url": "https://www.reuters.com/legal/government/us-appeals-court-invalidates-federal-9-billion-telecom-subsidy-fund-2026-10-16/",
+      "pub_date": "2026-10-16T02:37:36.57Z",
+      "body": ""
+    },
+    {
+      "title": "CoreWeave shares, bonds headed for steep weekly losses as AI borrowing concerns mount",
+      "url": "https://www.reuters.com/business/coreweave-shares-bonds-headed-steep-weekly-losses-ai-borrowing-concerns-mount-2026-10-16/",
+      "pub_date": "2026-10-16T10:11:01.312Z",
+      "body": ""
+    },
+    {
+      "title": "Bulgaria seeks NATO anti-drone systems, says defence minister",
+      "url": "https://www.reuters.com/business/aerospace-defense/bulgaria-seeks-nato-anti-drone-systems-says-defence-minister-2026-10-16/",
+      "pub_date": "2026-10-16T08:57:26.423Z",
+      "body": ""
+    },
+    {
+      "title": "White House press secretary Katie Zacharia says she did not pass bar exam",
+      "url": "https://www.reuters.com/legal/legalindustry/white-house-press-secretary-katie-zacharia-says-she-did-not-pass-bar-exam-2026-10-16/",
+      "pub_date": "2026-10-16T01:54:15.868Z",
+      "body": ""
+    },
+    {
+      "title": "Austrian investor rushes to boost copper production at old Chile mine",
+      "url": "https://www.reuters.com/business/energy/austrian-investor-rushes-boost-copper-production-old-chile-mine-2026-10-16/",
+      "pub_date": "2026-10-16T10:07:10.339Z",
+      "body": ""
+    },
+    {
+      "title": "Apple 'faceprints' case tests reach of biometric privacy law",
+      "url": "https://www.reuters.com/legal/government/apple-faceprints-case-tests-reach-biometric-privacy-law-2026-10-16/",
+      "pub_date": "2026-10-16T10:17:11.08Z",
+      "body": ""
+    },
+    {
+      "title": "Fed's Warsh sees US resilience, mum on rate-path view",
+      "url": "https://www.reuters.com/markets/asia/feds-warsh-gives-no-hint-october-policy-decision-2026-10-16/",
+      "pub_date": "2026-10-16T03:57:22.025Z",
+      "body": ""
+    },
+    {
+      "title": "Hegseth's TV instincts backfire as Trump rejects execution livestream",
+      "url": "https://www.reuters.com/world/hegseths-tv-instincts-backfire-trump-rejects-execution-livestream-2026-10-16/",
+      "pub_date": "2026-10-16T10:02:07.721Z",
+      "body": ""
+    },
+    {
+      "title": "Ethiopia's Abiy names new Tigray government, wants polls in six months",
+      "url": "https://www.reuters.com/world/africa/ethiopias-abiy-names-new-tigray-government-wants-polls-six-months-2026-10-16/",
+      "pub_date": "2026-10-16T10:12:32.762Z",
+      "body": ""
+    },
+    {
+      "title": "Indonesia regulator fines entities for trading violations in shares of three listed firms",
+      "url": "https://www.reuters.com/world/asia-pacific/indonesia-regulator-announces-sanctions-against-3-listed-firms-2026-10-16/",
+      "pub_date": "2026-10-16T07:29:43.881Z",
+      "body": ""
+    },
+    {
+      "title": "EU leaders rally around Zelenskiy as Trump calls Ukrainian strikes on Russia a 'disgrace'",
+      "url": "https://www.reuters.com/world/europe/eu-leaders-rally-around-zelenskiy-trump-calls-ukrainian-strikes-russia-disgrace-2026-10-16/",
+      "pub_date": "2026-10-16T07:59:55.027Z",
+      "body": ""
+    },
+    {
+      "title": "India recall Bhuvneshwar for West Indies T20 decider",
+      "url": "https://www.reuters.com/sports/cricket/india-recall-bhuvneshwar-west-indies-t20-decider-2026-10-16/",
+      "pub_date": "2026-10-16T10:08:36.909Z",
+      "body": ""
+    },
+    {
+      "title": "European majors set for Q3 earnings growth despite darkening view on consumer cyclicals",
+      "url": "https://www.reuters.com/business/finance/european-majors-set-q3-earnings-growth-despite-darkening-view-consumer-cyclicals-2026-10-16/",
+      "pub_date": "2026-10-16T10:08:31.712Z",
+      "body": ""
+    },
+    {
+      "title": "Tesla's new Roadster turns in air with SpaceX thrusters, won't land until 2028",
+      "url": "https://www.reuters.com/business/autos-transportation/tesla-set-unveil-next-generation-roadster-sports-ev-after-years-delay-2026-10-15/",
+      "pub_date": "2026-10-15T10:04:22.192Z",
+      "body": ""
+    },
+    {
+      "title": "India widens rupee defence to rates, but cautiously",
+      "url": "https://www.reuters.com/world/india/india-widens-rupee-defence-rates-cautiously-2026-10-16/",
+      "pub_date": "2026-10-16T05:15:56.199Z",
+      "body": ""
+    },
+    {
+      "title": "Starke Firmenbilanzen treiben Börsen an - Techsektor stabiler",
+      "url": "https://www.reuters.com/de/firma/starke-firmenbilanzen-treiben-brsen-an-techsektor-stabiler-2026-10-16/",
+      "pub_date": "2026-10-16T10:08:03.828Z",
+      "body": ""
+    },
+    {
+      "title": "Blue Origin targets multiple New Glenn launches weekly by end of decade",
+      "url": "https://www.reuters.com/business/media-telecom/blue-origin-targets-multiple-new-glenn-launches-weekly-by-end-decade-2026-10-16/",
+      "pub_date": "2026-10-16T10:07:36.328Z",
+      "body": ""
+    },
+    {
+      "title": "White House’s Ukraine order, Oregon shooting and California's ballot battle",
+      "url": "https://www.reuters.com/podcasts/white-houses-ukraine-order-oregon-shooting-californias-ballot-battle-2026-10-16/",
+      "pub_date": "2026-10-16T10:07:31.563Z",
+      "body": ""
+    },
+    {
+      "title": "Russia talks up refinery attack as Trump blames Ukraine for expensive fuel",
+      "url": "https://www.reuters.com/business/energy/russia-talks-up-refinery-attack-trump-blames-ukraine-expensive-fuel-2026-10-16/",
+      "pub_date": "2026-10-16T10:06:11.272Z",
+      "body": ""
+    },
+    {
+      "title": "Rise in French yields is manageable now, but consolidation pressure might grow, IMF says",
+      "url": "https://www.reuters.com/business/rise-french-yields-is-manageable-now-consolidation-pressure-might-grow-imf-says-2026-10-16/",
+      "pub_date": "2026-10-16T10:06:51.628Z",
+      "body": ""
+    },
+    {
+      "title": "Russland stellt Vermögen europäischer Firmen unter staatliche Kontrolle",
+      "url": "https://www.reuters.com/de/firma/russland-stellt-vermgen-europischer-firmen-unter-staatliche-kontrolle-2026-10-16/",
+      "pub_date": "2026-10-16T10:05:40.932Z",
+      "body": ""
+    },
+    {
+      "title": "Rupee posts best week in seven months, fundamentals key for lasting turnaround",
+      "url": "https://www.reuters.com/world/india/rupee-rise-offshore-traders-cut-bearish-bets-rbi-clarifies-hedging-rules-2026-10-16/",
+      "pub_date": "2026-10-16T02:38:11.543Z",
+      "body": ""
+    },
+    {
+      "title": "Mapping the Market: Bulls beware — CrowdStrike shares could be in for more losses",
+      "url": "https://www.reuters.com/markets/global-markets-technicals-graphic-2026-10-16/",
+      "pub_date": "2026-10-16T10:05:31.708Z",
+      "body": ""
+    },
+    {
+      "title": "Indian police warn 'Cockroach' movement founder over protest, local media says",
+      "url": "https://www.reuters.com/world/india/security-stepped-up-indias-capital-cockroach-movement-rally-2026-10-16/",
+      "pub_date": "2026-10-16T05:42:43.798Z",
+      "body": ""
+    },
+    {
+      "title": "IMF expects at least one more 25 bps ECB rate hike in 2026",
+      "url": "https://www.reuters.com/business/imf-expects-least-one-more-25-bps-ecb-rate-hike-2026-2026-10-16/",
+      "pub_date": "2026-10-16T10:04:26.837Z",
+      "body": ""
+    },
+    {
+      "title": "Brazil's incoming right-wing Congress takes aim at judge who jailed Bolsonaro",
+      "url": "https://www.reuters.com/world/americas/brazils-incoming-right-wing-congress-takes-aim-judge-who-jailed-bolsonaro-2026-10-16/",
+      "pub_date": "2026-10-16T10:02:14.56Z",
+      "body": ""
+    },
+    {
+      "title": "Global equity funds draw inflows for fourth week as Treasury yields ease",
+      "url": "https://www.reuters.com/world/china/global-markets-flows-graphic-2026-10-16/",
+      "pub_date": "2026-10-16T10:02:30.154Z",
+      "body": ""
+    },
+    {
+      "title": "Ölpreis treibt Inflation in die Höhe - Legt EZB noch dieses Jahr bei Zinsen nach?",
+      "url": "https://www.reuters.com/de/welt/lpreis-treibt-inflation-die-hhe-legt-ezb-noch-dieses-jahr-bei-zinsen-nach-2026-10-16/",
+      "pub_date": "2026-10-16T10:02:49.413Z",
+      "body": ""
+    },
+    {
+      "title": "Wall St Week Ahead As AI rally wobbles, stock market's spotlight turns to earnings",
+      "url": "https://www.reuters.com/legal/transactional/wall-st-week-ahead-ai-rally-wobbles-stock-markets-spotlight-turns-earnings-2026-10-16/",
+      "pub_date": "2026-10-16T10:03:26.232Z",
+      "body": ""
+    },
+    {
+      "title": "Turtles offer early warning from a warming Mediterranean ahead of COP31",
+      "url": "https://www.reuters.com/sustainability/cop/turtles-offer-early-warning-warming-mediterranean-ahead-cop31-2026-10-16/",
+      "pub_date": "2026-10-16T07:03:07.873Z",
+      "body": ""
+    },
+    {
+      "title": "French savers turn to private pensions as faith in creaking welfare system wanes",
+      "url": "https://www.reuters.com/business/french-savers-turn-private-pensions-faith-creaking-welfare-system-wanes-2026-10-16/",
+      "pub_date": "2026-10-16T10:01:52.754Z",
+      "body": ""
+    },
+    {
+      "title": "Bank of England's Bailey sees 'quite subdued' second-round price pressures so far",
+      "url": "https://www.reuters.com/world/uk/bank-englands-bailey-says-second-round-inflation-pressures-look-subdued-so-far-2026-10-16/",
+      "pub_date": "2026-10-16T02:19:26.867Z",
+      "body": ""
+    },
+    {
+      "title": "Chelsea captain James has surgery after training injury",
+      "url": "https://www.reuters.com/sports/soccer/chelsea-captain-james-has-surgery-after-training-injury-2026-10-16/",
+      "pub_date": "2026-10-16T09:58:35.568Z",
+      "body": ""
+    },
+    {
+      "title": "AI’s debt burden",
+      "url": "https://www.reuters.com/podcasts/reuters-morning-bid/ais-debt-burden-2026-10-16/",
+      "pub_date": "2026-10-16T09:57:52.819Z",
+      "body": ""
+    },
+    {
+      "title": "France, Germany near deal on car emissions and UK special status",
       "url": "https://www.reuters.com/business/environment/france-germany-near-deal-car-emissions-britain-made-eu-status-2026-10-15/",
       "pub_date": "2026-10-15T19:33:28.544Z",
       "body": ""
     },
     {
-      "title": "Rendimientos en EEUU caen, inversionistas buscan refugio y apuestan por una pausa en alza tasas",
-      "url": "https://www.reuters.com/latam/negocio/Z7RQJDPVLZKDPIKM3OPSQBRIAU-2026-10-15/",
-      "pub_date": "2026-10-15T15:26:06.041Z",
+      "title": "Asian bonds record biggest monthly foreign outflow since March 2020",
+      "url": "https://www.reuters.com/world/asia-pacific/asian-bonds-record-biggest-monthly-foreign-outflow-since-march-2020-2026-10-16/",
+      "pub_date": "2026-10-16T09:55:25.031Z",
       "body": ""
     },
     {
-      "title": "Italy's UniCredit wins ECB approval to control Germany's Commerzbank",
-      "url": "https://www.reuters.com/business/finance/italys-unicredit-wins-ecb-approval-control-germanys-commerzbank-2026-10-15/",
-      "pub_date": "2026-10-15T18:01:36.41Z",
+      "title": "Festive demand drives India's diesel sales in October, data shows",
+      "url": "https://www.reuters.com/business/energy/festive-demand-drives-indias-diesel-sales-october-data-shows-2026-10-16/",
+      "pub_date": "2026-10-16T09:49:21.076Z",
       "body": ""
     },
     {
-      "title": "Report: CFP nearing deal to expand to 24 teams in 2027",
-      "url": "https://www.reuters.com/sports/report-cfp-nearing-deal-expand-24-teams-2027--flm-2026-10-15/",
-      "pub_date": "2026-10-15T19:31:52.693Z",
+      "title": "Altered image shared as Ilhan Omar mugshot after raid at her residence",
+      "url": "https://www.reuters.com/fact-check/altered-image-shared-ilhan-omar-mugshot-after-raid-her-residence-2026-10-16/",
+      "pub_date": "2026-10-16T08:28:57.336Z",
       "body": ""
     },
     {
-      "title": "CNN, Axios and other publishers join Google's AI news program",
-      "url": "https://www.reuters.com/business/media-telecom/cnn-signs-multi-year-ai-partnership-with-google-2026-10-15/",
-      "pub_date": "2026-10-15T17:06:13.005Z",
+      "title": "La UE se une en apoyo a Zelenski mientras Trump califica los ataques ucranianos de \"vergüenza\"",
+      "url": "https://www.reuters.com/latam/mundo/GK3A2UQW3NMBNMURVDOU7NQIOI-2026-10-16/",
+      "pub_date": "2026-10-16T08:38:45.101Z",
       "body": ""
     },
     {
-      "title": "Produção de açúcar no centro-sul do Brasil cai 6% na 2ª quinzena de setembro, aponta governo",
-      "url": "https://www.reuters.com/pt/agricultura/GI3FXBEYKFIQ5KRCGUBS76VQA4-2026-10-15/",
-      "pub_date": "2026-10-15T19:29:34.65Z",
+      "title": "OFRBS Summary",
+      "url": "https://www.reuters.com/fr/affaires/ofrbs-summary-2026-01-29/",
+      "pub_date": "2026-01-01T11:01:01.282Z",
       "body": ""
     },
     {
-      "title": "Georgia on my mind: Scenes from the battleground state as midterm voting begins",
-      "url": "https://www.reuters.com/world/blue-paint-meets-green-algae-lincoln-memorial-reflecting-pool-clone-2026-06-18/",
-      "pub_date": "2026-06-18T22:08:42.768Z",
+      "title": "Kenya in talks for fresh multilateral financing, central bank chief says",
+      "url": "https://www.reuters.com/world/africa/kenya-talks-fresh-multilateral-financing-central-bank-chief-says-2026-10-16/",
+      "pub_date": "2026-10-16T08:35:45.034Z",
       "body": ""
     },
     {
-      "title": "La FIFA modificará el artículo 27 del código disciplinario tras el caso de Balogun",
-      "url": "https://www.reuters.com/latam/deportivo/QMVX3GJTJFM4TAX4KDCNVEN6WQ-2026-10-15/",
-      "pub_date": "2026-10-15T18:06:28.954Z",
+      "title": "Bayern are close to their best despite consecutive draws-coach Kompany",
+      "url": "https://www.reuters.com/sports/soccer/bayern-are-close-their-best-despite-consecutive-draws-coach-kompany-2026-10-16/",
+      "pub_date": "2026-10-16T08:33:39.747Z",
       "body": ""
     },
     {
-      "title": "Furacão Trudy se aproxima da costa mexicana do Pacífico; chuvas intensas são esperadas",
-      "url": "https://www.reuters.com/pt/mundo/2DWNOY6TTNOMXDYO7I6FMFZVRE-2026-10-15/",
-      "pub_date": "2026-10-15T18:01:47.411Z",
+      "title": "AFC eyes iron ore and uranium investments in Africa",
+      "url": "https://www.reuters.com/world/africa/afc-eyes-iron-ore-uranium-investments-africa-2026-10-16/",
+      "pub_date": "2026-10-16T08:31:40.856Z",
       "body": ""
     },
     {
-      "title": "Houthis atacam palácio em Áden; coalizão detalha ataques à infraestrutura saudita",
-      "url": "https://www.reuters.com/pt/mundo/HBPPP5X5ORNNXJPFVKQHTRGY7M-2026-10-15/",
-      "pub_date": "2026-10-15T18:01:22.198Z",
+      "title": "Weltbank will Finanzierung von Projekten mit kritischen Mineralen stark ausbauen",
+      "url": "https://www.reuters.com/de/welt/weltbank-will-finanzierung-von-projekten-mit-kritischen-mineralen-stark-ausbauen-2026-10-16/",
+      "pub_date": "2026-10-16T08:30:52.542Z",
       "body": ""
     },
     {
-      "title": "Trump shuts down Hegseth plan to livestream military execution",
-      "url": "https://www.reuters.com/world/us/trump-says-military-execution-ewill-not-be-livestreamed-2026-10-15/",
-      "pub_date": "2026-10-15T14:13:08.368Z",
+      "title": "NHL roundup: Panthers' Brady Tkachuk caps 2nd straight hat trick in OT",
+      "url": "https://www.reuters.com/sports/nhl-roundup-panthers-brady-tkachuk-caps-2nd-straight-hat-trick-ot--flm-2026-10-16/",
+      "pub_date": "2026-10-16T08:24:24.728Z",
       "body": ""
     },
     {
-      "title": "Somalia says it will hold a presidential election in May 2027",
-      "url": "https://www.reuters.com/world/africa/somalia-says-it-will-hold-presidential-election-may-2027-2026-10-15/",
-      "pub_date": "2026-10-15T17:57:31.659Z",
+      "title": "G7-Länder planen Abwehrtests gegen KI-verstärkte Cyberangriffe auf Finanzbranche",
+      "url": "https://www.reuters.com/de/welt/g7-lnder-planen-abwehrtests-gegen-ki-verstrkte-cyberangriffe-auf-finanzbranche-2026-10-16/",
+      "pub_date": "2026-10-16T08:26:50.122Z",
       "body": ""
     },
     {
-      "title": "Bearman está listo para asumir el cargo de jefe de equipo en Haas F1, según Komatsu",
-      "url": "https://www.reuters.com/latam/deportivo/WKV75GQ2JNPODDP6BHRNG54BZI-2026-10-15/",
-      "pub_date": "2026-10-15T17:52:11.855Z",
+      "title": "How are Yemen’s Houthis attacking Saudi Arabia so effectively?",
+      "url": "https://www.reuters.com/world/middle-east/how-are-yemens-houthis-attacking-saudi-arabia-so-effectively-2026-10-15/",
+      "pub_date": "2026-10-15T16:02:53.232Z",
       "body": ""
     },
     {
-      "title": "Thunder rookie Otega Oweh (Achilles) to miss season",
-      "url": "https://www.reuters.com/sports/thunder-rookie-otega-oweh-achilles-miss-season--flm-2026-10-15/",
-      "pub_date": "2026-10-15T17:52:04.791Z",
+      "title": "Mehr Genehmigungen für Wohnungsbau - \"Erholen uns von historischem Tief\"",
+      "url": "https://www.reuters.com/de/welt/baugenehmigungen-fr-wohnungen-steigen-im-august-um-fast-sieben-prozent-2026-10-16/",
+      "pub_date": "2026-10-16T06:40:00.167Z",
       "body": ""
     },
     {
-      "title": "AI rout slows as investors buy the dip on tech",
-      "url": "https://www.reuters.com/business/red-hot-cpi-report-fuels-ai-rout-2026-10-14/",
-      "pub_date": "2026-10-14T18:39:50.784Z",
+      "title": "Warsh, de la Fed, ve fortaleza económica en EEUU, pero no adelanta decisión sobre tasas",
+      "url": "https://www.reuters.com/latam/negocio/LMXMD7X6FZLTROB47CP5DHZKRA-2026-10-16/",
+      "pub_date": "2026-10-16T06:19:58.075Z",
       "body": ""
     },
     {
-      "title": "Hutíes atacan el complejo presidencial en Adén, primer ministro resulta ileso",
-      "url": "https://www.reuters.com/latam/mundo/PEY6IH42XFPXTF43YPYXM5WL24-2026-10-15/",
-      "pub_date": "2026-10-15T17:50:57.592Z",
+      "title": "PetroChina set for record trading profit as war upends market, sources say",
+      "url": "https://www.reuters.com/business/energy/petrochina-set-record-trading-profit-war-upends-market-sources-say-2026-10-16/",
+      "pub_date": "2026-10-16T07:27:14.341Z",
       "body": ""
     },
     {
-      "title": "Target says it does not use customer data to raise prices",
-      "url": "https://www.reuters.com/business/target-says-it-does-not-use-customer-data-raise-prices-2026-10-15/",
-      "pub_date": "2026-10-15T17:50:32.412Z",
+      "title": "El Banco Mundial quiere quintuplicar la financiación para minerales críticos para 2030, dice Banga",
+      "url": "https://www.reuters.com/latam/negocio/HJSNMHHQ5RNUJASC3EGNKYCMUY-2026-10-16/",
+      "pub_date": "2026-10-16T08:18:35.64Z",
       "body": ""
     },
     {
-      "title": "Amazon lança dois dispositivos portáteis de IA",
-      "url": "https://www.reuters.com/pt/tecnologia/4BJHXC3TFZNDPH5AL7BNPOUZQY-2026-10-15/",
-      "pub_date": "2026-10-15T17:48:34.314Z",
+      "title": "Brésil Lula promet la gratuité des transports en commun le week-end",
+      "url": "https://www.reuters.com/fr/affaires/brsil-lula-promet-la-gratuit-des-transports-en-commun-le-week-end-2026-10-16/",
+      "pub_date": "2026-10-16T08:16:45.58Z",
       "body": ""
     },
     {
-      "title": "CoreWeave's AI contracts and the lenders financing its build-out",
-      "url": "https://www.reuters.com/legal/transactional/coreweaves-ai-contracts-lenders-financing-its-build-out-2026-10-15/",
-      "pub_date": "2026-10-15T17:47:37.399Z",
+      "title": "Indonesian stocks sink most since 1998 on MSCI downgrade warning",
+      "url": "https://www.reuters.com/world/asia-pacific/jakarta-stocks-plunge-11-msci-set-drop-indonesia-indexes-2026-10-16/",
+      "pub_date": "2026-10-16T02:40:03.008Z",
       "body": ""
     },
     {
-      "title": "UBS exploring options abroad in case Swiss rules prove intolerable, sources say",
-      "url": "https://www.reuters.com/legal/transactional/ubs-exploring-options-abroad-case-swiss-rules-prove-intolerable-sources-say-2026-10-15/",
-      "pub_date": "2026-10-15T17:02:32.263Z",
+      "title": "Bundestag beschließt Frühstartrente",
+      "url": "https://www.reuters.com/de/hauslich/bundestag-beschliet-frhstartrente-2026-10-16/",
+      "pub_date": "2026-10-16T08:16:15.479Z",
       "body": ""
     },
     {
-      "title": "Hezbollah says it owned confiscated explosives, meant to attack Israel",
-      "url": "https://www.reuters.com/world/middle-east/hezbollah-says-it-owned-confiscated-explosives-meant-attack-israel-2026-10-15/",
-      "pub_date": "2026-10-15T12:37:20.38Z",
+      "title": "Hedge funds' role comes into focus following European bonds turmoil",
+      "url": "https://www.reuters.com/business/europes-bond-market-turmoil-shines-spotlight-hedge-funds-role-key-markets-2026-10-16/",
+      "pub_date": "2026-10-16T05:02:54.332Z",
       "body": ""
     },
     {
-      "title": "ASML's 'sold out' outlook forces investors to look beyond demand",
-      "url": "https://www.reuters.com/business/retail-consumer/asmls-sold-out-outlook-forces-investors-look-beyond-demand-2026-10-15/",
-      "pub_date": "2026-10-15T15:44:04.079Z",
+      "title": "Von der Leyen und Costa versichern Selenskyj auf EU-Gipfel weitere Hilfe",
+      "url": "https://www.reuters.com/de/welt/von-der-leyen-und-costa-versichern-selenskyj-auf-eu-gipfel-weitere-hilfe-2026-10-16/",
+      "pub_date": "2026-10-16T08:15:55.851Z",
       "body": ""
     },
     {
-      "title": "How the Houthis are helping Iran turn Saudi Arabia into a pressure point",
-      "url": "https://www.reuters.com/world/middle-east/how-houthis-are-helping-iran-turn-saudi-arabia-into-pressure-point-2026-10-15/",
-      "pub_date": "2026-10-15T13:24:03.616Z",
+      "title": "China says Israel should stop its 'forced establishment' of West Bank settlements",
+      "url": "https://www.reuters.com/world/china/china-says-israel-should-stop-its-forced-establishment-west-bank-settlements-2026-10-16/",
+      "pub_date": "2026-10-16T00:49:49.928Z",
       "body": ""
     },
     {
-      "title": "International Paper in talks with bidders for EMEA packaging business",
-      "url": "https://www.reuters.com/legal/transactional/private-equity-firms-exploring-deals-international-papers-european-packaging-2026-10-15/",
-      "pub_date": "2026-10-15T13:40:39.686Z",
+      "title": "Power, bullpen steer Brewers to NLCS sweep, first Series bid since '82",
+      "url": "https://www.reuters.com/sports/baseball/brewers-rally-sweep-dodgers-earn-first-world-series-bid-since-82--flm-2026-10-16/",
+      "pub_date": "2026-10-16T03:25:13.073Z",
+      "body": ""
+    },
+    {
+      "title": "South Africa dismisses appeals against exploration in TotalEnergies Block 3B/4B",
+      "url": "https://www.reuters.com/legal/litigation/south-africa-dismisses-appeals-against-exploration-totalenergies-block-3b4b-2026-10-16/",
+      "pub_date": "2026-10-16T08:09:12.124Z",
+      "body": ""
+    },
+    {
+      "title": "Russia takes control of more European corporate assets ahead of Zelenskiy's appearance at EU summit",
+      "url": "https://www.reuters.com/business/retail-consumer/russia-moves-more-european-firms-ahead-zelenskiys-appearance-eu-summit-2026-10-16/",
+      "pub_date": "2026-10-16T05:46:47.172Z",
+      "body": ""
+    },
+    {
+      "title": "MSCI, its classifications and what they mean",
+      "url": "https://www.reuters.com/world/asia-pacific/msci-its-classifications-what-they-mean-2026-10-16/",
+      "pub_date": "2026-10-16T08:00:04.636Z",
+      "body": ""
+    },
+    {
+      "title": "El nuevo Roadster de Tesla se da la vuelta en el aire gracias a propulsores de SpaceX",
+      "url": "https://www.reuters.com/latam/negocio/AUPTDPPGANND7ECVDMO3E6REZI-2026-10-16/",
+      "pub_date": "2026-10-16T07:55:24.881Z",
+      "body": ""
+    },
+    {
+      "title": "Dollar heads for weekly fall as investors gauge AI selloff impact",
+      "url": "https://www.reuters.com/world/asia-pacific/euro-gets-much-needed-reprieve-ai-wobbles-rock-dollar-2026-10-16/",
+      "pub_date": "2026-10-16T01:20:49.904Z",
+      "body": ""
+    },
+    {
+      "title": "India's battered IT stocks head for best week in 18 years on earnings boost",
+      "url": "https://www.reuters.com/world/india/indias-battered-it-stocks-head-best-week-18-years-earnings-boost-2026-10-16/",
+      "pub_date": "2026-10-16T07:56:14.967Z",
+      "body": ""
+    },
+    {
+      "title": "Toyota expects Arene software platform to be in 10 million new vehicles, 50 models by 2030",
+      "url": "https://www.reuters.com/technology/toyota-aims-make-all-its-cars-software-defined-by-2030-nikkei-reports-2026-10-16/",
+      "pub_date": "2026-10-16T07:28:27.666Z",
+      "body": ""
+    },
+    {
+      "title": "El vicepresidente económico de Venezuela dice que Centerview sigue siendo el asesor financiero del país",
+      "url": "https://www.reuters.com/latam/negocio/DZVKVC7VRZKKROFRNR3N4QHXS4-2026-10-16/",
+      "pub_date": "2026-10-16T07:54:52.658Z",
+      "body": ""
+    },
+    {
+      "title": "Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say",
+      "url": "https://www.reuters.com/business/finance/investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-2026-10-15/",
+      "pub_date": "2026-10-15T21:00:26.93Z",
+      "body": ""
+    },
+    {
+      "title": "Indonesia president's approval rating slides further to 44.5%, survey shows",
+      "url": "https://www.reuters.com/world/asia-pacific/indonesia-presidents-approval-rating-slides-further-445-survey-shows-2026-10-16/",
+      "pub_date": "2026-10-16T07:49:49.914Z",
+      "body": ""
+    },
+    {
+      "title": "Vehicles from Geely brands to come with Google built-in services outside China",
+      "url": "https://www.reuters.com/world/china/vehicles-geely-brands-come-with-google-built-in-services-outside-china-2026-10-16/",
+      "pub_date": "2026-10-16T07:40:13.159Z",
+      "body": ""
+    },
+    {
+      "title": "Ukraine hits Russian refinery as Zelenskiy says 'we're done' with Trump's energy truce",
+      "url": "https://www.reuters.com/world/zelenskiy-says-ukraine-will-resume-strikes-russian-refineries-ft-reports-2026-10-15/",
+      "pub_date": "2026-10-15T06:03:18.035Z",
+      "body": ""
+    },
+    {
+      "title": "Schneider relève ses objectifs 2026 après un T3 record porté par les centres de données",
+      "url": "https://www.reuters.com/fr/affaires/schneider-relve-ses-objectifs-2026-aprs-un-t3-record-port-par-les-centres-de-2026-10-16/",
+      "pub_date": "2026-10-16T06:00:24.592Z",
+      "body": ""
+    },
+    {
+      "title": "US holds more secret talks with Myanmar's military-backed rulers in Tokyo, sources say",
+      "url": "https://www.reuters.com/world/asia-pacific/us-holds-more-secret-talks-with-myanmars-military-backed-rulers-tokyo-sources-2026-10-16/",
+      "pub_date": "2026-10-16T04:35:48.533Z",
+      "body": ""
+    },
+    {
+      "title": "Infantino apology fails to sway England, Germany over FIFA future",
+      "url": "https://www.reuters.com/sports/soccer/infantino-apology-fails-sway-england-germany-over-fifa-future-2026-10-15/",
+      "pub_date": "2026-10-15T17:08:56.263Z",
+      "body": ""
+    },
+    {
+      "title": "India's Persistent Systems plans debut rupee debt sale to fund acquisition, bankers say",
+      "url": "https://www.reuters.com/world/india/indias-persistent-systems-plans-debut-rupee-debt-sale-fund-acquisition-bankers-2026-10-16/",
+      "pub_date": "2026-10-16T07:42:41.78Z",
+      "body": ""
+    },
+    {
+      "title": "Ukraine's resumption of strikes on Russian refineries is 'disgrace', Trump says",
+      "url": "https://www.reuters.com/business/energy/ukraines-resumption-strikes-russian-refineries-is-disgrace-trump-says-2026-10-16/",
+      "pub_date": "2026-10-16T04:01:36.936Z",
+      "body": ""
+    },
+    {
+      "title": "Las bolsas europeas suben gracias al impulso de Schneider, a la espera de los datos de inflación",
+      "url": "https://www.reuters.com/latam/negocio/5TNDGG3DXRJZNBGAAAIM5HULIY-2026-10-16/",
+      "pub_date": "2026-10-16T07:42:03.061Z",
+      "body": ""
+    },
+    {
+      "title": "ACG orders 75 Airbus A320neo jets in lessor's biggest purchase yet",
+      "url": "https://www.reuters.com/business/aerospace-defense/acg-orders-75-airbus-a320neo-jets-lessors-biggest-purchase-yet-2026-10-16/",
+      "pub_date": "2026-10-16T07:41:09.17Z",
+      "body": ""
+    },
+    {
+      "title": "Fed-Chef verbreitet Konjunkturoptimismus - Kein Fingerzeig zur Zinspolitik",
+      "url": "https://www.reuters.com/de/welt/fed-chef-verbreitet-konjunkturoptimismus-kein-fingerzeig-zur-zinspolitik-2026-10-16/",
+      "pub_date": "2026-10-16T07:39:33.783Z",
+      "body": ""
+    },
+    {
+      "title": "UniCredit autorisé par la BCE à prendre le contrôle de Commerzbank",
+      "url": "https://www.reuters.com/fr/affaires/unicredit-autoris-par-la-bce-prendre-le-contrle-de-commerzbank-2026-10-16/",
+      "pub_date": "2026-10-16T07:37:12.6Z",
+      "body": ""
+    },
+    {
+      "title": "Europe's carmakers set course for managed decline",
+      "url": "https://www.reuters.com/columns/big-view/europes-carmakers-set-course-managed-decline-2026-10-16/",
+      "pub_date": "2026-10-16T05:00:34.56Z",
+      "body": ""
+    },
+    {
+      "title": "South African rand edges up as focus turns to next week's medium-term budget",
+      "url": "https://www.reuters.com/world/africa/south-african-rand-edges-up-focus-turns-next-weeks-medium-term-budget-2026-10-16/",
+      "pub_date": "2026-10-16T07:19:04.587Z",
+      "body": ""
+    },
+    {
+      "title": "BOJ chief flags inflation overshoot risk, stresses importance of 2% anchor",
+      "url": "https://www.reuters.com/world/asia-pacific/boj-chief-flags-inflation-overshoot-risk-stresses-importance-2-anchor-2026-10-16/",
+      "pub_date": "2026-10-16T07:31:26.963Z",
+      "body": ""
+    },
+    {
+      "title": "UK watchdog moves to protect energy market from wholesale price swings",
+      "url": "https://www.reuters.com/business/energy/uk-watchdog-moves-protect-energy-market-wholesale-price-swings-2026-10-16/",
+      "pub_date": "2026-10-16T06:46:29.07Z",
+      "body": ""
+    },
+    {
+      "title": "Philippines hits back at Chinese envoy over 'thinly veiled threat' of force",
+      "url": "https://www.reuters.com/world/china/philippines-hits-back-chinese-envoy-over-thinly-veiled-threat-force-2026-10-16/",
+      "pub_date": "2026-10-16T03:14:17.402Z",
+      "body": ""
+    },
+    {
+      "title": "Winger Nawaqanitawase to make decision on international future next year",
+      "url": "https://www.reuters.com/sports/kiss-confident-nawaqanitawase-will-return-wallabies-fold-2026-10-16/",
+      "pub_date": "2026-10-16T03:17:40.734Z",
+      "body": ""
+    },
+    {
+      "title": "Air traffic disrupted in Italy due to technical fault",
+      "url": "https://www.reuters.com/business/aerospace-defense/air-traffic-disrupted-italy-due-technical-fault-2026-10-16/",
+      "pub_date": "2026-10-16T07:30:55.807Z",
       "body": ""
     },
     {
@@ -417,465 +603,111 @@
       "body": ""
     },
     {
-      "title": "Desculpas de Infantino não convencem Inglaterra e Alemanha sobre futuro da Fifa",
-      "url": "https://www.reuters.com/pt/desportivo/PKLC5Y3AJFNZZG53FMC7BUK32Q-2026-10-15/",
-      "pub_date": "2026-10-15T17:34:40.878Z",
+      "title": "UBS exploring options abroad in case Swiss rules prove intolerable, sources say",
+      "url": "https://www.reuters.com/legal/transactional/ubs-exploring-options-abroad-case-swiss-rules-prove-intolerable-sources-say-2026-10-15/",
+      "pub_date": "2026-10-15T17:02:32.263Z",
       "body": ""
     },
     {
-      "title": "Eagles QB Jalen Hurts (blood clot) ruled out vs. Panthers",
-      "url": "https://www.reuters.com/sports/eagles-qb-jalen-hurts-blood-clot-ruled-out-vs-panthers--flm-2026-10-15/",
-      "pub_date": "2026-10-15T17:35:25.109Z",
+      "title": "La reprise des frappes ukrainiennes contre les raffineries russes est une \"honte\", dit Trump",
+      "url": "https://www.reuters.com/fr/affaires/la-reprise-des-frappes-ukrainiennes-contre-les-raffineries-russes-est-une-honte-2026-10-16/",
+      "pub_date": "2026-10-16T05:28:41.724Z",
       "body": ""
     },
     {
-      "title": "Law firm Crowell faces disqualification bid in AI lawsuit",
-      "url": "https://www.reuters.com/legal/legalindustry/law-firm-crowell-faces-disqualification-bid-ai-lawsuit-2026-10-15/",
-      "pub_date": "2026-10-15T16:55:41.829Z",
+      "title": "US probes Omar's decades-old immigration paperwork with eye toward deportation, sources say",
+      "url": "https://www.reuters.com/legal/government/us-probes-omars-decades-old-immigration-paperwork-with-eye-toward-deportation-2026-10-16/",
+      "pub_date": "2026-10-16T00:23:02.64Z",
       "body": ""
     },
     {
-      "title": "Acciones europeas tocan máximo de más de dos semanas ya que resultados mejoran el ánimo del mercado",
-      "url": "https://www.reuters.com/latam/negocio/7AVVTRJAT5OMRN323H6BZ7BB44-2026-10-15/",
-      "pub_date": "2026-10-15T17:30:34.564Z",
+      "title": "G7 to launch exercises to guard against AI cyber attacks",
+      "url": "https://www.reuters.com/world/asia-pacific/g7-launch-exercises-guard-against-ai-cyber-attacks-2026-10-16/",
+      "pub_date": "2026-10-16T02:57:35.81Z",
       "body": ""
     },
     {
-      "title": "Ex-Mets manager Carlos Mendoza joins Phillies' coaching staff",
-      "url": "https://www.reuters.com/sports/ex-mets-manager-carlos-mendoza-joins-phillies-coaching-staff--flm-2026-10-15/",
-      "pub_date": "2026-10-15T17:31:01.634Z",
+      "title": "Germany will contribute €50 million to Ukraine, finance minister says",
+      "url": "https://www.reuters.com/world/germany-will-contribute-50-million-ukraine-finance-minister-says-2026-10-16/",
+      "pub_date": "2026-10-16T05:18:09.972Z",
       "body": ""
     },
     {
-      "title": "Safe havens",
-      "url": "https://www.reuters.com/markets/econ-world/safe-havens-2026-10-15/",
-      "pub_date": "2026-10-15T17:31:00Z",
+      "title": "Fed-Chef Warsh lässt zu nächstem Zinsentscheid nichts durchblicken",
+      "url": "https://www.reuters.com/de/welt/fed-chef-warsh-lsst-zu-nchstem-zinsentscheid-nichts-durchblicken-2026-10-16/",
+      "pub_date": "2026-10-16T05:15:21.856Z",
       "body": ""
     },
     {
-      "title": "Dave Hakstol hired at Arizona State, Greg Powers exits amid probe into collapse",
-      "url": "https://www.reuters.com/sports/dave-hakstol-hired-arizona-state-greg-powers-exits-amid-probe-into-collapse--flm-2026-10-15/",
-      "pub_date": "2026-10-15T17:29:57.511Z",
+      "title": "Aixtron meldet auch im dritten Quartal bessere Geschäfte",
+      "url": "https://www.reuters.com/de/firma/aixtron-meldet-auch-im-dritten-quartal-bessere-geschfte-2026-10-16/",
+      "pub_date": "2026-10-16T05:14:14.62Z",
       "body": ""
     },
     {
-      "title": "US producer prices post largest gain in 4-1/2 years; expensive gasoline boosts retail sales",
-      "url": "https://www.reuters.com/business/us-producer-prices-post-largest-increase-4-12-years-september-2026-10-15/",
-      "pub_date": "2026-10-15T13:22:29.753Z",
+      "title": "Estudiantes y Flamengo igualan en ida de semifinales de Libertadores",
+      "url": "https://www.reuters.com/latam/deportivo/BRQ65CWPDZOTZAVQNE2IEDQ6LM-2026-10-16/",
+      "pub_date": "2026-10-16T05:13:33.801Z",
       "body": ""
     },
     {
-      "title": "Hass signs Rafael Camara to F1 seat to replace Esteban Ocon",
-      "url": "https://www.reuters.com/sports/formula1/hass-signs-rafael-camara-f1-seat-replace-esteban-ocon--flm-2026-10-15/",
-      "pub_date": "2026-10-15T17:27:42.777Z",
+      "title": "Drohnen treffen zwei Tanker vor rumänischer Küste - Seeleute vermisst",
+      "url": "https://www.reuters.com/de/welt/drohnen-treffen-zwei-tanker-vor-rumnischer-kste-seeleute-vermisst-2026-10-16/",
+      "pub_date": "2026-10-16T05:12:56.999Z",
       "body": ""
     },
     {
-      "title": "Jon Rahm to forfeit remaining payments in LIV Golf settlement",
-      "url": "https://www.reuters.com/sports/golf/jon-rahm-forfeit-remaining-payments-liv-golf-settlement--flm-2026-10-15/",
-      "pub_date": "2026-10-15T17:26:07.857Z",
+      "title": "UniCredit: EZB winkt Übernahme der Commerzbank durch",
+      "url": "https://www.reuters.com/de/firma/unicredit-ezb-winkt-bernahme-der-commerzbank-durch-2026-10-16/",
+      "pub_date": "2026-10-16T05:09:13.086Z",
       "body": ""
     },
     {
-      "title": "Magazine Luiza faz parceria com Shopee para ampliar vendas de estoque próprio",
-      "url": "https://www.reuters.com/pt/negocio/YXIYWIADL5J2LJJ7NB45CBPVKU-2026-10-15/",
-      "pub_date": "2026-10-15T17:26:50.471Z",
+      "title": "Indian shares recover from muted start; IT leads gains",
+      "url": "https://www.reuters.com/world/india/indian-shares-track-higher-open-lower-treasury-yields-sebi-relief-2026-10-16/",
+      "pub_date": "2026-10-16T02:29:32.419Z",
       "body": ""
     },
     {
-      "title": "Revolution Medicines' Europe efforts signal solo launch ambitions for cancer drug",
-      "url": "https://www.reuters.com/legal/litigation/revolution-medicines-europe-efforts-signal-solo-launch-ambitions-cancer-drug-2026-10-15/",
-      "pub_date": "2026-10-15T17:24:30.118Z",
+      "title": "Nordex steigert Ergebnis und hebt Prognose an",
+      "url": "https://www.reuters.com/de/firma/nordex-steigert-ergebnis-und-hebt-prognose-an-2026-10-16/",
+      "pub_date": "2026-10-16T05:07:23.732Z",
       "body": ""
     },
     {
-      "title": "Ações europeias marcam maior nível em mais de duas semanas com impulso de balanços",
-      "url": "https://www.reuters.com/pt/negocio/2DQXKADAOBP2VCCIANMV2SD2NE-2026-10-15/",
-      "pub_date": "2026-10-15T17:23:54.619Z",
+      "title": "China targets practical action from global governance forum next week",
+      "url": "https://www.reuters.com/world/china/china-targets-practical-action-global-governance-forum-next-week-2026-10-16/",
+      "pub_date": "2026-10-16T05:05:47.777Z",
       "body": ""
     },
     {
-      "title": "Junta Electoral de España inicia procedimiento contra Sánchez",
-      "url": "https://www.reuters.com/latam/mundo/RTY3VL2LJBIR7J5MTX2EI4MDBY-2026-10-15/",
-      "pub_date": "2026-10-15T17:23:50.277Z",
+      "title": "Ringen um KI-Sicherheit - Anthropic öffnet sich für externe Prüfer",
+      "url": "https://www.reuters.com/de/firma/ringen-um-ki-sicherheit-anthropic-ffnet-sich-fr-externe-prfer-2026-10-16/",
+      "pub_date": "2026-10-16T05:04:57.168Z",
       "body": ""
     },
     {
-      "title": "Empresa israelí usó publicidad en línea en una amplia operación de espionaje, dicen investigadores",
-      "url": "https://www.reuters.com/latam/negocio/BSGU3IGMVJMXTM5KD3SG2E6TEI-2026-10-15/",
-      "pub_date": "2026-10-15T17:23:04.921Z",
+      "title": "Berlin und Paris nähern sich Einigung bei Verbrenner- und \"Made in Europe\"-Autos",
+      "url": "https://www.reuters.com/de/welt/berlin-und-paris-nhern-sich-einigung-bei-verbrenner-und-made-europe-autos-2026-10-16/",
+      "pub_date": "2026-10-16T05:03:06.016Z",
       "body": ""
     },
     {
-      "title": "FBI, US Postal Service investigate suspicious mailings to election officials, lawmakers",
-      "url": "https://www.reuters.com/world/us/us-postal-service-outlines-plans-handle-millions-ballots-2026-10-15/",
-      "pub_date": "2026-10-15T15:21:18.853Z",
+      "title": "Rauchen für den Haushalt - Bundestag beschließt satte Anhebung der Tabaksteuer",
+      "url": "https://www.reuters.com/de/hauslich/rauchen-fr-den-haushalt-bundestag-beschliet-satte-anhebung-der-tabaksteuer-2026-10-16/",
+      "pub_date": "2026-10-16T04:59:37.277Z",
       "body": ""
     },
     {
-      "title": "El oro repunta por la debilidad del dólar y la caída de los rendimientos en EEUU",
-      "url": "https://www.reuters.com/latam/negocio/SFIE5LFI6ZKTZOCTBQXPCABVGE-2026-10-15/",
-      "pub_date": "2026-10-15T10:32:29.875Z",
+      "title": "China biotech's ingenuity extends to dealmaking",
+      "url": "https://www.reuters.com/columns/considered-view/china-biotechs-ingenuity-extends-dealmaking-2026-10-16/",
+      "pub_date": "2026-10-16T04:23:24.17Z",
       "body": ""
     },
     {
-      "title": "Maduro e esposa se declaram inocentes de acusações de tortura dos  EUA",
-      "url": "https://www.reuters.com/pt/mundo/HIRC4M3XO5ICHOAEJ3R5QKSNEE-2026-10-15/",
-      "pub_date": "2026-10-15T17:11:20.616Z",
-      "body": ""
-    },
-    {
-      "title": "Alstom to maintain UK's Greater Anglia fleet under 15-year, $1 billion deal",
-      "url": "https://www.reuters.com/business/alstom-maintain-uks-greater-anglia-fleet-under-15-year-1-billion-deal-2026-10-15/",
-      "pub_date": "2026-10-15T17:09:12.586Z",
-      "body": ""
-    },
-    {
-      "title": "GRANOS Soja cae a toca mínimo en siete semanas, cosecha EEUU eclipsa demanda china",
-      "url": "https://www.reuters.com/latam/negocio/XKKZS7GG3NKBTALJ5HCKM5HNHE-2026-10-15/",
-      "pub_date": "2026-10-15T17:05:41.081Z",
-      "body": ""
-    },
-    {
-      "title": "Eni flags shutdown risk at southern Italy refinery due to steelworkers' protest",
-      "url": "https://www.reuters.com/business/energy/eni-flags-shutdown-risk-southern-italy-refinery-due-steelworkers-protest-2026-10-15/",
-      "pub_date": "2026-10-15T17:05:17.534Z",
-      "body": ""
-    },
-    {
-      "title": "AI credit worries send default insurance to record high",
-      "url": "https://www.reuters.com/business/media-telecom/global-markets-cds-ai-urgent-2026-10-15/",
-      "pub_date": "2026-10-15T05:18:36.746Z",
-      "body": ""
-    },
-    {
-      "title": "Israeli firm used online ads to run vast spy operation, researchers say",
-      "url": "https://www.reuters.com/legal/litigation/israeli-firm-used-online-ads-run-vast-spy-operation-researchers-say-2026-10-15/",
-      "pub_date": "2026-10-15T10:04:56.509Z",
-      "body": ""
-    },
-    {
-      "title": "Video de manifestantes en Francia volteando un remolque fue grabado en 2020",
-      "url": "https://www.reuters.com/fact-check/espanol/6ROB3TBF6RKV7DXHOJFUTHKRZE-2026-10-15/",
-      "pub_date": "2026-10-15T16:56:34.512Z",
-      "body": ""
-    },
-    {
-      "title": "Seguradoras provavelmente não vão cobrir perdas de mercados franceses com ataque hacker",
-      "url": "https://www.reuters.com/pt/tecnologia/O7EUQ4WBDBI45BC2XYYN5JXMMY-2026-10-15/",
-      "pub_date": "2026-10-15T16:57:42.244Z",
-      "body": ""
-    },
-    {
-      "title": "How Aramco learned to keep pumping oil under fire",
-      "url": "https://www.reuters.com/business/energy/how-aramco-learned-keep-pumping-oil-under-fire-2026-10-15/",
-      "pub_date": "2026-10-15T15:32:59.81Z",
-      "body": ""
-    },
-    {
-      "title": "El Brent cotiza estable mientras EEUU evalúa suavizar sanciones a \"flota en la sombra\"",
-      "url": "https://www.reuters.com/latam/negocio/LMG24A5AEBM53JFFJO6U5WHZKU-2026-10-15/",
-      "pub_date": "2026-10-15T13:11:46.377Z",
-      "body": ""
-    },
-    {
-      "title": "Afghan UN mission reports arbitrary detentions, ill-treatment by Taliban",
-      "url": "https://www.reuters.com/world/asia-pacific/afghan-un-mission-reports-arbitrary-detentions-ill-treatment-by-taliban-2026-10-15/",
-      "pub_date": "2026-10-15T16:55:59.271Z",
-      "body": ""
-    },
-    {
-      "title": "OFRMO Summary",
-      "url": "https://www.reuters.com/fr/international/ofrmo-summary-2026-01-29/",
-      "pub_date": "2026-01-01T10:21:38.717Z",
-      "body": ""
-    },
-    {
-      "title": "European shares hit more than two-week high as sturdy earnings lift sentiment",
-      "url": "https://www.reuters.com/markets/europe/european-shares-fall-global-tech-rout-hits-risk-appetite-2026-10-15/",
-      "pub_date": "2026-10-15T07:22:10.979Z",
-      "body": ""
-    },
-    {
-      "title": "Casos de vírus do Nilo Ocidental em humanos aumentam na Europa, com 141 mortes em 2026",
-      "url": "https://www.reuters.com/pt/mundo/PJ67ODRRJFLCBCZIJ63GEGMWTU-2026-10-15/",
-      "pub_date": "2026-10-15T16:52:42.948Z",
-      "body": ""
-    },
-    {
-      "title": "Cobre toca mínimo de casi dos semanas por toma de ganancias, se reducen temores sobre oferta",
-      "url": "https://www.reuters.com/latam/negocio/RRSOO7VVABKNPON5SUOATICYOQ-2026-10-15/",
-      "pub_date": "2026-10-15T11:13:15.157Z",
-      "body": ""
-    },
-    {
-      "title": "Erdogan-Berater bringt vorgezogene Wahl in der Türkei ins Spiel",
-      "url": "https://www.reuters.com/de/welt/erdogan-berater-bringt-vorgezogene-wahl-der-trkei-ins-spiel-2026-10-15/",
-      "pub_date": "2026-10-15T15:56:50.465Z",
-      "body": ""
-    },
-    {
-      "title": "Fever F Aliyah Boston recovering from knee surgery",
-      "url": "https://www.reuters.com/sports/fever-f-aliyah-boston-recovering-knee-surgery--flm-2026-10-15/",
-      "pub_date": "2026-10-15T15:57:21.618Z",
-      "body": ""
-    },
-    {
-      "title": "AI boom stumbles over white swan events",
-      "url": "https://www.reuters.com/columns/breaking-view/ai-boom-stumbles-over-white-swan-events-2026-10-15/",
-      "pub_date": "2026-10-15T14:29:42.781Z",
-      "body": ""
-    },
-    {
-      "title": "Bericht: Bundesregierung vor KI-Partnerschaft mit Nvidia",
-      "url": "https://www.reuters.com/de/firma/bericht-bundesregierung-vor-ki-partnerschaft-mit-nvidia-2026-10-15/",
-      "pub_date": "2026-10-15T15:55:24.582Z",
-      "body": ""
-    },
-    {
-      "title": "La AIE acelerará liberación reservas, incluidos más de 20 millones de barriles de diésel",
-      "url": "https://www.reuters.com/latam/negocio/LW46TOWTOROQLISI7ID2JBRBA4-2026-10-15/",
-      "pub_date": "2026-10-15T14:07:30.742Z",
-      "body": ""
-    },
-    {
-      "title": "Arabia Saudita ofrece más crudo a Europa, según los operadores",
-      "url": "https://www.reuters.com/latam/negocio/2UN6TRRXHZIHDGRFKRXLRTOCLM-2026-10-15/",
-      "pub_date": "2026-10-15T13:20:33.745Z",
-      "body": ""
-    },
-    {
-      "title": "Kering's Alexander McQueen creative director Sean McGirr to leave",
-      "url": "https://www.reuters.com/business/retail-consumer/kerings-alexander-mcqueen-creative-director-sean-mcgirr-leave-2026-10-15/",
-      "pub_date": "2026-10-15T15:53:20.351Z",
-      "body": ""
-    },
-    {
-      "title": "Just over half of candidates in key US Senate races say they will accept results, others hedge",
-      "url": "https://www.reuters.com/legal/government/just-over-half-candidates-key-us-senate-races-say-they-will-accept-results-2026-10-15/",
-      "pub_date": "2026-10-15T10:28:29.158Z",
-      "body": ""
-    },
-    {
-      "title": "Fórum Econômico Mundial pode nomear Lagarde já em novembro, dizem fontes",
-      "url": "https://www.reuters.com/pt/negocio/PYVBBAFQNZLPTEPET6MYOV4F3U-2026-10-15/",
-      "pub_date": "2026-10-15T15:50:27.401Z",
-      "body": ""
-    },
-    {
-      "title": "US Treasury pushes global partners to rename AI as 'super intelligence'",
-      "url": "https://www.reuters.com/world/us-treasury-pushes-global-partners-rename-ai-super-intelligence-2026-10-15/",
-      "pub_date": "2026-10-15T12:35:14.588Z",
-      "body": ""
-    },
-    {
-      "title": "US delays small imports rule that raised alarm over prescription drug costs",
-      "url": "https://www.reuters.com/legal/government/us-delays-small-imports-rule-that-raised-alarm-over-prescription-drug-costs-2026-10-15/",
-      "pub_date": "2026-10-15T15:20:28.688Z",
-      "body": ""
-    },
-    {
-      "title": "Tennessee QB George MacIntyre to start vs. No. 6 Alabama",
-      "url": "https://www.reuters.com/sports/tennessee-qb-george-macintyre-start-vs-no-6-alabama--flm-2026-10-15/",
-      "pub_date": "2026-10-15T15:43:34.39Z",
-      "body": ""
-    },
-    {
-      "title": "Four arrested in shooting of 49ers DE Keion White",
-      "url": "https://www.reuters.com/sports/four-arrested-shooting-49ers-de-keion-white--flm-2026-10-15/",
-      "pub_date": "2026-10-15T15:40:27.237Z",
-      "body": ""
-    },
-    {
-      "title": "Economía peruana crece 3,23% interanual en agosto, levemente menor a las expectativas",
-      "url": "https://www.reuters.com/latam/negocio/MQTCQDELHVKTTJPMV3APYNGH4I-2026-10-15/",
-      "pub_date": "2026-10-15T15:16:15.049Z",
-      "body": ""
-    },
-    {
-      "title": "España incluye el Bernabéu y el Camp Nou en su candidatura para el mundial de rugby de 2035",
-      "url": "https://www.reuters.com/latam/deportivo/VRTFZID3TJLDTGGCV4CH7LE5HE-2026-10-15/",
-      "pub_date": "2026-10-15T15:38:13.678Z",
-      "body": ""
-    },
-    {
-      "title": "Houthis attack presidential palace complex in Yemen's Aden, PM unharmed, officials say",
-      "url": "https://www.reuters.com/world/middle-east/houthis-fire-missiles-presidential-palace-yemens-aden-officials-say-2026-10-15/",
-      "pub_date": "2026-10-15T14:43:55.325Z",
-      "body": ""
-    },
-    {
-      "title": "Spain includes Bernabeu, Camp Nou among venues in 2035 Rugby World Cup bid",
-      "url": "https://www.reuters.com/sports/spain-includes-bernabeu-camp-nou-among-venues-2035-world-cup-bid-2026-10-15/",
-      "pub_date": "2026-10-15T14:30:20.396Z",
-      "body": ""
-    },
-    {
-      "title": "Agência Internacional de Energia acelerará liberação de estoques de petróleo, incluindo mais de 20 milhões de barris de diesel",
-      "url": "https://www.reuters.com/pt/negocio/RE4KORQFPNPWPEHFSE7NWXHYME-2026-10-15/",
-      "pub_date": "2026-10-15T15:36:04.386Z",
-      "body": ""
-    },
-    {
-      "title": "Gold Fields CEO plays down prospect of raising its offer for Northern Star",
-      "url": "https://www.reuters.com/world/africa/gold-fields-ceo-plays-down-prospect-higher-northern-star-offer-2026-10-15/",
-      "pub_date": "2026-10-15T06:56:51.263Z",
-      "body": ""
-    },
-    {
-      "title": "Germany gas storage low but no supply risk, regulator says",
-      "url": "https://www.reuters.com/business/energy/germany-gas-storage-low-no-supply-risk-regulator-says-2026-10-15/",
-      "pub_date": "2026-10-15T15:29:19.344Z",
-      "body": ""
-    },
-    {
-      "title": "Kimberly-Clark posts preliminary results above estimates, China clears formamide claims",
-      "url": "https://www.reuters.com/legal/transactional/kimberly-clark-posts-preliminary-quarterly-results-above-estimates-2026-10-15/",
-      "pub_date": "2026-10-15T12:05:00.949Z",
-      "body": ""
-    },
-    {
-      "title": "Vale vê metais básicos superando 40% do Ebitda nos próximos anos com avanço do cobre, diz CEO",
-      "url": "https://www.reuters.com/pt/negocio/6TL54CNMPZJ6POBBDDTG3QBJNQ-2026-10-15/",
-      "pub_date": "2026-10-15T15:27:35.885Z",
-      "body": ""
-    },
-    {
-      "title": "USA/MIDTERMS Des enquêtes sur l'empire Trump se profilent au Congrès",
-      "url": "https://www.reuters.com/fr/affaires/usamidterms-des-enqutes-sur-lempire-trump-se-profilent-au-congrs-2026-10-15/",
-      "pub_date": "2026-10-15T15:23:56.165Z",
-      "body": ""
-    },
-    {
-      "title": "Liberty Mutual adquire a Austral Seguradora, empresa brasileira de seguros de garantia",
-      "url": "https://www.reuters.com/pt/negocio/HLTOEZMXJVMFFHVG3IBTWVMLB4-2026-10-15/",
-      "pub_date": "2026-10-15T15:22:34.346Z",
-      "body": ""
-    },
-    {
-      "title": "UK comedian Russell Brand's accuser tells jurors: 'I know he raped me'",
-      "url": "https://www.reuters.com/world/europe/uk-comedian-russell-brands-accuser-told-police-she-blamed-herself-alleged-rape-2026-10-15/",
-      "pub_date": "2026-10-15T10:43:05.965Z",
-      "body": ""
-    },
-    {
-      "title": "Setback for TikTok as EU court adviser backs gatekeeper label",
-      "url": "https://www.reuters.com/world/china/eu-court-adviser-sides-with-eu-regulators-against-tiktok-fight-over-tech-label-2026-10-15/",
-      "pub_date": "2026-10-15T08:30:46.42Z",
-      "body": ""
-    },
-    {
-      "title": "Southwest revamps loyalty program with new premium tiers",
-      "url": "https://www.reuters.com/business/southwest-revamps-loyalty-program-with-new-premium-tiers-2026-10-15/",
-      "pub_date": "2026-10-15T15:21:46.571Z",
-      "body": ""
-    },
-    {
-      "title": "French supermarkets' cyber insurance unlikely to cover food losses, insurers say",
-      "url": "https://www.reuters.com/legal/litigation/french-supermarkets-cyber-insurance-unlikely-cover-food-losses-insurers-say-2026-10-15/",
-      "pub_date": "2026-10-15T13:17:15.271Z",
-      "body": ""
-    },
-    {
-      "title": "Thames Water seeks £2.4 billion more emergency funding",
-      "url": "https://www.reuters.com/world/uk/thames-water-seeks-24-billion-more-emergency-funding-2026-10-15/",
-      "pub_date": "2026-10-15T15:18:10.059Z",
-      "body": ""
-    },
-    {
-      "title": "Papa Leão se recupera conforme o previsto após cirurgia de câncer no pulmão, dizem médicos",
-      "url": "https://www.reuters.com/pt/mundo/MMPZHGVP3RI4NFWJE45MAZQWVE-2026-10-15/",
-      "pub_date": "2026-10-15T11:19:20.106Z",
-      "body": ""
-    },
-    {
-      "title": "BoE warns banks to prepare for AI-enabled cyber breaches",
-      "url": "https://www.reuters.com/legal/litigation/banks-need-bare-metal-recovery-face-ai-risks-says-boes-breeden-2026-10-15/",
-      "pub_date": "2026-10-15T09:54:37.694Z",
-      "body": ""
-    },
-    {
-      "title": "SONDEO Sector energético ayuda a impulsar balanza comercial argentina de septiembre",
-      "url": "https://www.reuters.com/latam/negocio/CJFL2LICYFPB3GN4JD77G6PFUM-2026-10-15/",
-      "pub_date": "2026-10-15T15:16:05.345Z",
-      "body": ""
-    },
-    {
-      "title": "SPD-Minister bieten Merz Kompromiss bei Verbrenner-Aus an – Rote Linie bei 90 Prozent",
-      "url": "https://www.reuters.com/de/hauslich/spd-minister-bieten-merz-kompromiss-bei-verbrenner-aus-an-rote-linie-bei-90-2026-10-15/",
-      "pub_date": "2026-10-15T15:15:41.002Z",
-      "body": ""
-    },
-    {
-      "title": "Preso pela PF, deputado eleito no RJ é suspeito de articular esquema criminoso que movimentou R$7,6 bi",
-      "url": "https://www.reuters.com/pt/domestico/G4NYM5WOUNPC3GGW4WNKVFTJU4-2026-10-15/",
-      "pub_date": "2026-10-15T12:14:29.012Z",
-      "body": ""
-    },
-    {
-      "title": "Sheinbaum ve positiva compra de AT&T por Televisa, dice ayudará a competencia",
-      "url": "https://www.reuters.com/latam/negocio/AOUYRQDW3FNZDPLL2GJN3KPY4U-2026-10-15/",
-      "pub_date": "2026-10-15T14:45:05.654Z",
-      "body": ""
-    },
-    {
-      "title": "Dólar cae desde pico de 18 meses pese a sólido dato de inflación EEUU",
-      "url": "https://www.reuters.com/latam/negocio/M7LMFAGFORL7VB3JRH7SBXFH6A-2026-10-15/",
-      "pub_date": "2026-10-15T12:11:18.252Z",
-      "body": ""
-    },
-    {
-      "title": "L'exécution de l'auteur de la fusillade de Fort Hood ne sera pas diffusée en direct, dit Trump",
-      "url": "https://www.reuters.com/fr/affaires/lexcution-de-lauteur-de-la-fusillade-de-fort-hood-ne-sera-pas-diffuse-en-direct-2026-10-15/",
-      "pub_date": "2026-10-15T15:00:28.15Z",
-      "body": ""
-    },
-    {
-      "title": "Italian holding company Delfin explores funding for potential internal stake buyout, sources say",
-      "url": "https://www.reuters.com/legal/transactional/italian-holding-company-delfin-explores-funding-potential-internal-stake-buyout-2026-10-15/",
-      "pub_date": "2026-10-15T15:10:51.494Z",
-      "body": ""
-    },
-    {
-      "title": "Activist Irenic builds stake in UK's Big Yellow and pushes for sale, FT reports",
-      "url": "https://www.reuters.com/business/activist-irenic-builds-stake-uks-big-yellow-pushes-sale-ft-reports-2026-10-15/",
-      "pub_date": "2026-10-15T15:09:43.252Z",
-      "body": ""
-    },
-    {
-      "title": "SEB pays $33 million to New York regulator over Baltic money laundering review",
-      "url": "https://www.reuters.com/legal/government/seb-pays-33-million-new-york-regulator-over-baltic-money-laundering-review-2026-10-15/",
-      "pub_date": "2026-10-15T14:31:23.42Z",
-      "body": ""
-    },
-    {
-      "title": "Desabamento do teto de escola no Paquistão mata ao menos 34 crianças e uma professora",
-      "url": "https://www.reuters.com/pt/mundo/YCJYMMHHCNK2HM74S75KEPIOKY-2026-10-15/",
-      "pub_date": "2026-10-15T11:03:07.748Z",
-      "body": ""
-    },
-    {
-      "title": "Fairfax plans to fold other Indian financial holdings into IDBI Bank",
-      "url": "https://www.reuters.com/world/india/fairfax-plans-fold-indian-financial-holdings-into-idbi-bank-2026-10-15/",
-      "pub_date": "2026-10-15T08:01:49.066Z",
-      "body": ""
-    },
-    {
-      "title": "Francia ve riesgo de violencia en las manifestaciones del fin de semana: primer ministro",
-      "url": "https://www.reuters.com/latam/mundo/KMERLWX3D5N4JAE6GOXIT5UYSY-2026-10-15/",
-      "pub_date": "2026-10-15T15:04:39.845Z",
-      "body": ""
-    },
-    {
-      "title": "Prince Harry and wife Meghan make first joint appearance since UK return",
-      "url": "https://www.reuters.com/world/uk/prince-harry-wife-meghan-make-first-joint-appearance-since-uk-return-2026-10-15/",
-      "pub_date": "2026-10-15T10:37:09.969Z",
-      "body": ""
-    },
-    {
-      "title": "ATP prevê remuneração de US$350 milhões para tenistas e aumento nos benefícios",
-      "url": "https://www.reuters.com/pt/desportivo/UBAF36CAUJMD7BJQP3BTGHDOCI-2026-10-15/",
-      "pub_date": "2026-10-15T15:04:15.411Z",
+      "title": "Morning Bid: Calm after CoreWeave shock, but for how long?",
+      "url": "https://www.reuters.com/world/china/global-markets-view-europe-2026-10-16/",
+      "pub_date": "2026-10-16T04:31:16.733Z",
       "body": ""
     },
     {
@@ -885,27 +717,189 @@
       "body": ""
     },
     {
-      "title": "US holiday sales growth to speed up as shoppers stay resilient, NRF forecasts",
-      "url": "https://www.reuters.com/business/retail-consumer/us-holiday-sales-growth-speed-up-shoppers-stay-resilient-nrf-forecasts-2026-10-15/",
-      "pub_date": "2026-10-15T14:59:04.597Z",
+      "title": "India's Tech Mahindra jumps over 6% on strong deal wins",
+      "url": "https://www.reuters.com/world/india/indias-tech-mahindra-jumps-over-6-strong-deal-wins-2026-10-16/",
+      "pub_date": "2026-10-16T04:48:21.616Z",
       "body": ""
     },
     {
-      "title": "Existencias de las empresas EEUU aumentan moderadamente en agosto",
-      "url": "https://www.reuters.com/latam/negocio/NV6I4SR6KZKWTKXZE7NFFKV46Y-2026-10-15/",
-      "pub_date": "2026-10-15T15:01:05.425Z",
+      "title": "India's Jio Financial Services falls after quarterly profit halves",
+      "url": "https://www.reuters.com/world/india/indias-jio-financial-services-falls-after-quarterly-profit-halves-2026-10-16/",
+      "pub_date": "2026-10-16T04:31:27.605Z",
       "body": ""
     },
     {
-      "title": "French federation posts profit, boosts funding for amateur, women's game",
-      "url": "https://www.reuters.com/sports/soccer/french-federation-posts-profit-boosts-funding-amateur-womens-game-2026-10-15/",
-      "pub_date": "2026-10-15T15:01:29.661Z",
+      "title": "India's Wipro gains after quarterly revenue beat offsets concerns over weak deal wins",
+      "url": "https://www.reuters.com/world/india/indias-wipro-gains-after-quarterly-revenue-beat-offsets-concerns-over-weak-deal-2026-10-16/",
+      "pub_date": "2026-10-16T04:25:52.381Z",
       "body": ""
     },
     {
-      "title": "Revolution Medicines wins EU committee backing for pancreatic cancer treatment",
-      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/ema-recommends-approval-revolutions-pancreatic-cancer-drug-2026-10-15/",
-      "pub_date": "2026-10-15T13:49:17.806Z",
+      "title": "MSCI freezes certain Turkey index changes, warns of potential market downgrade",
+      "url": "https://www.reuters.com/markets/europe/msci-freezes-certain-turkey-index-changes-warns-potential-market-downgrade-2026-10-16/",
+      "pub_date": "2026-10-16T01:53:40.048Z",
+      "body": ""
+    },
+    {
+      "title": "Order to limit Starshield for Ukraine came from inside White House, sources say",
+      "url": "https://www.reuters.com/world/europe/order-limit-starshield-ukraine-came-inside-white-house-sources-say-2026-10-15/",
+      "pub_date": "2026-10-15T23:07:47.093Z",
+      "body": ""
+    },
+    {
+      "title": "Investors see outflow and FX risks as MSCI moves to downgrade Indonesia",
+      "url": "https://www.reuters.com/world/asia-pacific/investors-see-outflow-fx-risks-msci-moves-downgrade-indonesia-2026-10-16/",
+      "pub_date": "2026-10-16T02:17:16.789Z",
+      "body": ""
+    },
+    {
+      "title": "WEF could appoint Lagarde as early as November, sources say",
+      "url": "https://www.reuters.com/business/finance/wef-could-appoint-lagarde-early-november-sources-say-2026-10-15/",
+      "pub_date": "2026-10-15T13:05:37.858Z",
+      "body": ""
+    },
+    {
+      "title": "South Korea reviews expanding military mission in Middle East, report says",
+      "url": "https://www.reuters.com/world/asia-pacific/south-korea-reviews-expanding-military-mission-middle-east-report-says-2026-10-16/",
+      "pub_date": "2026-10-16T03:59:13.155Z",
+      "body": ""
+    },
+    {
+      "title": "Rugby league-New Zealand fullback Ponga suffers broken arm in World Cup opener",
+      "url": "https://www.reuters.com/sports/rugby-league-new-zealand-fullback-ponga-suffers-broken-arm-world-cup-opener-2026-10-16/",
+      "pub_date": "2026-10-16T04:12:42.238Z",
+      "body": ""
+    },
+    {
+      "title": "US Treasury says Japan no longer faces deflationary environment, yen level must change",
+      "url": "https://www.reuters.com/world/asia-pacific/us-treasury-says-japan-no-longer-faces-deflationary-environment-yen-level-must-2026-10-16/",
+      "pub_date": "2026-10-16T04:11:42.746Z",
+      "body": ""
+    },
+    {
+      "title": "Broncos' OT interception sets up winning field goal, sinks Seahawks",
+      "url": "https://www.reuters.com/sports/nfl/broncos-ot-interception-sets-up-winning-field-goal-sinks-seahawks--flm-2026-10-16/",
+      "pub_date": "2026-10-16T03:52:37.417Z",
+      "body": ""
+    },
+    {
+      "title": "Malaysia's economy grows 5.3% on year in Q3, official advance estimate shows",
+      "url": "https://www.reuters.com/world/asia-pacific/malaysias-economy-grows-53-year-q3-official-advance-estimate-shows-2026-10-16/",
+      "pub_date": "2026-10-16T04:07:03.262Z",
+      "body": ""
+    },
+    {
+      "title": "IMF urges Latin America to cut debt, lift productivity while tailwinds last",
+      "url": "https://www.reuters.com/markets/us/imf-urges-latin-america-cut-debt-lift-productivity-while-tailwinds-last-2026-10-16/",
+      "pub_date": "2026-10-16T04:04:22.103Z",
+      "body": ""
+    },
+    {
+      "title": "Earthquake of magnitude 7 strikes Russia's Kamchatka Peninsula, EMSC says",
+      "url": "https://www.reuters.com/business/environment/earthquake-magnitude-7-strikes-russias-kamchatka-peninsula-emsc-says-2026-10-16/",
+      "pub_date": "2026-10-16T03:50:34.483Z",
+      "body": ""
+    },
+    {
+      "title": "China's yuan poised to strengthen for a third week in a row on strong exports",
+      "url": "https://www.reuters.com/world/asia-pacific/chinas-yuan-poised-strengthen-third-week-row-strong-exports-2026-10-16/",
+      "pub_date": "2026-10-16T03:43:09.147Z",
+      "body": ""
+    },
+    {
+      "title": "Indonesia suffers a series of market sentiment setbacks in 2026",
+      "url": "https://www.reuters.com/world/asia-pacific/indonesia-suffers-series-market-sentiment-setbacks-2026-2026-10-16/",
+      "pub_date": "2026-03-04T10:20:26.246Z",
+      "body": ""
+    },
+    {
+      "title": "Israeli firm used online ads to run vast spy operation, researchers say",
+      "url": "https://www.reuters.com/legal/litigation/israeli-firm-used-online-ads-run-vast-spy-operation-researchers-say-2026-10-15/",
+      "pub_date": "2026-10-15T10:04:56.509Z",
+      "body": ""
+    },
+    {
+      "title": "Global fuel oil market stays tight as conflicts hit Mideast, Russia supplies, Vitol says",
+      "url": "https://www.reuters.com/business/energy/global-fuel-oil-market-stays-tight-conflicts-hit-mideast-russia-supplies-vitol-2026-10-16/",
+      "pub_date": "2026-10-16T03:22:39.443Z",
+      "body": ""
+    },
+    {
+      "title": "Japan core inflation likely exceeded BOJ target for first time since December",
+      "url": "https://www.reuters.com/world/asia-pacific/japan-core-inflation-likely-exceeded-boj-target-first-time-since-december-2026-10-16/",
+      "pub_date": "2026-10-16T03:13:28.15Z",
+      "body": ""
+    },
+    {
+      "title": "World Bank's Banga sets goal of quintupling critical minerals financing in five years",
+      "url": "https://www.reuters.com/business/finance/world-banks-banga-sets-goal-quintupling-critical-minerals-financing-five-years-2026-10-16/",
+      "pub_date": "2026-10-16T02:56:46.548Z",
+      "body": ""
+    },
+    {
+      "title": "Victor Hedman's OT winner gives Lightning 4th straight home win",
+      "url": "https://www.reuters.com/sports/nhl/hedmans-overtime-winner-gives-lightning-4th-straight-home-win--flm-2026-10-16/",
+      "pub_date": "2026-10-16T02:18:52.692Z",
+      "body": ""
+    },
+    {
+      "title": "Brady Tkachuk caps 2nd straight hat trick in OT as Panthers top Canucks",
+      "url": "https://www.reuters.com/sports/nhl/brady-tkachuk-caps-2nd-straight-hat-trick-ot-panthers-top-canucks--flm-2026-10-16/",
+      "pub_date": "2026-10-16T02:21:39.736Z",
+      "body": ""
+    },
+    {
+      "title": "India's Reliance, Airtel rally as Jio Platforms IPO recasts valuations",
+      "url": "https://www.reuters.com/world/india/indias-reliance-industries-jumps-after-unit-jio-platforms-sets-price-band-ipo-2026-10-15/",
+      "pub_date": "2026-10-15T05:48:47.377Z",
+      "body": ""
+    },
+    {
+      "title": "Shane Pinto lifts Senators past Islanders in shootout",
+      "url": "https://www.reuters.com/sports/nhl/shane-pinto-lifts-senators-past-islanders-shootout--flm-2026-10-16/",
+      "pub_date": "2026-10-16T02:10:11.031Z",
+      "body": ""
+    },
+    {
+      "title": "Lula declara ser favorável à redução da maioridade penal em crimes hediondos para 16 anos",
+      "url": "https://www.reuters.com/pt/domestico/VWG2OV6GIJLV5DNISDSQEEIRBI-2026-10-16/",
+      "pub_date": "2026-10-16T00:43:18.055Z",
+      "body": ""
+    },
+    {
+      "title": "Brazil candidates focus fiscal plans on voter-friendly measures before runoff",
+      "url": "https://www.reuters.com/world/americas/brazil-candidates-focus-fiscal-plans-voter-friendly-measures-before-runoff-2026-10-15/",
+      "pub_date": "2026-10-15T19:46:46.39Z",
+      "body": ""
+    },
+    {
+      "title": "Lula defends cutting Brazil's criminal responsibility age to 16 for heinous crimes",
+      "url": "https://www.reuters.com/world/americas/lula-defends-cutting-brazils-criminal-responsibility-age-16-heinous-crimes-2026-10-16/",
+      "pub_date": "2026-10-16T01:37:11.81Z",
+      "body": ""
+    },
+    {
+      "title": "This Chinese export boom really has legs – and wings",
+      "url": "https://www.reuters.com/business/retail-consumer/this-chinese-export-boom-really-has-legs-wings-2026-10-15/",
+      "pub_date": "2026-10-15T05:02:55.645Z",
+      "body": ""
+    },
+    {
+      "title": "India markets regulator partly reverses derivative settlement rules after pushback",
+      "url": "https://www.reuters.com/world/india/india-markets-regulator-partly-reverses-derivative-settlement-rules-after-2026-10-15/",
+      "pub_date": "2026-10-15T17:24:03.395Z",
+      "body": ""
+    },
+    {
+      "title": "This Chinese export boom really has legs – and wings",
+      "url": "https://www.reuters.com/world/china/this-chinese-export-boom-really-has-legs-wings-2026-10-15/",
+      "pub_date": "2026-10-15T05:00:00Z",
+      "body": ""
+    },
+    {
+      "title": "Australia names offshore site for Inpex-led Bonaparte carbon storage project",
+      "url": "https://www.reuters.com/business/energy/australia-names-offshore-site-inpex-led-bonaparte-carbon-storage-project-2026-10-16/",
+      "pub_date": "2026-10-16T01:25:41.226Z",
       "body": ""
     }
   ]
