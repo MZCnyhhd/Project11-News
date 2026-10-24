@@ -1,0 +1,912 @@
+{
+  "date": "2026-10-25",
+  "source": "Reuters (sitemap)",
+  "blocked": false,
+  "index_status": 200,
+  "article_urls_found": 150,
+  "bodies_fetched": false,
+  "article_status_counts": {},
+  "note": "正文页被 DataDome 拦截(401)；标题/日期/链接来自官方 news sitemap。",
+  "articles": [
+    {
+      "title": "Spurs celebrate ending Chelsea hoodoo with 2-0 win",
+      "url": "https://www.reuters.com/sports/soccer/spurs-celebrate-ending-chelsea-hoodoo-with-2-0-win-2026-10-24/",
+      "pub_date": "2026-10-24T19:56:55.256Z",
+      "body": ""
+    },
+    {
+      "title": "Hamilton es el más rápido y completa barrida  de Ferrari en entrenamientos del Gran Premio de EEUU",
+      "url": "https://www.reuters.com/latam/deportivo/V3EBEDHBFJO63PH37X6GF2JVBU-2026-10-24/",
+      "pub_date": "2026-10-24T19:54:18.964Z",
+      "body": ""
+    },
+    {
+      "title": "A’ja Wilson, Breanna Stewart headline All-WNBA teams",
+      "url": "https://www.reuters.com/sports/aja-wilson-breanna-stewart-headline-all-wnba-teams--flm-2026-10-24/",
+      "pub_date": "2026-10-24T19:47:45.126Z",
+      "body": ""
+    },
+    {
+      "title": "Hombres armados matan al menos a 40 personas en el noreste de Nigeria: Amnistía Internacional",
+      "url": "https://www.reuters.com/latam/mundo/FEIML37YQVPSLPC55YF5P5AO2Y-2026-10-24/",
+      "pub_date": "2026-10-24T19:46:58.827Z",
+      "body": ""
+    },
+    {
+      "title": "With his first smartphone, Lula seeks to catch up to Brazil's online generation",
+      "url": "https://www.reuters.com/world/americas/with-his-first-smartphone-lula-seeks-catch-up-brazils-online-generation-2026-10-24/",
+      "pub_date": "2026-10-24T10:14:26.25Z",
+      "body": ""
+    },
+    {
+      "title": "Houthis say they targeted Saudi oil sites; attacks reported in Aden",
+      "url": "https://www.reuters.com/world/middle-east/saudi-civil-defense-says-danger-passed-after-brief-alerts-mecca-jeddah-taif-2026-10-24/",
+      "pub_date": "2026-10-24T08:34:48.779Z",
+      "body": ""
+    },
+    {
+      "title": "Ukraine says Starlink back to normal, Musk accuses Kyiv of violations",
+      "url": "https://www.reuters.com/world/europe/ukraine-says-starlink-starshield-operating-400-kph-after-week-throttling-2026-10-24/",
+      "pub_date": "2026-10-24T09:13:44.665Z",
+      "body": ""
+    },
+    {
+      "title": "Report: Yankees running it back with pitching coach Matt Blake",
+      "url": "https://www.reuters.com/sports/report-yankees-running-it-back-with-pitching-coach-matt-blake--flm-2026-10-24/",
+      "pub_date": "2026-10-24T19:20:10.944Z",
+      "body": ""
+    },
+    {
+      "title": "Lakers, Walker Kessler put undefeated start up against Jazz",
+      "url": "https://www.reuters.com/sports/basketball/lakers-walker-kessler-put-undefeated-start-up-against-jazz--flm-2026-10-24/",
+      "pub_date": "2026-10-24T19:09:14.147Z",
+      "body": ""
+    },
+    {
+      "title": "Nigeria's Tinubu launches re-election campaign as economic pain tests support",
+      "url": "https://www.reuters.com/world/africa/nigerias-tinubu-launches-re-election-campaign-economic-pain-tests-support-2026-10-24/",
+      "pub_date": "2026-10-24T17:34:54.996Z",
+      "body": ""
+    },
+    {
+      "title": "Gunmen kill at least 40 people in northeastern Nigeria, Amnesty International says",
+      "url": "https://www.reuters.com/world/africa/gunmen-kill-least-40-people-northeastern-nigeria-amnesty-international-says-2026-10-24/",
+      "pub_date": "2026-10-24T19:03:51.253Z",
+      "body": ""
+    },
+    {
+      "title": "Cooper Flagg (shoulder) out vs. Spurs, to be reevaluated next week",
+      "url": "https://www.reuters.com/sports/cooper-flagg-shoulder-out-vs-spurs-be-reevaluated-next-week--flm-2026-10-24/",
+      "pub_date": "2026-10-24T19:00:44.844Z",
+      "body": ""
+    },
+    {
+      "title": "Hamilton fastest to complete Ferrari's US Grand Prix practice sweep",
+      "url": "https://www.reuters.com/sports/formula1/hamilton-fastest-complete-ferraris-us-grand-prix-practice-sweep-2026-10-24/",
+      "pub_date": "2026-10-24T18:56:54.308Z",
+      "body": ""
+    },
+    {
+      "title": "Arsenal join Man City at summit after Villa end leaders' perfect start",
+      "url": "https://www.reuters.com/sports/soccer/jackson-double-ends-man-citys-perfect-run-villa-win-2-1-2026-10-24/",
+      "pub_date": "2026-10-24T13:39:19.493Z",
+      "body": ""
+    },
+    {
+      "title": "Amgen drug combined with immunotherapy extends survival in lung cancer trial",
+      "url": "https://www.reuters.com/legal/litigation/amgen-drug-combined-with-immunotherapy-extends-survival-lung-cancer-trial-2026-10-24/",
+      "pub_date": "2026-10-24T14:33:17.058Z",
+      "body": ""
+    },
+    {
+      "title": "Beier sends Dortmund top as Leipzig rout Elversberg",
+      "url": "https://www.reuters.com/sports/soccer/rb-leipzig-thump-elversberg-bundesliga-philippe-sinks-hamburg-2026-10-24/",
+      "pub_date": "2026-10-24T15:57:45.358Z",
+      "body": ""
+    },
+    {
+      "title": "Roma rally to draw 3-3 at Napoli as Como keep on winning",
+      "url": "https://www.reuters.com/sports/soccer/roma-rally-draw-3-3-napoli-como-keep-winning-2026-10-24/",
+      "pub_date": "2026-10-24T18:38:11.15Z",
+      "body": ""
+    },
+    {
+      "title": "Burnley dismiss coach Hayen after 14 games",
+      "url": "https://www.reuters.com/sports/soccer/burnley-dismiss-coach-hayen-after-14-games-2026-10-24/",
+      "pub_date": "2026-10-24T18:39:22.049Z",
+      "body": ""
+    },
+    {
+      "title": "Violence flares in Paris after largely peaceful protests across France",
+      "url": "https://www.reuters.com/world/europe/france-mounts-huge-security-operation-protesters-prepare-march-2026-10-24/",
+      "pub_date": "2026-10-24T09:36:51.823Z",
+      "body": ""
+    },
+    {
+      "title": "Blackhawks, Panthers look to correct mistakes ahead of Sunday matinee",
+      "url": "https://www.reuters.com/sports/nhl/blackhawks-panthers-look-correct-mistakes-ahead-sunday-matinee--flm-2026-10-24/",
+      "pub_date": "2026-10-24T18:30:32.164Z",
+      "body": ""
+    },
+    {
+      "title": "Trump administration demands county election officials identify noncitizen voters in California, report says",
+      "url": "https://www.reuters.com/legal/government/trump-administration-demands-county-election-officials-identify-noncitizen-2026-10-24/",
+      "pub_date": "2026-10-24T18:24:34.415Z",
+      "body": ""
+    },
+    {
+      "title": "Protests sweep Italian cities amid heavy security presence, some violence reported",
+      "url": "https://www.reuters.com/world/protests-sweep-italian-cities-amid-heavy-security-presence-some-violence-2026-10-24/",
+      "pub_date": "2026-10-24T18:22:59.528Z",
+      "body": ""
+    },
+    {
+      "title": "Merz hace un llamamiento a la unidad, advierte de las amenazas a las que se enfrenta Alemania",
+      "url": "https://www.reuters.com/latam/mundo/SAD24YWMANK2XNQ3YPNIV2T7JM-2026-10-24/",
+      "pub_date": "2026-10-24T18:21:14.878Z",
+      "body": ""
+    },
+    {
+      "title": "Fear factory",
+      "url": "https://www.reuters.com/lifestyle/fear-factory-2026-10-23/",
+      "pub_date": "2026-10-23T14:42:27.583Z",
+      "body": ""
+    },
+    {
+      "title": "Hutíes afirman haber atacado instalaciones petroleras saudíes, se registran ataques en Yemen",
+      "url": "https://www.reuters.com/latam/mundo/W5VSACACJ5OTNHHWDGL7BRJPN4-2026-10-24/",
+      "pub_date": "2026-10-24T17:49:14.681Z",
+      "body": ""
+    },
+    {
+      "title": "Manifestaciones se tornan violentas en París tras marchas pacíficas en resto de Francia",
+      "url": "https://www.reuters.com/latam/mundo/65IVVRBZRVN53L3IFMN6DVJWQQ-2026-10-24/",
+      "pub_date": "2026-10-24T13:36:31.063Z",
+      "body": ""
+    },
+    {
+      "title": "76ers' LeBron James (back management) out vs. visiting Bucks",
+      "url": "https://www.reuters.com/sports/76ers-lebron-james-back-management-out-vs-visiting-bucks--flm-2026-10-24/",
+      "pub_date": "2026-10-24T18:08:46.161Z",
+      "body": ""
+    },
+    {
+      "title": "Flavio Bolsonaro, Lula about even ahead of Brazil election runoff, CNT/MDA poll shows",
+      "url": "https://www.reuters.com/world/americas/flavio-bolsonaro-lula-about-even-ahead-brazil-election-runoff-cntmda-poll-shows-2026-10-24/",
+      "pub_date": "2026-10-24T14:18:02.492Z",
+      "body": ""
+    },
+    {
+      "title": "Violência aumenta em Paris após protestos majoritariamente pacíficos em toda a França",
+      "url": "https://www.reuters.com/pt/mundo/S2BDEJO6Z5IHPHVBRTDCGI6KWY-2026-10-24/",
+      "pub_date": "2026-10-24T17:59:51.095Z",
+      "body": ""
+    },
+    {
+      "title": "Policía albanesa lanza gases lacrimógenos mientras protestas contra el Gobierno se vuelven violentas",
+      "url": "https://www.reuters.com/latam/mundo/IGZTWTQWCJPQHEJDVMCDV2CQG4-2026-10-24/",
+      "pub_date": "2026-10-24T17:57:05.682Z",
+      "body": ""
+    },
+    {
+      "title": "Reports: Michigan State QB Milivojevic out vs. No. 9 UCLA",
+      "url": "https://www.reuters.com/sports/reports-michigan-state-qb-milivojevic-out-vs-no-9-ucla--flm-2026-10-24/",
+      "pub_date": "2026-10-24T17:54:28.279Z",
+      "body": ""
+    },
+    {
+      "title": "Magic star Paolo Banchero sustains low-grade high-ankle sprain",
+      "url": "https://www.reuters.com/sports/magic-star-paolo-banchero-sustains-low-grade-high-ankle-sprain--flm-2026-10-24/",
+      "pub_date": "2026-10-24T17:53:21.89Z",
+      "body": ""
+    },
+    {
+      "title": "Irán ha intensificado esfuerzos para atacar a personal EEUU, advierte reporte de servicios inteligencia",
+      "url": "https://www.reuters.com/latam/mundo/JAH2VLYFBZPFRGHI724NHTBPCM-2026-10-24/",
+      "pub_date": "2026-10-24T17:48:25.153Z",
+      "body": ""
+    },
+    {
+      "title": "Divided over Israel, Detroit Democrats unite on rising costs for midterm elections",
+      "url": "https://www.reuters.com/world/us/divided-over-israel-detroit-democrats-unite-rising-costs-midterm-elections-2026-10-24/",
+      "pub_date": "2026-10-24T10:07:05.199Z",
+      "body": ""
+    },
+    {
+      "title": "Five takeaways from Trump's midterm campaign rallies",
+      "url": "https://www.reuters.com/world/us/five-takeaways-trumps-midterm-campaign-rallies-2026-10-24/",
+      "pub_date": "2026-10-24T10:06:52.404Z",
+      "body": ""
+    },
+    {
+      "title": "Infantino laughs off resignation talk, touts global support as he seeks reelection",
+      "url": "https://www.reuters.com/sports/soccer/infantino-laughs-off-resignation-talk-touts-global-support-he-seeks-reelection-2026-10-24/",
+      "pub_date": "2026-10-24T11:43:17.689Z",
+      "body": ""
+    },
+    {
+      "title": "Incêndio devasta antigo refúgio nazista \"Ninho da Águia\"",
+      "url": "https://www.reuters.com/pt/mundo/OCMIB24Y55OOXBFMOEW7KX3IN4-2026-10-24/",
+      "pub_date": "2026-10-24T17:26:28.024Z",
+      "body": ""
+    },
+    {
+      "title": "Gabriel shines at both ends as Arsenal ease past Everton to go level with Man City",
+      "url": "https://www.reuters.com/sports/soccer/gabriel-shines-both-ends-arsenal-ease-past-everton-go-level-with-man-city-2026-10-24/",
+      "pub_date": "2026-10-24T17:25:31.846Z",
+      "body": ""
+    },
+    {
+      "title": "How Trump's energy dominance turned into hubris",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/how-trumps-energy-dominance-turned-into-hubris-bousso-2026-10-24/",
+      "pub_date": "2026-10-24T06:00:34.926Z",
+      "body": ""
+    },
+    {
+      "title": "Browns activate RB Dylan Sampson from IR",
+      "url": "https://www.reuters.com/sports/browns-activate-rb-dylan-sampson-ir--flm-2026-10-24/",
+      "pub_date": "2026-10-24T17:18:39.084Z",
+      "body": ""
+    },
+    {
+      "title": "Houthis dizem ter atacado instalações petrolíferas e aeroportos sauditas; coalizão afirma ter interceptado mísseis",
+      "url": "https://www.reuters.com/pt/mundo/M57CLCZZT5KAVIJXO7MWSOTPRI-2026-10-24/",
+      "pub_date": "2026-10-24T17:15:36.835Z",
+      "body": ""
+    },
+    {
+      "title": "Eagles WRs DeVonta Smith, Dontayvion Wicks not spotted at practice",
+      "url": "https://www.reuters.com/sports/eagles-wrs-devonta-smith-dontayvion-wicks-not-spotted-practice--flm-2026-10-24/",
+      "pub_date": "2026-10-24T17:12:25.808Z",
+      "body": ""
+    },
+    {
+      "title": "OFRMO Summary",
+      "url": "https://www.reuters.com/fr/international/ofrmo-summary-2026-01-29/",
+      "pub_date": "2026-01-01T10:21:38.717Z",
+      "body": ""
+    },
+    {
+      "title": "Environ 1.200 Palestiniens déplacés à Hébron par une opération militaire israélienne",
+      "url": "https://www.reuters.com/fr/affaires/environ-1200-palestiniens-dplacs-hbron-par-une-opration-militaire-isralienne-2026-10-24/",
+      "pub_date": "2026-10-24T17:11:28.174Z",
+      "body": ""
+    },
+    {
+      "title": "Albanian police fire tear gas as anti-government student protests turn violent",
+      "url": "https://www.reuters.com/world/albanian-police-fire-tear-gas-anti-government-student-protests-turn-violent-2026-10-24/",
+      "pub_date": "2026-10-24T17:10:43.053Z",
+      "body": ""
+    },
+    {
+      "title": "Steelers activate S DeShon Elliott from injured reserve",
+      "url": "https://www.reuters.com/sports/steelers-activate-s-deshon-elliott-injured-reserve--flm-2026-10-24/",
+      "pub_date": "2026-10-24T17:11:21.445Z",
+      "body": ""
+    },
+    {
+      "title": "Penguins place D Samuel Girard on injured reserve",
+      "url": "https://www.reuters.com/sports/penguins-place-d-samuel-girard-injured-reserve--flm-2026-10-24/",
+      "pub_date": "2026-10-24T17:11:14.39Z",
+      "body": ""
+    },
+    {
+      "title": "Fire devastates former Nazi guest house 'Eagle's Nest'",
+      "url": "https://www.reuters.com/world/europe/suspect-arrested-fire-engulfs-hitlers-eagles-nest-retreat-german-police-say-2026-10-24/",
+      "pub_date": "2026-10-24T03:28:27.622Z",
+      "body": ""
+    },
+    {
+      "title": "North Korea's Kim crosses new bridge into China as trade ties warm",
+      "url": "https://www.reuters.com/world/china/north-koreas-kim-jong-un-arrives-dandong-china-yonhap-says-2026-10-24/",
+      "pub_date": "2026-10-24T06:17:35.969Z",
+      "body": ""
+    },
+    {
+      "title": "Cerca de 1.200 palestinos são deslocados em Hebron com início de operação militar israelense",
+      "url": "https://www.reuters.com/pt/mundo/TLMXLBMJAVKLNKSOJSC6Q7SWYM-2026-10-24/",
+      "pub_date": "2026-10-24T17:02:14.247Z",
+      "body": ""
+    },
+    {
+      "title": "Trump says he may move White House press corps",
+      "url": "https://www.reuters.com/business/media-telecom/trump-says-he-may-move-white-house-press-corps-2026-10-24/",
+      "pub_date": "2026-10-24T12:57:32.554Z",
+      "body": ""
+    },
+    {
+      "title": "Typhoon Champi sweeps past Taiwan, leaving 1 dead, 500 injured",
+      "url": "https://www.reuters.com/business/environment/typhoon-champi-sweeps-past-taiwan-leaving-1-dead-500-injured-2026-10-24/",
+      "pub_date": "2026-10-24T02:14:44.885Z",
+      "body": ""
+    },
+    {
+      "title": "Lightning, Mammoth enjoying strong starts to season",
+      "url": "https://www.reuters.com/sports/nhl/lightning-mammoth-enjoying-strong-starts-season--flm-2026-10-24/",
+      "pub_date": "2026-10-24T12:56:35.589Z",
+      "body": ""
+    },
+    {
+      "title": "DT Kompany se encuentra estable, pero estará de baja varias semanas: Bayern Munich",
+      "url": "https://www.reuters.com/latam/deportivo/QSJ3QCCRGBLWNKSILXSLZ6NWMI-2026-10-24/",
+      "pub_date": "2026-10-24T12:53:56.466Z",
+      "body": ""
+    },
+    {
+      "title": "Infantino se ríe de rumores sobre su dimisión, destaca apoyo internacional a campaña de reelección",
+      "url": "https://www.reuters.com/latam/deportivo/SUXJW32CMVMPFPW2LGYVFNVYCM-2026-10-24/",
+      "pub_date": "2026-10-24T12:50:07.744Z",
+      "body": ""
+    },
+    {
+      "title": "Kamala Harris returns to US campaign trail with midterms, 2028 in view",
+      "url": "https://www.reuters.com/world/us/kamala-harris-returns-us-campaign-trail-with-midterms-2028-view-2026-10-24/",
+      "pub_date": "2026-10-24T10:03:15.95Z",
+      "body": ""
+    },
+    {
+      "title": "UAE's Ras Al Khaimah shuts all beaches as neighbours grapple with oil spill",
+      "url": "https://www.reuters.com/world/middle-east/uaes-ras-al-khaimah-shuts-all-beaches-neighbours-grapple-with-oil-spill-2026-10-24/",
+      "pub_date": "2026-10-24T12:28:30.283Z",
+      "body": ""
+    },
+    {
+      "title": "China's Communist Party names new provincial chiefs ahead of fifth plenum",
+      "url": "https://www.reuters.com/world/china/chinas-communist-party-names-new-provincial-chiefs-ahead-fifth-plenum-2026-10-24/",
+      "pub_date": "2026-10-24T11:28:56.783Z",
+      "body": ""
+    },
+    {
+      "title": "Kim Jong Un visita China a través de nuevo puente fronterizo: funcionarios de Corea del Sur",
+      "url": "https://www.reuters.com/latam/mundo/FYI27HQN55LZVGM7JPREG3RASE-2026-10-24/",
+      "pub_date": "2026-10-24T12:36:33.326Z",
+      "body": ""
+    },
+    {
+      "title": "Israeli settlers steal Palestinians' olives as attacks on harvest grow more violent",
+      "url": "https://www.reuters.com/world/middle-east/israeli-settlers-steal-palestinians-olives-attacks-harvest-grow-more-violent-2026-10-22/",
+      "pub_date": "2026-10-22T07:03:35.499Z",
+      "body": ""
+    },
+    {
+      "title": "Mona Lisa off limits as Paris shuts museums over protest fears",
+      "url": "https://www.reuters.com/world/europe/mona-lisa-off-limits-paris-shuts-museums-over-protest-fears-2026-10-24/",
+      "pub_date": "2026-10-24T12:28:58.166Z",
+      "body": ""
+    },
+    {
+      "title": "Holder Rybakina sets up Fernandez clash in Ningbo final",
+      "url": "https://www.reuters.com/sports/tennis/holder-rybakina-sets-up-fernandez-clash-ningbo-final-2026-10-24/",
+      "pub_date": "2026-10-24T12:13:47.131Z",
+      "body": ""
+    },
+    {
+      "title": "Caleb Wilson, Bulls bid to pick up steam vs. Wizards",
+      "url": "https://www.reuters.com/sports/basketball/caleb-wilson-bulls-bid-pick-up-steam-vs-wizards--flm-2026-10-24/",
+      "pub_date": "2026-10-24T12:29:49.134Z",
+      "body": ""
+    },
+    {
+      "title": "Merz calls for unity as he warns of threats facing Germany",
+      "url": "https://www.reuters.com/world/merz-calls-unity-he-warns-threats-facing-germany-2026-10-24/",
+      "pub_date": "2026-10-24T12:21:48.685Z",
+      "body": ""
+    },
+    {
+      "title": "France's luxury stores board up windows ahead of fresh protests",
+      "url": "https://www.reuters.com/business/retail-consumer/frances-luxury-stores-board-up-windows-ahead-fresh-protests-2026-10-24/",
+      "pub_date": "2026-10-24T06:53:42.419Z",
+      "body": ""
+    },
+    {
+      "title": "Varma leads India fightback in four-wicket victory over New Zealand",
+      "url": "https://www.reuters.com/sports/cricket/varma-leads-india-fightback-four-wicket-victory-over-new-zealand-2026-10-24/",
+      "pub_date": "2026-10-24T12:11:35.147Z",
+      "body": ""
+    },
+    {
+      "title": "Fresh off epic rally, Sixers take on Bucks",
+      "url": "https://www.reuters.com/sports/basketball/fresh-off-epic-rally-sixers-take-bucks--flm-2026-10-24/",
+      "pub_date": "2026-10-24T11:57:09.716Z",
+      "body": ""
+    },
+    {
+      "title": "Bolsonaro and Lula clash on living costs, corruption in final Brazil election debate",
+      "url": "https://www.reuters.com/business/media-telecom/bolsonaro-lula-clash-living-costs-corruption-final-brazil-election-debate-2026-10-24/",
+      "pub_date": "2026-10-24T04:43:16.306Z",
+      "body": ""
+    },
+    {
+      "title": "Hot-shooting Hawks set franchise mark with 47-point rout of Hornets",
+      "url": "https://www.reuters.com/sports/basketball/hot-shooting-hawks-set-franchise-mark-with-47-point-rout-hornets--flm-2026-10-24/",
+      "pub_date": "2026-10-24T01:50:40.937Z",
+      "body": ""
+    },
+    {
+      "title": "Five Italian activists held in West Bank have been repatriated, ministry says",
+      "url": "https://www.reuters.com/world/middle-east/five-italian-activists-held-west-bank-have-been-repatriated-ministry-says-2026-10-24/",
+      "pub_date": "2026-10-24T11:42:02.844Z",
+      "body": ""
+    },
+    {
+      "title": "Bolsonaro y Lula se enfrentan sobre costo de vida y corrupción en último debate electoral de Brasil",
+      "url": "https://www.reuters.com/latam/domestico/LZ4ARDHBIFMFZOLTGQMESM7A3E-2026-10-24/",
+      "pub_date": "2026-10-24T11:32:55.077Z",
+      "body": ""
+    },
+    {
+      "title": "Heat, Hornets strive to bounce back after lopsided losses",
+      "url": "https://www.reuters.com/sports/basketball/heat-hornets-strive-bounce-back-after-lopsided-losses--flm-2026-10-24/",
+      "pub_date": "2026-10-24T11:32:51.326Z",
+      "body": ""
+    },
+    {
+      "title": "Incendio arrasa la antigua casa de huéspedes nazi \"Nido del Águila\"",
+      "url": "https://www.reuters.com/latam/mundo/GJC3ZBLIK5LOLG2RWGUTCZIKIE-2026-10-24/",
+      "pub_date": "2026-10-24T11:30:30.082Z",
+      "body": ""
+    },
+    {
+      "title": "Germany's Merz rejects talk of working with far-right AfD",
+      "url": "https://www.reuters.com/world/germanys-merz-rejects-talk-working-with-far-right-afd-2026-10-24/",
+      "pub_date": "2026-10-24T11:24:50.161Z",
+      "body": ""
+    },
+    {
+      "title": "La garde à vue du suspect de l'attaque de Trappes prolongée",
+      "url": "https://www.reuters.com/fr/affaires/la-garde-vue-du-suspect-de-lattaque-de-trappes-prolonge-2026-10-24/",
+      "pub_date": "2026-10-24T11:02:18.193Z",
+      "body": ""
+    },
+    {
+      "title": "Russia says drone attack damages Togliatti facilities, Ukraine says petrochemical plant hit",
+      "url": "https://www.reuters.com/business/aerospace-defense/russia-says-drone-attack-damages-togliatti-facilities-ukraine-says-petrochemical-2026-10-24/",
+      "pub_date": "2026-10-24T10:58:19.108Z",
+      "body": ""
+    },
+    {
+      "title": "Bayern boss Kompany stable but sidelined for weeks, says club director",
+      "url": "https://www.reuters.com/sports/soccer/bayern-boss-kompany-stable-sidelined-weeks-says-club-director-2026-10-24/",
+      "pub_date": "2026-10-24T10:29:48.574Z",
+      "body": ""
+    },
+    {
+      "title": "MPS investor Norges to oppose Monte dei Paschi's bids to buy Banco BPM and Banca Generali",
+      "url": "https://www.reuters.com/legal/transactional/mps-investor-norges-oppose-monte-dei-paschis-bids-buy-banco-bpm-banca-generali-2026-10-24/",
+      "pub_date": "2026-10-24T10:49:14.016Z",
+      "body": ""
+    },
+    {
+      "title": "The Week in Breakingviews: Data dreams delayed",
+      "url": "https://www.reuters.com/columns/considered-view/week-breakingviews-data-dreams-delayed-2026-10-24/",
+      "pub_date": "2026-10-24T10:00:48.046Z",
+      "body": ""
+    },
+    {
+      "title": "Key dates in the latest slump in US-Ukrainian ties",
+      "url": "https://www.reuters.com/legal/government/key-dates-latest-slump-us-ukrainian-ties-2026-10-24/",
+      "pub_date": "2026-10-24T10:13:43.45Z",
+      "body": ""
+    },
+    {
+      "title": "Barcelona like a local",
+      "url": "https://www.reuters.com/city-memo/barcelona-like-local-2026-10-24/",
+      "pub_date": "2026-10-24T10:00:01Z",
+      "body": ""
+    },
+    {
+      "title": "Chase & Status on the upside of AI for music",
+      "url": "https://www.reuters.com/lifestyle/culture-current/chase-status-upside-ai-music-2026-10-24/",
+      "pub_date": "2026-10-24T10:00:00Z",
+      "body": ""
+    },
+    {
+      "title": "NBA roundup: Hawks crush Hornets, set franchise mark for largest win",
+      "url": "https://www.reuters.com/sports/nba-roundup-hawks-crush-hornets-set-franchise-mark-largest-win--flm-2026-10-24/",
+      "pub_date": "2026-10-24T08:37:10.046Z",
+      "body": ""
+    },
+    {
+      "title": "Late 17-0 surge carries Grizzlies to comeback win over Warriors",
+      "url": "https://www.reuters.com/sports/late-17-0-surge-carries-grizzlies-comeback-win-over-warriors--flm-2026-10-24/",
+      "pub_date": "2026-10-24T09:29:30.083Z",
+      "body": ""
+    },
+    {
+      "title": "India's Kotak Bank Q2 profit rises 29%, beats estimates",
+      "url": "https://www.reuters.com/world/india/indias-kotak-bank-q2-profit-rises-29-beats-estimates-2026-10-24/",
+      "pub_date": "2026-10-24T09:18:01.816Z",
+      "body": ""
+    },
+    {
+      "title": "ATP roundup: Alexander Bublik survives thriller to reach Almaty semis",
+      "url": "https://www.reuters.com/sports/tennis/atp-roundup-alexander-bublik-survives-thriller-reach-almaty-semis--flm-2026-10-24/",
+      "pub_date": "2026-10-24T04:46:23.305Z",
+      "body": ""
+    },
+    {
+      "title": "Brewers survive harrowing 9th to edge Rays in World Series opener",
+      "url": "https://www.reuters.com/sports/baseball/brewers-survive-harrowing-9th-edge-rays-world-series-opener--flm-2026-10-24/",
+      "pub_date": "2026-10-24T03:47:59.118Z",
+      "body": ""
+    },
+    {
+      "title": "Ukrainian strike on enterprise in Russia's Oryol kills three, governor says",
+      "url": "https://www.reuters.com/world/ukrainian-strike-enterprise-russias-oryol-kills-three-governor-says-2026-10-24/",
+      "pub_date": "2026-10-24T08:46:14.97Z",
+      "body": ""
+    },
+    {
+      "title": "Israel's election may change its leader, but not Iran war policy",
+      "url": "https://www.reuters.com/world/middle-east/israels-election-may-change-its-leader-not-iran-war-policy-2026-10-21/",
+      "pub_date": "2026-10-21T12:47:29.859Z",
+      "body": ""
+    },
+    {
+      "title": "Rays bank on rested Drew Rasmussen to make difference in Game 2",
+      "url": "https://www.reuters.com/sports/baseball/rays-bank-rested-drew-rasmussen-make-difference-game-2--flm-2026-10-24/",
+      "pub_date": "2026-10-24T08:38:05.45Z",
+      "body": ""
+    },
+    {
+      "title": "Rugby Fiji avenge Pacific Nations loss in thrilling 34-28 win over Japan",
+      "url": "https://www.reuters.com/sports/rugby-fiji-avenge-pacific-nations-loss-thrilling-34-28-win-over-japan-2026-10-24/",
+      "pub_date": "2026-10-24T08:33:25.698Z",
+      "body": ""
+    },
+    {
+      "title": "South Africa paceman Nortje ruled out of third test",
+      "url": "https://www.reuters.com/sports/cricket/south-africa-paceman-nortje-ruled-out-third-test-2026-10-24/",
+      "pub_date": "2026-10-24T08:30:54.576Z",
+      "body": ""
+    },
+    {
+      "title": "Lakers ride 39-point 3rd quarter to surge past Clippers",
+      "url": "https://www.reuters.com/sports/basketball/lakers-ride-39-point-3rd-quarter-surge-past-clippers--flm-2026-10-24/",
+      "pub_date": "2026-10-24T04:58:02.734Z",
+      "body": ""
+    },
+    {
+      "title": "Johnson & Johnson's prostate cancer drug shrinks tumors in early-stage trial",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/johnson-johnsons-prostate-cancer-drug-shrinks-tumors-early-stage-trial-2026-10-24/",
+      "pub_date": "2026-10-24T08:18:11.622Z",
+      "body": ""
+    },
+    {
+      "title": "Errant Ukrainian drones fuel tensions on NATO's eastern flank",
+      "url": "https://www.reuters.com/business/aerospace-defense/errant-ukrainian-drones-fuel-tensions-natos-eastern-flank-2026-05-27/",
+      "pub_date": "2026-05-27T06:05:46.124Z",
+      "body": ""
+    },
+    {
+      "title": "Russia builds major new drone attack base in six weeks, satellite images show",
+      "url": "https://www.reuters.com/world/ukraine-russia-war/russia-builds-major-new-drone-attack-base-six-weeks-satellite-images-show-2026-10-15/",
+      "pub_date": "2026-10-15T08:46:44.817Z",
+      "body": ""
+    },
+    {
+      "title": "Czech coalition advances media overhaul in rushed overnight vote",
+      "url": "https://www.reuters.com/business/media-telecom/czech-coalition-advances-media-overhaul-rushed-overnight-vote-2026-10-24/",
+      "pub_date": "2026-10-24T08:13:32.951Z",
+      "body": ""
+    },
+    {
+      "title": "SpaceX's satellite connection renewed at over 400 km/h, Ukraine's defence minister says",
+      "url": "https://www.reuters.com/science/spacexs-satellite-connection-renewed-over-400-kmh-ukraines-defence-minister-says-2026-10-24/",
+      "pub_date": "2026-10-24T08:11:00.852Z",
+      "body": ""
+    },
+    {
+      "title": "Melania ceasefire, banks block AI agents, Trump's evangelicals (Updated)",
+      "url": "https://www.reuters.com/podcasts/starlink-trumps-base-ben-gvir-new-yorks-horse-drawn-carriages-2026-10-23/",
+      "pub_date": "2026-10-23T10:39:45.521Z",
+      "body": ""
+    },
+    {
+      "title": "Le dirigeant nord-coréen Kim Jong Un en visite en Chine",
+      "url": "https://www.reuters.com/fr/affaires/le-dirigeant-nord-coren-kim-jong-un-en-visite-en-chine-2026-10-24/",
+      "pub_date": "2026-10-24T08:02:42.242Z",
+      "body": ""
+    },
+    {
+      "title": "Russia, Ukraine agree on ceasefire in embattled town, to hold peace talks next month",
+      "url": "https://www.reuters.com/world/europe/russia-ukraine-agree-ceasefire-embattled-town-hold-peace-talks-next-month-2026-10-23/",
+      "pub_date": "2026-10-23T21:16:38.098Z",
+      "body": ""
+    },
+    {
+      "title": "Bulls storm back from early deficit to beat Bucks",
+      "url": "https://www.reuters.com/sports/basketball/bulls-storm-back-early-deficit-beat-bucks--flm-2026-10-23/",
+      "pub_date": "2026-10-23T23:04:01.455Z",
+      "body": ""
+    },
+    {
+      "title": "Líder da Coreia do Norte pede “revolução militar” ao exigir unidades militares mais fortes",
+      "url": "https://www.reuters.com/pt/mundo/PPYI6PYANVJ3DPBWGLBW5OUVA4-2026-10-24/",
+      "pub_date": "2026-10-24T00:05:44.749Z",
+      "body": ""
+    },
+    {
+      "title": "In Florida, Trump vows to deal with Cuba after Iran gets settled",
+      "url": "https://www.reuters.com/legal/government/florida-trump-vows-deal-with-cuba-after-iran-settled-2026-10-23/",
+      "pub_date": "2026-10-23T21:33:44.748Z",
+      "body": ""
+    },
+    {
+      "title": "Wall Street closes lower to end rocky week",
+      "url": "https://www.reuters.com/business/wall-street-futures-dip-after-ai-rout-telecoms-slide-2026-10-23/",
+      "pub_date": "2026-10-23T10:43:33.961Z",
+      "body": ""
+    },
+    {
+      "title": "Marvel's gem-studded Infinity Gauntlet replica heads to auction in Abu Dhabi",
+      "url": "https://www.reuters.com/business/media-telecom/marvels-gem-studded-infinity-gauntlet-replica-heads-auction-abu-dhabi-2026-10-22/",
+      "pub_date": "2026-10-22T14:08:03.068Z",
+      "body": ""
+    },
+    {
+      "title": "Boeing supplier dispute has halted 777 freighter production for two months, sources say",
+      "url": "https://www.reuters.com/business/aerospace-defense/boeing-supplier-dispute-has-halted-777-freighter-production-two-months-sources-2026-10-23/",
+      "pub_date": "2026-10-23T23:43:22.167Z",
+      "body": ""
+    },
+    {
+      "title": "Judge puts off decision on Charlie Kirk murder trial date, media reports",
+      "url": "https://www.reuters.com/legal/government/tyler-robinson-requests-2029-trial-alleged-murder-charlie-kirk-2026-10-23/",
+      "pub_date": "2026-10-23T16:55:54.623Z",
+      "body": ""
+    },
+    {
+      "title": "Amazon cloud capacity sold out through 2027, CEO Jassy says",
+      "url": "https://www.reuters.com/business/retail-consumer/amazon-cloud-capacity-sold-out-through-2027-ceo-jassy-says-2026-10-23/",
+      "pub_date": "2026-10-23T23:06:34.157Z",
+      "body": ""
+    },
+    {
+      "title": "UK government sets out $800 million of AI security funding",
+      "url": "https://www.reuters.com/world/uk/uk-government-sets-out-800-million-ai-security-funding-2026-10-23/",
+      "pub_date": "2026-10-23T23:03:28.636Z",
+      "body": ""
+    },
+    {
+      "title": "Thailand welcomes US-Myanmar engagement, expects ASEAN talks on country's future",
+      "url": "https://www.reuters.com/world/asia-pacific/thailand-welcomes-us-myanmar-engagement-expects-asean-talks-countrys-future-2026-10-23/",
+      "pub_date": "2026-10-23T22:56:39.511Z",
+      "body": ""
+    },
+    {
+      "title": "Time for Canadian newcomers to step into spotlight, says Ruggiero",
+      "url": "https://www.reuters.com/sports/time-canadian-newcomers-step-into-spotlight-says-ruggiero-2026-10-23/",
+      "pub_date": "2026-10-23T22:55:57.48Z",
+      "body": ""
+    },
+    {
+      "title": "Fever GM Amber Cox follows team president out of Indy",
+      "url": "https://www.reuters.com/sports/fever-gm-amber-cox-follows-team-president-out-indy--flm-2026-10-23/",
+      "pub_date": "2026-10-23T22:52:53.768Z",
+      "body": ""
+    },
+    {
+      "title": "Ronaldinho voltará aos gramados pelo italiano Ravenna",
+      "url": "https://www.reuters.com/pt/desportivo/24ZHPC3WRRPA7FYB3YJ26TVGCU-2026-10-23/",
+      "pub_date": "2026-10-23T22:52:15.818Z",
+      "body": ""
+    },
+    {
+      "title": "Oregon State breakout WR Jesse Legree re-signs with school for 2027",
+      "url": "https://www.reuters.com/sports/oregon-state-breakout-wr-jesse-legree-re-signs-with-school-2027--flm-2026-10-23/",
+      "pub_date": "2026-10-23T22:50:53.393Z",
+      "body": ""
+    },
+    {
+      "title": "Ronaldinho volverá a jugar con el club italiano Ravenna",
+      "url": "https://www.reuters.com/latam/deportivo/ILWYPZ33G5IJHCGNUKE7C7Z7QY-2026-10-23/",
+      "pub_date": "2026-10-23T22:46:48.13Z",
+      "body": ""
+    },
+    {
+      "title": "Carney dismisses US accusations of Canadian election interference",
+      "url": "https://www.reuters.com/world/americas/carney-dismisses-us-accusations-canadian-election-interference-2026-10-23/",
+      "pub_date": "2026-10-23T15:39:21.288Z",
+      "body": ""
+    },
+    {
+      "title": "SoftBank-backed OPay eyes up to $4.4 billion US IPO valuation",
+      "url": "https://www.reuters.com/world/asia-pacific/opay-aims-raise-up-366-million-us-ipo-2026-10-23/",
+      "pub_date": "2026-10-23T20:32:39.78Z",
+      "body": ""
+    },
+    {
+      "title": "Caso de Ebola na Nigéria está ligado ao vírus encontrado no primeiro caso do Quênia, diz ministro da Saúde",
+      "url": "https://www.reuters.com/pt/mundo/IXEPMS5HSZPSXGFTKY6VNB3TPM-2026-10-23/",
+      "pub_date": "2026-10-23T22:39:51.845Z",
+      "body": ""
+    },
+    {
+      "title": "Leclerc marca el mejor tiempo para Ferrari en las pruebas del GP de EEUU",
+      "url": "https://www.reuters.com/latam/deportivo/CD6H26VAQZP2ZENKMGAMI7HGMU-2026-10-23/",
+      "pub_date": "2026-10-23T19:31:46.588Z",
+      "body": ""
+    },
+    {
+      "title": "Ronaldinho to return to action with Italian club Ravenna",
+      "url": "https://www.reuters.com/sports/soccer/ronaldinho-return-action-with-italian-club-ravenna-2026-10-23/",
+      "pub_date": "2026-10-23T22:36:24.006Z",
+      "body": ""
+    },
+    {
+      "title": "Mark Cuban says AI hack agents are like cockroaches, but can be controlled",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/mark-cuban-says-ai-hack-agents-are-like-cockroaches-can-be-controlled-2026-10-23/",
+      "pub_date": "2026-10-23T18:22:20.817Z",
+      "body": ""
+    },
+    {
+      "title": "Moody's maintient la note souveraine de la France à \"Aa3\"",
+      "url": "https://www.reuters.com/fr/affaires/moodys-maintient-la-note-souveraine-de-la-france-aa3-2026-10-23/",
+      "pub_date": "2026-10-23T22:28:39.729Z",
+      "body": ""
+    },
+    {
+      "title": "OFRBS Summary",
+      "url": "https://www.reuters.com/fr/affaires/ofrbs-summary-2026-01-29/",
+      "pub_date": "2026-01-01T11:01:01.282Z",
+      "body": ""
+    },
+    {
+      "title": "Francia se libra de la rebaja de la calificación de Moody's mientras se enfrenta a los disturbios",
+      "url": "https://www.reuters.com/latam/negocio/AOT6CZBRQVOXZGI74H467YOLM4-2026-10-23/",
+      "pub_date": "2026-10-23T22:24:26.402Z",
+      "body": ""
+    },
+    {
+      "title": "Judge approves defunct talc supplier's $535 million settlement with Berkshire affiliate",
+      "url": "https://www.reuters.com/legal/litigation/judge-approves-defunct-talc-suppliers-535-million-settlement-with-berkshire-2026-10-23/",
+      "pub_date": "2026-10-23T22:22:44.712Z",
+      "body": ""
+    },
+    {
+      "title": "Take Five: AI trade meets the Fed",
+      "url": "https://www.reuters.com/business/take-five/global-markets-themes-graphic-2026-10-23/",
+      "pub_date": "2026-10-23T07:24:05.657Z",
+      "body": ""
+    },
+    {
+      "title": "Bank of Canada to raise rates to 2.50% on October 28 and once again by end-March: Reuters poll",
+      "url": "https://www.reuters.com/world/americas/bank-canada-raise-rates-250-october-28-once-again-by-end-march-2026-10-23/",
+      "pub_date": "2026-10-23T16:10:01.987Z",
+      "body": ""
+    },
+    {
+      "title": "Pentagon designates Confucius Institutes in US a national security threat",
+      "url": "https://www.reuters.com/world/china/pentagon-designates-confucius-institutes-national-security-threat-2026-10-23/",
+      "pub_date": "2026-10-23T21:46:21.186Z",
+      "body": ""
+    },
+    {
+      "title": "Weight-loss drugs fuel protein boom, but with more consumer scrutiny",
+      "url": "https://www.reuters.com/legal/litigation/weight-loss-drugs-fuel-protein-boom-with-more-consumer-scrutiny-2026-10-23/",
+      "pub_date": "2026-10-23T09:14:39.981Z",
+      "body": ""
+    },
+    {
+      "title": "Top LNG exporter QatarEnergy in talks to buy US LNG from Woodside's Louisiana plant",
+      "url": "https://www.reuters.com/business/energy/top-lng-exporter-qatarenergy-talks-buy-us-lng-woodsides-louisiana-plant-2026-10-23/",
+      "pub_date": "2026-10-23T18:06:10.292Z",
+      "body": ""
+    },
+    {
+      "title": "Nigeria Ebola case linked to virus found in Kenya index case, health minister says",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/nigeria-ebola-case-linked-virus-found-kenya-index-case-health-minister-says-2026-10-23/",
+      "pub_date": "2026-10-23T21:41:24.581Z",
+      "body": ""
+    },
+    {
+      "title": "Fiscal general Costa Rica dice nuevas operaciones conjuntas con la DEA se enfocarán en políticos y empresarios",
+      "url": "https://www.reuters.com/latam/domestico/ATTYXOZDM5PBHICGKUBLAPBZWA-2026-10-23/",
+      "pub_date": "2026-10-23T22:11:46.968Z",
+      "body": ""
+    },
+    {
+      "title": "Reigning champion Picklum takes first win of the season in Portugal tubefest",
+      "url": "https://www.reuters.com/sports/reigning-champion-picklum-takes-first-win-season-portugal-tubefest-2026-10-23/",
+      "pub_date": "2026-10-23T22:06:10.028Z",
+      "body": ""
+    },
+    {
+      "title": "Morocco expects stable fiscal deficit despite tax cuts in 2027",
+      "url": "https://www.reuters.com/world/africa/morocco-expects-stable-fiscal-deficit-despite-tax-cuts-2027-2026-10-23/",
+      "pub_date": "2026-10-23T22:07:31.134Z",
+      "body": ""
+    },
+    {
+      "title": "BC aprova medidas para ampliar proteção de consumidor financeiro nas relações de crédito",
+      "url": "https://www.reuters.com/pt/negocio/NNVBCL4YUJNHNFS5Y2HJMRNQFQ-2026-10-23/",
+      "pub_date": "2026-10-23T22:06:59.252Z",
+      "body": ""
+    },
+    {
+      "title": "Instacart in talks with DoorDash and Uber for sale, The Information reports",
+      "url": "https://www.reuters.com/business/instacart-talks-sale-information-reports-2026-10-23/",
+      "pub_date": "2026-10-23T20:07:45.127Z",
+      "body": ""
+    },
+    {
+      "title": "NFL closes Paris pop-up shop ahead of planned protests",
+      "url": "https://www.reuters.com/sports/nfl-closes-paris-pop-up-shop-ahead-planned-protests-2026-10-23/",
+      "pub_date": "2026-10-23T18:17:41.112Z",
+      "body": ""
+    },
+    {
+      "title": "Pentágono classifica Institutos Confúcio como ameaça à segurança nacional dos EUA",
+      "url": "https://www.reuters.com/pt/mundo/Z2QITLAE5ROXPKSAFF3CDZJEUU-2026-10-23/",
+      "pub_date": "2026-10-23T21:59:05.774Z",
+      "body": ""
+    },
+    {
+      "title": "USDA corrige los datos sobre el maíz de septiembre debido a un \"error de procesamiento\"",
+      "url": "https://www.reuters.com/latam/negocio/2RNBNWZ5BVMU7H2H76ZCHV2FBQ-2026-10-23/",
+      "pub_date": "2026-10-23T21:58:24.491Z",
+      "body": ""
+    },
+    {
+      "title": "Líder norcoreano Kim aboga por una \"revolución militar\", pide que se refuercen las unidades del ejército",
+      "url": "https://www.reuters.com/latam/mundo/IDGBIB6ZRBOVLAU4JTSW4Q7SGU-2026-10-23/",
+      "pub_date": "2026-10-23T21:56:47.181Z",
+      "body": ""
+    },
+    {
+      "title": "Alguns parisienses compram spray de pimenta e gás lacrimogêneo, alegando legítima defesa antes de protestos",
+      "url": "https://www.reuters.com/pt/mundo/TLPAIOJFIZK53D2WKBOUXCWWMY-2026-10-23/",
+      "pub_date": "2026-10-23T21:54:13.439Z",
+      "body": ""
+    },
+    {
+      "title": "Allegiant exercises options for six Boeing 737 MAX jets worth over $720 million",
+      "url": "https://www.reuters.com/business/aerospace-defense/allegiant-exercises-options-six-boeing-737-max-jets-worth-over-720-million-2026-10-23/",
+      "pub_date": "2026-10-23T21:48:12.149Z",
+      "body": ""
+    },
+    {
+      "title": "North Korea's Kim calls for 'military revolution' as he urges stronger army units",
+      "url": "https://www.reuters.com/business/aerospace-defense/north-koreas-kim-calls-military-revolution-he-urges-stronger-army-units-2026-10-23/",
+      "pub_date": "2026-10-23T21:46:46.924Z",
+      "body": ""
+    },
+    {
+      "title": "Senator says planned Meta commercial terms update could harm US businesses",
+      "url": "https://www.reuters.com/world/senator-says-planned-meta-commercial-terms-update-could-harm-us-businesses-2026-10-23/",
+      "pub_date": "2026-10-23T18:08:54.749Z",
+      "body": ""
+    },
+    {
+      "title": "PwC confirms cybersecurity incident involving employee learning records",
+      "url": "https://www.reuters.com/legal/litigation/pwc-confirms-cybersecurity-incident-involving-employee-learning-records-2026-10-23/",
+      "pub_date": "2026-10-23T16:22:16.215Z",
+      "body": ""
+    },
+    {
+      "title": "BP, Louisiana agree to Deepwater Horizon settlement payout, resolve coastal cases",
+      "url": "https://www.reuters.com/business/energy/bp-louisiana-agree-resolve-deepwater-horizon-disputes-2026-10-23/",
+      "pub_date": "2026-10-23T17:02:40.417Z",
+      "body": ""
+    },
+    {
+      "title": "Colombia canjea deuda interna por 3.234 millones de dólares",
+      "url": "https://www.reuters.com/latam/negocio/LI43QGKPLJL5JBJTTZEELBG75U-2026-10-23/",
+      "pub_date": "2026-10-23T21:38:56.381Z",
+      "body": ""
+    },
+    {
+      "title": "Stocks fall, but tech shares steady after selloff; oil hits highest in nearly six months",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-23/",
+      "pub_date": "2026-10-23T01:50:35.551Z",
+      "body": ""
+    },
+    {
+      "title": "Smith & Nephew orthopaedics deal talks with J&J fail over CEO choice, source says",
+      "url": "https://www.reuters.com/legal/transactional/smith-nephew-merger-talks-with-jj-orthopaedics-unit-collapse-over-ceo-role-ft-2026-10-23/",
+      "pub_date": "2026-10-23T07:22:40.881Z",
+      "body": ""
+    }
+  ]
+}
